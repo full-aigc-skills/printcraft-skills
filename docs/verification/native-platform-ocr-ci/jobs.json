@@ -1,0 +1,465 @@
+{
+  "total_count": 5,
+  "jobs": [
+    {
+      "id": 113293736877,
+      "run_id": 37772042337,
+      "workflow_name": "Fixed native platform acceptance",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/runs/37772042337",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVA3HVc8AAAAaYNU7rQ",
+      "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/jobs/113293736877",
+      "html_url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772042337/job/113293736877",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-08T11:44:25Z",
+      "started_at": "2026-10-08T11:44:27Z",
+      "completed_at": "2026-10-08T11:44:42Z",
+      "name": "native (windows-2025, windows-x86_64)",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-08T11:44:27Z",
+          "completed_at": "2026-10-08T11:44:28Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-08T11:44:28Z",
+          "completed_at": "2026-10-08T11:44:33Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-08T11:44:33Z",
+          "completed_at": "2026-10-08T11:44:33Z"
+        },
+        {
+          "name": "Execute official pinned binary on actual platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-08T11:44:33Z",
+          "completed_at": "2026-10-08T11:44:37Z"
+        },
+        {
+          "name": "Preserve native observations even on failure",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-08T11:44:37Z",
+          "completed_at": "2026-10-08T11:44:38Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-08T11:44:38Z",
+          "completed_at": "2026-10-08T11:44:39Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-08T11:44:39Z",
+          "completed_at": "2026-10-08T11:44:40Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-08T11:44:40Z",
+          "completed_at": "2026-10-08T11:44:40Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/check-runs/113293736877",
+      "labels": [
+        "windows-2025"
+      ],
+      "runner_id": 1000000353,
+      "runner_name": "GitHub Actions 1000000353",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 113293737032,
+      "run_id": 37772042337,
+      "workflow_name": "Fixed native platform acceptance",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/runs/37772042337",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVA3HVc8AAAAaYNU8SA",
+      "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/jobs/113293737032",
+      "html_url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772042337/job/113293737032",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-08T11:44:25Z",
+      "started_at": "2026-10-08T11:44:27Z",
+      "completed_at": "2026-10-08T11:44:37Z",
+      "name": "native (ubuntu-24.04, linux-x86_64)",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-08T11:44:28Z",
+          "completed_at": "2026-10-08T11:44:28Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-08T11:44:28Z",
+          "completed_at": "2026-10-08T11:44:30Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-08T11:44:30Z",
+          "completed_at": "2026-10-08T11:44:30Z"
+        },
+        {
+          "name": "Execute official pinned binary on actual platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-08T11:44:30Z",
+          "completed_at": "2026-10-08T11:44:33Z"
+        },
+        {
+          "name": "Preserve native observations even on failure",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-08T11:44:33Z",
+          "completed_at": "2026-10-08T11:44:35Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-08T11:44:35Z",
+          "completed_at": "2026-10-08T11:44:35Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-08T11:44:35Z",
+          "completed_at": "2026-10-08T11:44:35Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-08T11:44:35Z",
+          "completed_at": "2026-10-08T11:44:35Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/check-runs/113293737032",
+      "labels": [
+        "ubuntu-24.04"
+      ],
+      "runner_id": 1000000352,
+      "runner_name": "GitHub Actions 1000000352",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 113293737100,
+      "run_id": 37772042337,
+      "workflow_name": "Fixed native platform acceptance",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/runs/37772042337",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVA3HVc8AAAAaYNU8jA",
+      "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/jobs/113293737100",
+      "html_url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772042337/job/113293737100",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-08T11:44:25Z",
+      "started_at": "2026-10-08T11:44:33Z",
+      "completed_at": "2026-10-08T11:44:47Z",
+      "name": "native (macos-15, darwin-arm64)",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-08T11:44:34Z",
+          "completed_at": "2026-10-08T11:44:35Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-08T11:44:35Z",
+          "completed_at": "2026-10-08T11:44:37Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-08T11:44:37Z",
+          "completed_at": "2026-10-08T11:44:37Z"
+        },
+        {
+          "name": "Execute official pinned binary on actual platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-08T11:44:37Z",
+          "completed_at": "2026-10-08T11:44:41Z"
+        },
+        {
+          "name": "Preserve native observations even on failure",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-08T11:44:41Z",
+          "completed_at": "2026-10-08T11:44:43Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-08T11:44:43Z",
+          "completed_at": "2026-10-08T11:44:43Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-08T11:44:43Z",
+          "completed_at": "2026-10-08T11:44:44Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-08T11:44:44Z",
+          "completed_at": "2026-10-08T11:44:44Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/check-runs/113293737100",
+      "labels": [
+        "macos-15"
+      ],
+      "runner_id": 1000000354,
+      "runner_name": "GitHub Actions 1000000354",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 113293737138,
+      "run_id": 37772042337,
+      "workflow_name": "Fixed native platform acceptance",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/runs/37772042337",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVA3HVc8AAAAaYNU8sg",
+      "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/jobs/113293737138",
+      "html_url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772042337/job/113293737138",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-08T11:44:25Z",
+      "started_at": "2026-10-08T11:44:29Z",
+      "completed_at": "2026-10-08T11:44:37Z",
+      "name": "native (ubuntu-24.04-arm, linux-arm64)",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-08T11:44:30Z",
+          "completed_at": "2026-10-08T11:44:30Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-08T11:44:30Z",
+          "completed_at": "2026-10-08T11:44:31Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-08T11:44:31Z",
+          "completed_at": "2026-10-08T11:44:31Z"
+        },
+        {
+          "name": "Execute official pinned binary on actual platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-08T11:44:31Z",
+          "completed_at": "2026-10-08T11:44:35Z"
+        },
+        {
+          "name": "Preserve native observations even on failure",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-08T11:44:35Z",
+          "completed_at": "2026-10-08T11:44:36Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-08T11:44:36Z",
+          "completed_at": "2026-10-08T11:44:36Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-08T11:44:36Z",
+          "completed_at": "2026-10-08T11:44:36Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-08T11:44:36Z",
+          "completed_at": "2026-10-08T11:44:36Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/check-runs/113293737138",
+      "labels": [
+        "ubuntu-24.04-arm"
+      ],
+      "runner_id": 1000000355,
+      "runner_name": "GitHub Actions 1000000355",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 113293737423,
+      "run_id": 37772042337,
+      "workflow_name": "Fixed native platform acceptance",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/runs/37772042337",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVA3HVc8AAAAaYNU9zw",
+      "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/jobs/113293737423",
+      "html_url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772042337/job/113293737423",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-08T11:44:25Z",
+      "started_at": "2026-10-08T11:44:28Z",
+      "completed_at": "2026-10-08T11:45:00Z",
+      "name": "native (macos-15-intel, darwin-x86_64)",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-08T11:44:29Z",
+          "completed_at": "2026-10-08T11:44:31Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-08T11:44:31Z",
+          "completed_at": "2026-10-08T11:44:36Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-08T11:44:36Z",
+          "completed_at": "2026-10-08T11:44:37Z"
+        },
+        {
+          "name": "Execute official pinned binary on actual platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-08T11:44:37Z",
+          "completed_at": "2026-10-08T11:44:47Z"
+        },
+        {
+          "name": "Preserve native observations even on failure",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-08T11:44:47Z",
+          "completed_at": "2026-10-08T11:44:50Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-08T11:44:50Z",
+          "completed_at": "2026-10-08T11:44:52Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-08T11:44:52Z",
+          "completed_at": "2026-10-08T11:44:55Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-08T11:44:55Z",
+          "completed_at": "2026-10-08T11:44:58Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/check-runs/113293737423",
+      "labels": [
+        "macos-15-intel"
+      ],
+      "runner_id": 1000000356,
+      "runner_name": "GitHub Actions 1000000356",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}

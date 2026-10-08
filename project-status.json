@@ -32,5 +32,6 @@
   "releaseStatus": "PRERELEASE",
   "ciRunId": 37768846237,
   "marketplaceCommit": "f41f0adcf017e5753bcbc366b18c3855b2ac1177",
-  "nativePlatformCiRunId": 37771440411
+  "nativePlatformCiRunId": 37772042337,
+  "englishOcr": "PASS_PINNED_MODELS_ORIGINAL_SCAN_5_PLATFORMS"
 }

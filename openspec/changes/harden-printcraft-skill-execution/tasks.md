@@ -67,6 +67,6 @@
 
 见本项目 [实施验收报告](../../../docs/verification/implementation-2026-10-08.md)、[证据索引](../../../docs/verification/evidence-index.json)。勾选仅对应本报告注明的环境和场景，不推广至其他平台或任意 PDF。
 
-- 7.2：固定发行真实中文请求返回 unsupported language "zh"，Schema 仅支持英语；Linux 固定制品摘要已核对，但容器存储只读导致启动前失败，macOS x86_64 缺 Rosetta，远程 Windows 连接不可用。仍缺中文能力与其他平台执行证据。
+- 7.2：已补 GitHub 真实 Linux x64/arm64、Windows x64、macOS Intel/arm64 的固定原生五平台执行，以及固定模型的英语扫描识别/保存重开，详见 native-platforms-2026-10-08.md。技能安装锁仍仅 darwin-arm64，直接原生执行不扩大包装器支持；固定原生实时语言 Schema 仍只有 en，既有真实 zh 请求拒绝，仍缺中文识别能力。本项继续开放。
 - 7.4：真实 ArtCraft→VectorCraft→PrintCraft 依赖交接、源工程定向返工、未修改节点复用、PDF 单页裁剪及本机目录移动/重开已验收；证据见 cross-plugin-2026-10-08.md。跨机器和手机/平板仍 NOT_RUN，未将目录移动替代规范中的移动端验收，本项继续开放。
 - 7.5：上面两项未满足，主规格同步与归档尚未执行。

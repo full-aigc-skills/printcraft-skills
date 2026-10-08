@@ -309,8 +309,23 @@
     "docs/verification/native-platform-ci/run.json": "8dc08154bac318f6bae98c811f4140bc57faa848878f9763e2a5c00d91282c7d",
     "docs/verification/native-platform-ci/windows-x86_64-report.json": "de3a2ec0816f25493121679d451e59c7cc6788c3ffeea96e6e73d98d1d055dce",
     "docs/verification/native-platform-ci/workflow.log": "7649b90d75930af8ef44819e815f94115b2e62023d79fcaf5d8b549ed3559dfa",
-    "docs/verification/native-platforms-2026-10-08.md": "26d7173b0b0506c80ef9e14ed2fce557e1f1835a781d2535b9c8de39bc3df8bb",
-    "docs/verification/platform-ocr-matrix.md": "1df7619bf52061d5582491a303e7d7496c7343997203bf0262fdcfff4e69f614",
+    "docs/verification/native-platform-ocr-ci/artifacts.json": "1248a464541fd90d04765a9dcb0ae650760ea6b599fe182e7d915c2d8a7eac53",
+    "docs/verification/native-platform-ocr-ci/collection.json": "c97166b5587bf4ac08ad4563abe9aeb47c5c4598ff32b47969315ff92b517db8",
+    "docs/verification/native-platform-ocr-ci/darwin-arm64-report.json": "05cf735c7fab2f8781ed2a9b0a23e88b442f5507233b949d4ac4ce76a91b0b6d",
+    "docs/verification/native-platform-ocr-ci/darwin-x86_64-report.json": "b9901ec3f1b3f3d7210ef075975fb76edfdc228b81151fff87f3d043e1b4e38e",
+    "docs/verification/native-platform-ocr-ci/jobs.json": "9b8dc8ef5ed5ab6df518938d76ed9a99532f17c391c752730afe96bd2dc2bc37",
+    "docs/verification/native-platform-ocr-ci/linux-arm64-report.json": "f80bf9ccddc9bbf828afadb70309f2ac99086dfe0a234e3e1cef3ed240b07d63",
+    "docs/verification/native-platform-ocr-ci/linux-x86_64-report.json": "1cbea2b3f2d4c97dcb3e63455bc04b3b5636561125c773cc88a65f0020c76a50",
+    "docs/verification/native-platform-ocr-ci/native-darwin-arm64-37772042337.zip": "922f2258011844c18998793e73704653445f4317ee5d86922bff010047d386f7",
+    "docs/verification/native-platform-ocr-ci/native-darwin-x86_64-37772042337.zip": "4a2e66789b5a123c52cce59d45fea8b4de99692c1c6a827647aa9bdd1de8ba5e",
+    "docs/verification/native-platform-ocr-ci/native-linux-arm64-37772042337.zip": "f2ac43dca94de7292303968537fc01d9407c36a36d52e977718adc6a91b3d0ac",
+    "docs/verification/native-platform-ocr-ci/native-linux-x86_64-37772042337.zip": "09e3cf2f70af0774733ccb7b095037e3eadcaf0a314ae41e22a72a7f25a2f7a5",
+    "docs/verification/native-platform-ocr-ci/native-windows-x86_64-37772042337.zip": "b8667f1c5836d06386647ee1f868116d42ea925d65ab5e34099f7fd34e2ee8b6",
+    "docs/verification/native-platform-ocr-ci/run.json": "25895d3118fd39c1f3d4bd86cb691862ff7316374cb6089eebc93fa91d8b182f",
+    "docs/verification/native-platform-ocr-ci/windows-x86_64-report.json": "6e8fd98e20c9d49536d8e1bc226ff1de02a1ffd037049b4efd0d4f02111a4525",
+    "docs/verification/native-platform-ocr-ci/workflow.log": "cec6713f67ed47f06fc31bebf9789f3d2f02a0b076e2e0405cab4f0e2af81f6f",
+    "docs/verification/native-platforms-2026-10-08.md": "6bb232bcaa5b33fd5f17d0afe865213e7edba4386ace09f0c44902dc4dcc5807",
+    "docs/verification/platform-ocr-matrix.md": "1792829322c4ad1f2760bccc7cfb3231699b4a5a658d97d4a75f13a883274d8b",
     "docs/verification/platform-probe.json": "892dfbb7c5d22f5ae462f697d1f56893e9582bbef87fcd99ea25e5b63f87e1c3",
     "docs/verification/platform-tests-57.log": "91501a4a14aa257000fd611cbc246e0a4356bcea80136beb95ec3bde35bfcdb7",
     "docs/verification/plugin-model-handoff-dev3-binding.json": "f6f4304051e7ec64a4d8eb463d9fa675af13121c2515bb0cb04005ffa47d02a7",
@@ -338,9 +353,10 @@
     "openspec/changes/harden-printcraft-skill-execution/specs/pdf-delivery-verification/spec.md": "09606beb0dc2a628b5b569ec7e29caf01611e2fbe75bb74d689f6dfe3fc3a22d",
     "openspec/changes/harden-printcraft-skill-execution/specs/runtime-contract/spec.md": "bd40d61444f4dbabf9a5d8fb0babc7cf6df178d6eebcdf845988e13ac206f5f5",
     "openspec/changes/harden-printcraft-skill-execution/specs/skill-routing/spec.md": "0a9e9e96f48251a9df8ddf444d15a4fccfd78f4b8960fe9ad28d09d97d2a3e06",
-    "openspec/changes/harden-printcraft-skill-execution/tasks.md": "0b0da50e9289ff64d4b3034a4f817cd05181e83002bc515a3d8e9277dd4827e1",
+    "openspec/changes/harden-printcraft-skill-execution/tasks.md": "1c3823922c9a43c8955ec544a505f541de36b6665b3e063039ed03894fb8d82c",
     "openspec/changes/harden-printcraft-skill-execution/verification.md": "d5d2ca3993755707a2c3f3f4a4a85584536ce02c57de3bf0f4aa12a629efc5f0",
-    "project-status.json": "3f4019066a29b1f94433088c30669dc0de418e7132a03fc2b4039dbfa3b28f27"
+    "project-status.json": "8a2875c20df436aab0ae4ab34de7f1c1b60e1040bd13df92625ca7bbd0305bc2",
+    ".gitattributes": "a53c2bb8bc0669bc5b3fc5a35a3ea1791021d139331c50f4c500997adf1e9f4b"
   },
   "layers": {
     "localTests": {
@@ -380,7 +396,17 @@
     },
     "sameMachinePortableDelivery": "PASS_SCOPED",
     "mobileDevice": "NOT_RUN",
-    "crossMachine": "NOT_RUN"
+    "crossMachine": "NOT_RUN",
+    "nativePlatforms": {
+      "status": "PASS_SCOPED_NATIVE_DIRECT",
+      "ciRunId": 37772042337,
+      "sourceCommit": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+      "platforms": 5,
+      "scenarios": 30,
+      "skillInstaller": "DARWIN_ARM64_ONLY_NOT_EXTENDED",
+      "chineseOcr": "UNSUPPORTED_BY_PINNED_NATIVE",
+      "mobileDelivery": "NOT_RUN"
+    }
   },
   "openTasks": [
     "7.2",
@@ -419,5 +445,5 @@
     "removed": []
   },
   "unchangedResourceEvidenceReuse": "dev.3 base/isolated tests, native scenarios, public cross-plugin entry, host discovery and model PDF were re-executed; unchanged bootstrap/CLI/service evidence retains original scope. Old dev.2 model artifacts are historical.",
-  "publicationDelta": "Release metadata, host adapters and author tests may change; distributed execution resources and prior scoped native/model artifacts remain digest-bound. Public installation is recorded separately."
+  "publicationDelta": "Published dev.5 skill and harness files unchanged. Author native-platform/English-OCR tests added after release; immutable CI commits and archives bind these scoped results. New main documentation does not change distributed resources."
 }

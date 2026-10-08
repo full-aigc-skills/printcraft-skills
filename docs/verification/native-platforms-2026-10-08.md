@@ -34,3 +34,13 @@ CI 执行结果将在实际运行完成后追加，并保留失败原因。
 已从上游 v0.2.1 ATTRIBUTION.toml 核对两项模型来源/摘要/许可，见 tests/ocr-models.json。模型只保存在临时验收目录，不进入技能、插件或证据 ZIP。
 
 本机已实际完成无文本扫描 PDF → 英语识别 → 保存 → 新进程提取 PAGE-GAMMA，输入不变；第二轮平台工作流将通过显式 english_ocr=true 验证全部平台。新增像素截断/透明度拒绝测试后，本地 57/57 测试通过。第一轮 25 场景报告只绑定第一轮提交，不用于证明新增英语识别程序。
+
+## 第二轮真实 CI 与当前边界
+
+[运行 37772042337](https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772042337)，提交 `bad64e181e1b6b4e8d60e10cdb7623b6d2710d74`，显式启用 english_ocr=true。五个平台全部成功，共 30 场景；每个平台的英语 OCR 均由固定原生引擎加载固定模型实际执行。初始无模型状态与随后 available=true 分开记录。对应四项常规包 CI [37772015406](https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37772015406) 全部成功。
+
+`native-platform-ocr-ci/` 保存第二轮独立原始证据。五份 Actions ZIP 的 SHA 均匹配官方 API digest，报告所有成员摘要均逐一核验；五个平台的全部作者源码指纹与该提交的 Git blob 字节完全相同（LF），不再需要 Windows CRLF 转换。模型摘要绑定官方 v0.2.1 ATTRIBUTION.toml，但模型文件不在 ZIP、技能或插件中。
+
+第二轮验证成功只对应原创图像中的 PAGE-GAMMA，不外推为任意版式、中文、多语言或整个 OCR 产品质量验收。渲染已生成；视觉审阅明确 NOT_RUN，不替代原有宿主/人工 PDF 验收协议。
+
+当前本机发布技能资源及 Harness 未改变，正式发行仍为 v0.1.0-dev.5。任务保持技能 35/38、插件 23/24：7.2 缺中文识别；7.4 缺真实手机/平板（及完整跨机器交付）；7.5/插件 5.6 等待全部门禁，未归档。

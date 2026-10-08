@@ -1,0 +1,105 @@
+{
+  "total_count": 5,
+  "artifacts": [
+    {
+      "id": 11548407106,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0ODQwNzEwNg==",
+      "name": "native-linux-arm64-37772042337",
+      "size_in_bytes": 113652,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548407106",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548407106/zip",
+      "expired": false,
+      "digest": "sha256:f2ac43dca94de7292303968537fc01d9407c36a36d52e977718adc6a91b3d0ac",
+      "created_at": "2026-10-08T11:44:36Z",
+      "updated_at": "2026-10-08T11:44:36Z",
+      "expires_at": "2027-01-06T11:44:25Z",
+      "workflow_run": {
+        "id": 37772042337,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74"
+      }
+    },
+    {
+      "id": 11548222709,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0ODIyMjcwOQ==",
+      "name": "native-darwin-arm64-37772042337",
+      "size_in_bytes": 113759,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548222709",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548222709/zip",
+      "expired": false,
+      "digest": "sha256:922f2258011844c18998793e73704653445f4317ee5d86922bff010047d386f7",
+      "created_at": "2026-10-08T11:44:43Z",
+      "updated_at": "2026-10-08T11:44:43Z",
+      "expires_at": "2027-01-06T11:44:25Z",
+      "workflow_run": {
+        "id": 37772042337,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74"
+      }
+    },
+    {
+      "id": 11548037872,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0ODAzNzg3Mg==",
+      "name": "native-darwin-x86_64-37772042337",
+      "size_in_bytes": 113746,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548037872",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548037872/zip",
+      "expired": false,
+      "digest": "sha256:4a2e66789b5a123c52cce59d45fea8b4de99692c1c6a827647aa9bdd1de8ba5e",
+      "created_at": "2026-10-08T11:44:51Z",
+      "updated_at": "2026-10-08T11:44:51Z",
+      "expires_at": "2027-01-06T11:44:25Z",
+      "workflow_run": {
+        "id": 37772042337,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74"
+      }
+    },
+    {
+      "id": 11548037833,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0ODAzNzgzMw==",
+      "name": "native-windows-x86_64-37772042337",
+      "size_in_bytes": 113503,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548037833",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548037833/zip",
+      "expired": false,
+      "digest": "sha256:b8667f1c5836d06386647ee1f868116d42ea925d65ab5e34099f7fd34e2ee8b6",
+      "created_at": "2026-10-08T11:44:38Z",
+      "updated_at": "2026-10-08T11:44:38Z",
+      "expires_at": "2027-01-06T11:44:25Z",
+      "workflow_run": {
+        "id": 37772042337,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74"
+      }
+    },
+    {
+      "id": 11547418023,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0NzQxODAyMw==",
+      "name": "native-linux-x86_64-37772042337",
+      "size_in_bytes": 113640,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11547418023",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11547418023/zip",
+      "expired": false,
+      "digest": "sha256:09e3cf2f70af0774733ccb7b095037e3eadcaf0a314ae41e22a72a7f25a2f7a5",
+      "created_at": "2026-10-08T11:44:34Z",
+      "updated_at": "2026-10-08T11:44:34Z",
+      "expires_at": "2027-01-06T11:44:25Z",
+      "workflow_run": {
+        "id": 37772042337,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74"
+      }
+    }
+  ]
+}

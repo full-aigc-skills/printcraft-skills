@@ -1,0 +1,437 @@
+{
+  "contract": "printcraft.native-platform-evidence/1",
+  "platform": "linux-arm64",
+  "sourceCommit": "bad64e181e1b6b4e8d60e10cdb7623b6d2710d74",
+  "startedAt": "2026-10-08T11:44:33.112093+00:00",
+  "sourceFiles": {
+    "tests/platform_acceptance.py": "5bad75cb385c12c26c9c7c1a489d141d208258834e42bdda2c6282b026a36325",
+    "tests/platform-artifacts.json": "8c03b465e51e8f53bb337ffef75eb67cba12d945c3c319ad70619bbe01929717",
+    "tests/fixtures/make_pdf.py": "c41f12f867c5f81e359c3197373214c65e89fc2e58ff5643198afbffd4ac7993",
+    "tests/ocr-models.json": "ee3d3f82d18485cf57f74bd551ba039c705ae3d9fb139e607e75822cf94a7fa8",
+    "tests/fixtures/scan_pdf.py": "b04c9bf09d7e3645f915c58539778ea9b2b5c26bce03067c28ded640c1831605"
+  },
+  "host": {
+    "system": "Linux",
+    "machine": "aarch64",
+    "release": "6.17.0-1022-azure",
+    "python": "3.13.16"
+  },
+  "workflow": {
+    "runId": "37772042337",
+    "runAttempt": "1"
+  },
+  "runtime": {
+    "system": "linux",
+    "machine": "arm64",
+    "asset": "printcraft-0.2.1-linux-aarch64.tar.gz",
+    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.2.1/printcraft-0.2.1-linux-aarch64.tar.gz",
+    "archiveSha256": "c7ae5dac00b3c11bea4e7cc502878a1b6ab520362d09885293e48417452e5dc0",
+    "member": "printcraft-0.2.1-linux-aarch64/bin/printcraft-cli",
+    "binarySha256": "8123365733dbfd70e982eaad2bec6e12b87a203ee9ffa9acf7bc8ceba6a0ad36"
+  },
+  "results": {
+    "reorder_save_reopen_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "e338127bac33545a03f627a355b9e55805fd5b4770e0379d68d658181b07a7a6",
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/reorder.pdf",
+          "file_size": 918,
+          "first_page_pt": [
+            612.0,
+            792.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "texts": [
+          "PAGE-GAMMA",
+          "PAGE-ALPHA",
+          "PAGE-BETA"
+        ]
+      }
+    },
+    "rotate_save_reopen_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "1d8d3008b6a5e5d4bc22c0ea022cd964eaf1fdceceb535a9d4c1651d2dc21aab",
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/rotate.pdf",
+          "file_size": 927,
+          "first_page_pt": [
+            792.0,
+            612.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "texts": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ]
+      }
+    },
+    "crop_save_reopen_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "3f3bef613a6020f1e413389afa96cad6b1df628700eb5f06163a2ca9ab9fb2a4",
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/crop.pdf",
+          "file_size": 935,
+          "first_page_pt": [
+            592.0,
+            772.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "texts": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ]
+      }
+    },
+    "form_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "fields": {
+          "count": 1,
+          "fields": [
+            {
+              "multiline": false,
+              "name": "sample",
+              "page": 1,
+              "read_only": false,
+              "rect": [
+                72.0,
+                120.0,
+                200.0,
+                150.0
+              ],
+              "required": false,
+              "type": "text",
+              "value": "verified form"
+            }
+          ]
+        },
+        "outputSha256": "9b66abe20194f2e3ab556e639475bc9f86b2ef095cfff200d9dce3b1bf0215d3"
+      }
+    },
+    "redact_text_objects_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "a8d6ab67aa9b19bdead9811e0389e138faced706447ea401acfeb9b3dc5e67ad",
+        "textAndObjectBytesAbsent": true,
+        "visualReview": "NOT_RUN"
+      }
+    },
+    "english_ocr_scan_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "inputSha256": "c244d838826a97532fa94f6c865ab46c8ae7d91713106ecabe8eb4844d33dddb",
+        "outputSha256": "e0f63dafbc7ed11133cefe2289a759449f59a08f11924b74ee721beb71d969da",
+        "nativeResults": [
+          {
+            "dirty": false,
+            "doc": 1,
+            "editable": true,
+            "encrypted": false,
+            "name": "scan-english.pdf",
+            "pages": 1,
+            "path": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/scan-english.pdf",
+            "read_only_reason": null,
+            "redo": null,
+            "undo": null
+          },
+          {
+            "pages": [
+              {
+                "page": 1,
+                "text": "PAGE-GAMMA",
+                "words": 1
+              }
+            ],
+            "words": 1
+          },
+          {
+            "bytes": 7838,
+            "document": {
+              "dirty": false,
+              "doc": 1,
+              "editable": true,
+              "encrypted": false,
+              "name": "ocr-english.pdf",
+              "pages": 1,
+              "path": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/ocr-english.pdf",
+              "read_only_reason": null,
+              "redo": null,
+              "undo": "Recognize text"
+            },
+            "incremental": false,
+            "path": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/ocr-english.pdf"
+          }
+        ],
+        "reopenedText": "PAGE-GAMMA\n",
+        "sourceUnchanged": true
+      }
+    }
+  },
+  "scope": "DIRECT_NATIVE_ONLY_SKILL_INSTALLER_NOT_TESTED",
+  "chineseRecognition": "NOT_RUN_THIS_HARNESS",
+  "visualReview": "NOT_RUN",
+  "status": "PASS_SCOPED_NATIVE",
+  "runtimeArchiveSha256": "c7ae5dac00b3c11bea4e7cc502878a1b6ab520362d09885293e48417452e5dc0",
+  "runtimeBinarySha256": "8123365733dbfd70e982eaad2bec6e12b87a203ee9ffa9acf7bc8ceba6a0ad36",
+  "versionOutput": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft\n",
+  "catalogSha256": "8ddb81c0382bacbdebf8ffdf242ec795135abc0a7723eebbe3b14123de64bea1",
+  "catalogToolCount": 123,
+  "ocrLanguageSchema": [
+    "en"
+  ],
+  "inputSha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+  "ocrStatus": {
+    "available": false,
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "search_dirs": [
+      "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+      "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+      "/home/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+    ]
+  },
+  "ocrModels": {
+    "source": "https://github.com/storytold/pdfcraft/blob/v0.2.1/ATTRIBUTION.toml",
+    "nativeVersion": "0.2.1",
+    "models": [
+      {
+        "file": "text-detection.rten",
+        "url": "https://ocrs-models.s3-accelerate.amazonaws.com/text-detection.rten",
+        "title": "Ocrs text detection model",
+        "author": "Robert Knight (ocrs-models; trained on HierText, CC-BY-SA-4.0)",
+        "source": "https://github.com/robertknight/ocrs-models (the models ocrs downloads; model card: https://huggingface.co/robertknight/ocrs, cc-by-sa-4.0)",
+        "licence": "CC-BY-SA-4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+        "licence_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "kind": "model",
+        "usage": "Scan & OCR: finds words on page images (cargo xtask models)",
+        "sha256": "f15cfb56bd02c4bf478a20343986504a1f01e1665c2b3a0ad66340f054b1b5ca"
+      },
+      {
+        "file": "text-recognition.rten",
+        "url": "https://ocrs-models.s3-accelerate.amazonaws.com/text-recognition.rten",
+        "title": "Ocrs text recognition model",
+        "author": "Robert Knight (ocrs-models; trained on HierText, CC-BY-SA-4.0)",
+        "source": "https://github.com/robertknight/ocrs-models (the models ocrs downloads; model card: https://huggingface.co/robertknight/ocrs, cc-by-sa-4.0)",
+        "licence": "CC-BY-SA-4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+        "licence_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "kind": "model",
+        "usage": "Scan & OCR: reads the words it finds (cargo xtask models)",
+        "sha256": "e484866d4cce403175bd8d00b128feb08ab42e208de30e42cd9889d8f1735a6e"
+      }
+    ]
+  },
+  "ocrStatusWithModels": {
+    "available": true,
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "search_dirs": [
+      "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+      "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+      "/home/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+    ]
+  },
+  "sourceUnchanged": true,
+  "artifacts": {
+    "001-call.json": "5bea3fedd7eeae64a3b72ad99bdfe8f8e3175bf270715ef247a4f00265debfc3",
+    "001-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "001-stdout.log": "260187c52b001191acc62e300b68203b492022e0c2b78b74db7f63ed6cf0eb9b",
+    "002-call.json": "e44a6d5b24dfbbf9a357a5722714b0608e6d0902ed29e7080757cd1e45e8cc3b",
+    "002-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "002-stdout.log": "8ddb81c0382bacbdebf8ffdf242ec795135abc0a7723eebbe3b14123de64bea1",
+    "003-call.json": "f22a8b916e1cf4a0cb7a4ed91003eb6ca5f7fe95081f15f28287b92a73f3117b",
+    "003-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "003-stdout.log": "3f920767520f0143c86016d9f520b66a4bdd4732b334fc690d611173b9f4e4ce",
+    "004-call.json": "d88cf207091fa7b6e12402e3cf427f426c41101109e4c5ad1b5ea45596856eca",
+    "004-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "004-stdout.log": "810915fe6ec3230e87e23d42939bdf62f176bb431faf5085aaa1422318931aae",
+    "005-call.json": "3c9453a60dfa96869fd67ae1e840352424e43e6e660914ad0c7d7b2469c6566c",
+    "005-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "005-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "006-call.json": "4182017ae48128fed543d99250b5c68c82d8f56126f933aaef2839ff2ead7228",
+    "006-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "006-stdout.log": "1a04a191ace245e98cc7421a421c6dc44d0237a6d3e2d591272e8eb36e84dd0b",
+    "007-call.json": "7c7a9629f2a16cf7becc69425b680f8cc34374884f937f1f40b2499f47c0c679",
+    "007-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "007-stdout.log": "86696a16aacf0f57f3bb129451d6fc4beeb518901609ed93dab29339eec83057",
+    "008-call.json": "803f2ba8a3251ddd1acbc07ff785c132deb9e34fff383075511fe6f8896dfa06",
+    "008-stderr.log": "663ad9fe33812d072154f0800b9639bc0b896f44bfaa41d4733c452a5b0a5014",
+    "008-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "009-call.json": "c0f642ea5ba900b29cd0c7438cc26f0b88ba31006c4e50962023cf0377a7d352",
+    "009-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "009-stdout.log": "c364c32d7266f3134eec11d3a5b4dc4a400ebbc181e46cde904a8b9076a38fc2",
+    "010-call.json": "d6673701c7258128e0426b8f8655f37f9aff353117fc43581fbb1fb2fe91c2ef",
+    "010-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "010-stdout.log": "f5d804267fce5d840106ed8237a2bcb34e5fad7052eb6052d6ce9cc11d360516",
+    "011-call.json": "fa905cea4d8dc34679d46e65fdcbaa9d61cbd948ddea5ac317365548b3f4c545",
+    "011-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "011-stdout.log": "1a04a191ace245e98cc7421a421c6dc44d0237a6d3e2d591272e8eb36e84dd0b",
+    "012-call.json": "6ac105b0b564af533b69e908a9c3140c01814c2892ba2d2e238796e5cf5c5300",
+    "012-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "012-stdout.log": "86696a16aacf0f57f3bb129451d6fc4beeb518901609ed93dab29339eec83057",
+    "013-call.json": "ef1b0cc8d1831b7f256a5b5de1c5aa5b4fc86255cc7c960aab8f4cc72aafd5af",
+    "013-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "013-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "014-call.json": "6d417b7c528880786d72598ede19cee6c44dc6a9da02fe02189a023c7ee780ef",
+    "014-stderr.log": "d7427b7c4bbfd5399e05a7ae3caf4d4d6767c96c7c2e0036e62b45551a14d229",
+    "014-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "015-call.json": "328113ca7e9514866f612080bb2d56edc161b7916b408de7717b4bbc1ab79dcb",
+    "015-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "015-stdout.log": "9f354d543f662a66ae475b3e0e8c513a1415b1a2304b9658945aa7ed9f46a3d7",
+    "016-call.json": "b8ac41f68951cc4173dc13500ce26ae2a460c3b00bc735617bc54f5a86587b7e",
+    "016-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "016-stdout.log": "e316cb487510166bae8a302df6f3375925e15ece4ad62fcb95612ead2f157ca5",
+    "017-call.json": "477e9b17ab21ae105a0fad4e5271dd91b5ff0331253fec4831dc8ce168268a17",
+    "017-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "017-stdout.log": "1a04a191ace245e98cc7421a421c6dc44d0237a6d3e2d591272e8eb36e84dd0b",
+    "018-call.json": "6d7edfcf7c4a303369b7bf91f35ee55787b0de87a1e237ff304cb80b30266e8b",
+    "018-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "018-stdout.log": "86696a16aacf0f57f3bb129451d6fc4beeb518901609ed93dab29339eec83057",
+    "019-call.json": "b5e2681fe9ad181e915fb96b11dd93c498eb41776312f6147121e4d87a92557e",
+    "019-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "019-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "020-call.json": "0cb1ec35f7ec9cfbbdc80e6647bcff0f794a17f75353109c34e224dd3a7f2d41",
+    "020-stderr.log": "f3e7094f1e88f237c4824b8abc70883bc1fff948814c03f29059da1735c74873",
+    "020-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "021-call.json": "9d213b21ed05f04a22e594d68e77595cb25f67b44210762f42de1d7038236123",
+    "021-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "021-stdout.log": "88ae02944a0265579702d62dec4f42892189eb57eb95b1f6c7809becb664fd05",
+    "022-call.json": "35db8c12908a90c3b4f6eca3d5317e5f3040872b765a64c46b60b45a71f328ce",
+    "022-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "022-stdout.log": "ef228c26029d28df1e14fd6db9fa637eaf45858f926f269a390a029725be1ea8",
+    "023-call.json": "f01161ff4c3274080e6f608f87246170a428936ee66b6947a8853d91176212e1",
+    "023-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "023-stdout.log": "7d5ddacda7ca8a0eaa9c0518aa8b55830ece0bc70bfed8015d06491e2b06df3e",
+    "024-call.json": "6257c17c69d79b9c50d38b78191e2a194778687030559ba8425c0aa3f05bdde0",
+    "024-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "024-stdout.log": "33343d8e3983017124cdc4cddc1e91d1f4a53f393adaa8d0155ed1f27ce1186e",
+    "025-call.json": "557e95d0a23e850a2733f4d44102b07887709267a031f7ef5890edb322cfa83c",
+    "025-stderr.log": "663ad9fe33812d072154f0800b9639bc0b896f44bfaa41d4733c452a5b0a5014",
+    "025-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "026-call.json": "ca1aea0f476a00cde22d73057515c94e205a1c82fad6899bb083ecb547e331cd",
+    "026-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "026-stdout.log": "c429e56e96dbd6ee1b7bd0abaca0b489d226b3aeccf14394017524ce74241082",
+    "027-call.json": "e6e106b096c3dc12743f2f906c92781aca6677b7f9714a5b00e48d9f290e952f",
+    "027-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "027-stdout.log": "9e862b9dd8fbd4d8b90c5ba7c445378b524860cb577259632e5fe662d3a75277",
+    "028-call.json": "b9aca428fdb51d76bf58937545be6046b8b02d4bbb8593e067c6d57b1f620a79",
+    "028-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "028-stdout.log": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "029-call.json": "81685174e8c72bb9d1915f708f81faf19d9d40f12cc59d6eee718717104b32cc",
+    "029-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "029-stdout.log": "95a440e71b414cde4c023ce9a1d3d7c3f3220c7010d303d1dcbd5446ed168b0f",
+    "030-call.json": "9ce9c435f21d2140889a023f5a38bc56c5353f56ef1ec47a4b97297198bbf9c6",
+    "030-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "030-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "031-call.json": "6d26e399371677845cb7af260cc6c9cdf38c5f4a33db039684e5e762675bfca3",
+    "031-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "031-stdout.log": "0cf087262c2104be1be4084a7b48d95da456a2f2f96c5a6dbe9fcc60d5dd7f10",
+    "032-call.json": "88664fe95d9689a97442cf0ece79f40eeafa77ffc9294ac9872d1828c51a8530",
+    "032-stderr.log": "f9a8c8e6065b5aa575fd85f8a88fca10614bc2b4c149189399701de45be7f248",
+    "032-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "crop.json": "767007e3b2dc0d95c41c3c17ee05670392c0d191a1ed7a8eaceddf54f4ff0762",
+    "crop.pam": "800e5debd6af3433e00f8d0661b056aba194e6399b6f6115cbf4c76a1e3d5a33",
+    "crop.pdf": "3f3bef613a6020f1e413389afa96cad6b1df628700eb5f06163a2ca9ab9fb2a4",
+    "form-reopen.json": "cb2e864ed2588f761a0f8c40fd7330416e0a78b3e3d1b0a0d8b2af9816893e41",
+    "form.json": "240f354e3312db6589c3c5062569fe15143c1af038c44fbd0192eaf713772308",
+    "form.pdf": "9b66abe20194f2e3ab556e639475bc9f86b2ef095cfff200d9dce3b1bf0215d3",
+    "ocr-english.json": "811a4651133255d6430bbb1dadc0fd252f94bf7e24fbd0b2f436cf318198a642",
+    "ocr-english.pam": "6db18d931d460ff50a4536ca589428ff9e7aadeb2f534bde9f96ae5521ea8f21",
+    "ocr-english.pdf": "e0f63dafbc7ed11133cefe2289a759449f59a08f11924b74ee721beb71d969da",
+    "ocr-model-status.json": "c1f6c98640836a6117fb41b8ad1492fadd5e3678fc977b2d526e059d51eda106",
+    "ocr-status.json": "c1f6c98640836a6117fb41b8ad1492fadd5e3678fc977b2d526e059d51eda106",
+    "redact.json": "7ac59572872adbef02973e52b52b299f8531df963bc980ba66e75f2d68bb4ff9",
+    "redacted.pam": "91986fe8ceef5be0c48e7fd3613c9d3d8985018c621e5932e99d71191a20c7c9",
+    "redacted.pdf": "a8d6ab67aa9b19bdead9811e0389e138faced706447ea401acfeb9b3dc5e67ad",
+    "reorder.json": "b685a129250f75f973326da78277130c7417b52c39e6f249809bdfc6724342a8",
+    "reorder.pam": "6db18d931d460ff50a4536ca589428ff9e7aadeb2f534bde9f96ae5521ea8f21",
+    "reorder.pdf": "e338127bac33545a03f627a355b9e55805fd5b4770e0379d68d658181b07a7a6",
+    "rotate.json": "e5777834e3f716133c7278d8812767e66eb7ebabd780b55f6fd61c0cbbac81f3",
+    "rotate.pam": "6c8181dcc97ff857c58fb82b0409fbc8841793cb9fb0b348df5919555968d91e",
+    "rotate.pdf": "1d8d3008b6a5e5d4bc22c0ea022cd964eaf1fdceceb535a9d4c1651d2dc21aab",
+    "scan-english.pdf": "c244d838826a97532fa94f6c865ab46c8ae7d91713106ecabe8eb4844d33dddb",
+    "source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+    "tools.json": "8ddb81c0382bacbdebf8ffdf242ec795135abc0a7723eebbe3b14123de64bea1"
+  },
+  "finishedAt": "2026-10-08T11:44:35.320641+00:00"
+}
