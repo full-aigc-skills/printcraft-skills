@@ -1,0 +1,305 @@
+{
+  "protocol": "printcraft.verification/1",
+  "ruleVersion": 1,
+  "runId": null,
+  "inputSha256": {
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a"
+  },
+  "requestSha256": "bfeb7dc88be2b3ed841b770cbb61e63c43f722e41c75ddd8d5c2b40f0ff0c10a",
+  "artifacts": [
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/reorder.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 918,
+      "sha256": "220ee2eecf21397a5ec3a293424df6eb0adb9dcdfb6c42b9dadc91d11fc10f4f",
+      "sourcePages": [
+        {
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/source.pdf",
+          "sha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+          "page": 3
+        },
+        {
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/source.pdf",
+          "sha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+          "page": 1
+        },
+        {
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/source.pdf",
+          "sha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+          "page": 2
+        }
+      ],
+      "info": {
+        "annotations": 0,
+        "attachments": 0,
+        "author": null,
+        "bookmarks": 0,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/reorder.pdf",
+        "file_size": 918,
+        "first_page_pt": [
+          612.0,
+          792.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pages": 3,
+        "pdf_version": "1.5",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "PAGE-GAMMA",
+        "PAGE-ALPHA",
+        "PAGE-BETA"
+      ],
+      "textClassification": "TEXT_PRESENT",
+      "errors": []
+    },
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/rotate.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 928,
+      "sha256": "37911515790be5a2643c67970a4f158b8fda9c7b1b2b47023eda5329fbab3c7b",
+      "pageGeometry": [
+        {
+          "height": 612.0,
+          "label": "1",
+          "page": 1,
+          "rotation": 90,
+          "width": 792.0
+        },
+        {
+          "height": 792.0,
+          "label": "2",
+          "page": 2,
+          "rotation": 0,
+          "width": 612.0
+        },
+        {
+          "height": 792.0,
+          "label": "3",
+          "page": 3,
+          "rotation": 0,
+          "width": 612.0
+        }
+      ],
+      "info": {
+        "annotations": 0,
+        "attachments": 0,
+        "author": null,
+        "bookmarks": 0,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/rotate.pdf",
+        "file_size": 928,
+        "first_page_pt": [
+          792.0,
+          612.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pages": 3,
+        "pdf_version": "1.5",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "PAGE-ALPHA",
+        "PAGE-BETA",
+        "PAGE-GAMMA"
+      ],
+      "textClassification": "TEXT_PRESENT",
+      "errors": []
+    },
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/crop.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 933,
+      "sha256": "00ef1f2cf775d979541bab430f5745f585563fadf9b3d0c27e13810ac976ff35",
+      "pageGeometry": [
+        {
+          "height": 772.0,
+          "label": "1",
+          "page": 1,
+          "rotation": 0,
+          "width": 592.0
+        },
+        {
+          "height": 792.0,
+          "label": "2",
+          "page": 2,
+          "rotation": 0,
+          "width": 612.0
+        },
+        {
+          "height": 792.0,
+          "label": "3",
+          "page": 3,
+          "rotation": 0,
+          "width": 612.0
+        }
+      ],
+      "info": {
+        "annotations": 0,
+        "attachments": 0,
+        "author": null,
+        "bookmarks": 0,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/crop.pdf",
+        "file_size": 933,
+        "first_page_pt": [
+          592.0,
+          772.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pages": 3,
+        "pdf_version": "1.5",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "PAGE-ALPHA",
+        "PAGE-BETA",
+        "PAGE-GAMMA"
+      ],
+      "textClassification": "TEXT_PRESENT",
+      "errors": []
+    },
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/form.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 1504,
+      "sha256": "a2355d391fc417c35c3c3794535f6fa5f99c55cd0be3e8e252558d0b638ec64c",
+      "info": {
+        "annotations": 0,
+        "attachments": 0,
+        "author": null,
+        "bookmarks": 0,
+        "creator": null,
+        "encrypted": false,
+        "fields": 1,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/form.pdf",
+        "file_size": 1504,
+        "first_page_pt": [
+          612.0,
+          792.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pages": 3,
+        "pdf_version": "1.5",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "PAGE-ALPHA\nverified form",
+        "PAGE-BETA",
+        "PAGE-GAMMA"
+      ],
+      "textClassification": "TEXT_PRESENT",
+      "errors": []
+    },
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/redacted.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 1275,
+      "sha256": "1b0c650ae831ecd2b6e6bbb8f5fbb8b4bc888c26eb0bffbbea3054d6ae75eb85",
+      "info": {
+        "annotations": 0,
+        "attachments": 0,
+        "author": null,
+        "bookmarks": 0,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/redacted.pdf",
+        "file_size": 1275,
+        "first_page_pt": [
+          612.0,
+          792.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pages": 3,
+        "pdf_version": "1.5",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "",
+        "PAGE-BETA",
+        "PAGE-GAMMA"
+      ],
+      "textClassification": "TEXT_PRESENT",
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "VERIFIED",
+  "completeAcceptance": true,
+  "visualReview": {
+    "ruleVersion": 1,
+    "requestSha256": "bfeb7dc88be2b3ed841b770cbb61e63c43f722e41c75ddd8d5c2b40f0ff0c10a",
+    "decision": "approve",
+    "reviewer": "Codex image inspection (not human signoff)",
+    "notes": "逐一查看当前 SHA 绑定的 reorder/crop/rotate/form/redacted 首个目标页 PNG。页标可读，旋转正确，裁剪未截断目标文字，表单值可见，脱敏后仅余黑框；其他页通过逐页文本/来源映射/几何检查。仅限原创小型夹具，不推广至任意 PDF 或完整标准符合性。"
+  },
+  "automaticRevision": false
+}

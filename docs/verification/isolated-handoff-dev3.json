@@ -1,0 +1,18 @@
+[
+  {
+    "project": "printcraft-skills",
+    "version": "0.1.0-dev.3",
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "....................................................\n----------------------------------------------------------------------\nRan 52 tests in 3.381s\n\nOK\n",
+    "siblingsPresent": false
+  },
+  {
+    "project": "printcraft-plugin",
+    "version": "0.1.0-dev.3",
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.777s\n\nOK\n",
+    "siblingsPresent": false
+  }
+]

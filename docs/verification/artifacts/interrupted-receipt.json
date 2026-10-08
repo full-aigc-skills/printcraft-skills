@@ -1,0 +1,71 @@
+{
+  "protocol": "printcraft.execution/1",
+  "runId": "254509d9-c423-49be-8633-0fe1d88ef51a",
+  "runRegistry": "/tmp/printcraft-acceptance/.printcraft-runs",
+  "attempted": true,
+  "expectedOutputs": [
+    {
+      "path": "/tmp/printcraft-acceptance/interrupted-partial.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "documentIdsReusable": false,
+  "stepsTransactional": false,
+  "domain": "printcraft",
+  "status": "UNKNOWN",
+  "argv": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-I",
+    "-B",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/skills/printcraft-use/scripts/cli.py",
+    "--runtime-home",
+    "/tmp/printcraft-acceptance/隔离 runtime",
+    "--",
+    "run",
+    "--script",
+    "/tmp/printcraft-acceptance/interrupted-run/native-plan.json"
+  ],
+  "catalogSha256": "2cef688df408f49c80db4a9765d0d563baf8f430bb338fc584e0c0e235f54878",
+  "planSha256": "267ec0ada8dba31daba4b41cab2ef0558403299990d4f77b8ae079bc7479180d",
+  "automaticReplay": false,
+  "completeAcceptance": false,
+  "inputSha256": {
+    "/tmp/printcraft-acceptance/native-final-2/source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a"
+  },
+  "runtimeLockSha256": "7db3b75e565e2a4da83118875e1ada8652913f670c401b4f60173af3f1547462",
+  "skillResourceSha256": {
+    "bootstrap.py": "f2f0901641c2ca58d48a00bc2e16d1095ee0e3b0d322279ef3c5edee136e745c",
+    "cli.py": "b7441d0c7c27c8116a874f40f929f44be4285c718b00ccae8f61f20dd8d4fbf8",
+    "command_gateway.py": "80204490525be4b1c0723dbc8a354330d7bdb32eaefaae2ed108fbea5fd550d9",
+    "commands.py": "35eaaf7866e1104eb7ccd9639d6744182f009b48b26029423e7f4aeb38b57b62",
+    "execution.py": "a397555fea3e7a7f8870e6e99e82b038a6f8386789987d2e92b0458f0cc032e8",
+    "runtime.lock.json": "7db3b75e565e2a4da83118875e1ada8652913f670c401b4f60173af3f1547462",
+    "verification.py": "358c0e202024655d4fec4ef7f210500532f17f51a23257817258ec46a10749c5"
+  },
+  "error": "",
+  "stdout": "",
+  "stderr": "",
+  "inputAfterSha256": {
+    "/tmp/printcraft-acceptance/native-final-2/source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a"
+  },
+  "skillResourceAfterSha256": {
+    "bootstrap.py": "f2f0901641c2ca58d48a00bc2e16d1095ee0e3b0d322279ef3c5edee136e745c",
+    "cli.py": "b7441d0c7c27c8116a874f40f929f44be4285c718b00ccae8f61f20dd8d4fbf8",
+    "command_gateway.py": "80204490525be4b1c0723dbc8a354330d7bdb32eaefaae2ed108fbea5fd550d9",
+    "commands.py": "35eaaf7866e1104eb7ccd9639d6744182f009b48b26029423e7f4aeb38b57b62",
+    "execution.py": "a397555fea3e7a7f8870e6e99e82b038a6f8386789987d2e92b0458f0cc032e8",
+    "runtime.lock.json": "7db3b75e565e2a4da83118875e1ada8652913f670c401b4f60173af3f1547462",
+    "verification.py": "358c0e202024655d4fec4ef7f210500532f17f51a23257817258ec46a10749c5"
+  },
+  "artifacts": [
+    {
+      "path": "/tmp/printcraft-acceptance/interrupted-partial.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "status": "PRESENT",
+      "size": 921,
+      "sha256": "9cf62bf9b497c4e96a961d146cb127cdf0def4dd630b02a80791280501f3275c"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "单会话计划与恢复"
+  short_description: "Run PDF plans and reconcile uncertain outcomes"
+  default_prompt: "Use $printcraft-cli-automation to handle the requested PDF task and verify its artifacts."
+policy:
+  allow_implicit_invocation: false

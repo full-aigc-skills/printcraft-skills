@@ -1,0 +1,52 @@
+{
+  "document": {
+    "name": "preserve",
+    "width": 128,
+    "height": 96,
+    "units": "Points"
+  },
+  "operations": [
+    {
+      "command": "shape.rectangle",
+      "params": {
+        "x": 24,
+        "y": 24,
+        "width": 64,
+        "height": 48
+      },
+      "as": "badge"
+    },
+    {
+      "command": "paint.setFill",
+      "params": {
+        "ids": [
+          {
+            "$ref": "badge.id"
+          }
+        ],
+        "color": "#27ae60"
+      }
+    },
+    {
+      "command": "paint.setStroke",
+      "params": {
+        "ids": [
+          {
+            "$ref": "badge.id"
+          }
+        ],
+        "none": true
+      }
+    }
+  ],
+  "exports": [
+    {
+      "format": "pdf",
+      "artboard": 0
+    },
+    {
+      "format": "png",
+      "artboard": 0
+    }
+  ]
+}

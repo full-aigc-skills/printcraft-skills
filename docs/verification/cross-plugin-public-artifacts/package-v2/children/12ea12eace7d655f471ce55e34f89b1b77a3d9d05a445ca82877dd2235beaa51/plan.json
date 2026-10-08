@@ -1,0 +1,26 @@
+{
+  "operations": [
+    {
+      "command": "paint.setFill",
+      "params": {
+        "ids": [
+          {
+            "$ref": "badge.id"
+          }
+        ],
+        "color": "#2458d6"
+      }
+    }
+  ],
+  "exports": [
+    {
+      "format": "pdf",
+      "artboard": 0
+    },
+    {
+      "format": "png",
+      "artboard": 0
+    }
+  ],
+  "expectedProjectSha256": "3ad1114bf9bef3798764cd13ef7de209b025cc2f3ef0ba17f7154b3a1386d442"
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "craft-exchange-loss/v1",
+  "pluginId": "vectorcraft",
+  "native": {
+    "location": "project.vectorcraft",
+    "sha256": "2cc1cddb554b96eecfb744c5f4aa681a2774ddfa5f1ede0d937a5bacbe9342b1"
+  },
+  "inspection": {
+    "location": "native.json",
+    "sha256": "9c5701cd2334959cffc05d190cadd8f31dd1047ea88e151c515882fa8cb5d04b"
+  },
+  "outputs": [
+    {
+      "location": "artboard-1.pdf",
+      "sha256": "120dac17608499f895fd6c11d7121d26976c27a8d0d1e11b49ec2e87b82c4f64",
+      "format": "pdf",
+      "role": "derivative",
+      "nativeSubstitute": false,
+      "changes": [
+        {
+          "code": "native-editing-model",
+          "status": "lost",
+          "reason": "Derivative formats do not retain the complete application-native project model; the native project is delivered separately."
+        },
+        {
+          "code": "font-portability",
+          "status": "unknown",
+          "reason": "PDF font embedding and substitution are not verified."
+        },
+        {
+          "code": "effect-fidelity",
+          "status": "unknown",
+          "reason": "Native effect/mask appearance in PDF consumers is not verified."
+        },
+        {
+          "code": "vector-structure",
+          "status": "unknown",
+          "reason": "PDF output does not prove editable vector-path round-trip."
+        }
+      ],
+      "observations": {},
+      "warnings": []
+    },
+    {
+      "location": "artboard-1.png",
+      "sha256": "f10e1cb0af75bfc33d8577299b4b178db09b5be954a300f5f6a410c71abb1f44",
+      "format": "png",
+      "role": "derivative",
+      "nativeSubstitute": false,
+      "changes": [
+        {
+          "code": "native-editing-model",
+          "status": "lost",
+          "reason": "Derivative formats do not retain the complete application-native project model; the native project is delivered separately."
+        },
+        {
+          "code": "editable-layers-paths-text",
+          "status": "lost",
+          "reason": "Layer, path and live text editing are rendered into pixels; edit the retained native project."
+        },
+        {
+          "code": "effect-keyframe-parameters",
+          "status": "lost",
+          "reason": "Rendered pixels do not carry editable native effects, masks or keyframes."
+        },
+        {
+          "code": "font-appearance",
+          "status": "unknown",
+          "reason": "Rendered appearance has not been compared with an approved visual reference."
+        },
+        {
+          "code": "alpha-channel",
+          "status": "observed",
+          "reason": "PNG IHDR records channel representation; indexed transparency and visual alpha fidelity are not inferred."
+        }
+      ],
+      "observations": {
+        "pngColorType": 6
+      },
+      "warnings": []
+    }
+  ],
+  "acceptance": "technical-observations-only"
+}

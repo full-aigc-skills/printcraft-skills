@@ -1,0 +1,23 @@
+name: Package verification
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.11', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -I -B scripts/validate_package.py
+      - run: python -I -B scripts/sync_skill_resources.py --check
+      - run: python -I -B -m unittest discover -s tests -v
+      - run: python -I -B scripts/evidence.py --check docs/verification/evidence-index.json

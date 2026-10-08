@@ -1,0 +1,18 @@
+{
+  "protocol": "printcraft.verification/1",
+  "ruleVersion": 1,
+  "inputSha256": {
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": "54fd26bcf4b9ef5e3aa9ad3ac88f9748832ea2ae6299362116b59d12369369cc",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef"
+  },
+  "outputs": [
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/revised.pdf",
+      "sha256": "42db8b468aab763d66ac02aa893f32337ef4b983e2d4e4cf7e03311fad0664b7",
+      "pages": 2,
+      "textPolicy": "optional"
+    }
+  ]
+}

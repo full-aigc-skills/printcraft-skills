@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF 只读检查"
+  short_description: "Inspect PDF text metadata and page previews"
+  default_prompt: "Use $printcraft-cli-inspect to handle the requested PDF task and verify its artifacts."
+policy:
+  allow_implicit_invocation: false

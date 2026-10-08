@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/storytold/pdfcraft/releases/download/v0.2.1/printcraft-cli-0.2.1-macos-universal.zip",
+  "archiveSha256": "bda65829033916c5de5a7ddc0763437f8db2e8792ee43c8dc2676434acb3d495",
+  "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+  "versionOutput": "printcraft-cli 0.2.1",
+  "name": "printcraft",
+  "version": "0.2.1",
+  "platform": "darwin-arm64",
+  "rawVersionOutput": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft",
+  "source": "official-github-release"
+}

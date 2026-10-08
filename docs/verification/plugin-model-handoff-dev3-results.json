@@ -1,0 +1,12 @@
+[
+  {
+    "case": "natural",
+    "exitCode": 0,
+    "stderr": "Reading additional input from stdin...\n"
+  },
+  {
+    "case": "explicit",
+    "exitCode": 0,
+    "stderr": "Reading additional input from stdin...\n"
+  }
+]

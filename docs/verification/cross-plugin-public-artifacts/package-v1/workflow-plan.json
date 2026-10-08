@@ -1,0 +1,169 @@
+{
+  "workflowId": "printcraft-cross-plugin",
+  "ownerId": "fixture-owner",
+  "revision": "v1",
+  "authorizationRef": "printcraft-cross-plugin-fixtures",
+  "budget": {
+    "currency": "USD",
+    "maxMinorUnits": 0,
+    "maxRevisions": 2,
+    "maxExternalCalls": 0
+  },
+  "deadline": "2026-10-08T11:07:08.576Z",
+  "nodes": [
+    {
+      "id": "change",
+      "dependsOn": [],
+      "projectKey": "change",
+      "runtimeIdentity": {
+        "pluginId": "vectorcraft",
+        "pluginVersion": "0.1.0-cross-plugin-acceptance",
+        "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+        "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+        "mode": "headless",
+        "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+      },
+      "expectedRevision": null,
+      "payload": {
+        "schemaVersion": "craft-skill-workflow/v1",
+        "plan": {
+          "document": {
+            "name": "change",
+            "width": 128,
+            "height": 96,
+            "units": "Points"
+          },
+          "operations": [
+            {
+              "command": "shape.rectangle",
+              "params": {
+                "x": 24,
+                "y": 24,
+                "width": 64,
+                "height": 48
+              },
+              "as": "badge"
+            },
+            {
+              "command": "paint.setFill",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "color": "#ef5b36"
+              }
+            },
+            {
+              "command": "paint.setStroke",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "none": true
+              }
+            }
+          ],
+          "exports": [
+            {
+              "format": "pdf",
+              "artboard": 0
+            },
+            {
+              "format": "png",
+              "artboard": 0
+            }
+          ]
+        },
+        "assetBindings": [],
+        "outputs": [
+          {
+            "assetId": "change-pdf",
+            "location": "artboard-1.pdf",
+            "mediaType": "application/pdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "preserve",
+      "dependsOn": [],
+      "projectKey": "preserve",
+      "runtimeIdentity": {
+        "pluginId": "vectorcraft",
+        "pluginVersion": "0.1.0-cross-plugin-acceptance",
+        "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+        "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+        "mode": "headless",
+        "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+      },
+      "expectedRevision": null,
+      "payload": {
+        "schemaVersion": "craft-skill-workflow/v1",
+        "plan": {
+          "document": {
+            "name": "preserve",
+            "width": 128,
+            "height": 96,
+            "units": "Points"
+          },
+          "operations": [
+            {
+              "command": "shape.rectangle",
+              "params": {
+                "x": 24,
+                "y": 24,
+                "width": 64,
+                "height": 48
+              },
+              "as": "badge"
+            },
+            {
+              "command": "paint.setFill",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "color": "#27ae60"
+              }
+            },
+            {
+              "command": "paint.setStroke",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "none": true
+              }
+            }
+          ],
+          "exports": [
+            {
+              "format": "pdf",
+              "artboard": 0
+            },
+            {
+              "format": "png",
+              "artboard": 0
+            }
+          ]
+        },
+        "assetBindings": [],
+        "outputs": [
+          {
+            "assetId": "preserve-pdf",
+            "location": "artboard-1.pdf",
+            "mediaType": "application/pdf"
+          }
+        ]
+      }
+    }
+  ]
+}

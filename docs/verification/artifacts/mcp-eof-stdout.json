@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": {
+      "capabilities": {
+        "resources": {
+          "listChanged": false,
+          "subscribe": false
+        },
+        "tools": {
+          "listChanged": false
+        }
+      },
+      "instructions": "PrintCraft edits PDFs. Open a file with doc_open to get a document id, then inspect (doc_info, text_extract, text_find, page_render) or edit it (page_*, doc_set_info). Edits are undoable (edit_undo) and stay in memory until doc_save. Page numbers are 1-based. Open documents are also resources: printcraft://doc/{doc}/info, /text, /page/{page}/text and /page/{page}/image.",
+      "protocolVersion": "2024-11-05",
+      "serverInfo": {
+        "name": "printcraft",
+        "title": "PrintCraft",
+        "version": "0.2.1",
+        "websiteUrl": "https://getartcraft.com/apps/printcraft"
+      }
+    }
+  }
+]

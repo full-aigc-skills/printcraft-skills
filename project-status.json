@@ -1,0 +1,30 @@
+{
+  "domain": "printcraft",
+  "version": "0.1.0-dev.3",
+  "status": "LOCAL_IMPLEMENTED_EXTERNAL_GATES_OPEN",
+  "gitRepository": "INITIALIZED_PUBLIC_REMOTE_RELEASE_PENDING",
+  "specification": "OPEN_SPEC_IMPLEMENTED_LOCAL_VERIFY_PASS_NOT_ARCHIVED",
+  "nativeInstallation": "PASS_MACOS_ARM64_PINNED_0_2_1",
+  "hostDiscovery": "PASS_CODEX_0_153_4_DEV_3",
+  "modelDispatch": "PASS_GPT_5_6_SOL_DEV_3_SCOPED_CASES",
+  "creativeAcceptance": "PASS_ORIGINAL_PDF_FIXTURES_ONLY",
+  "published": false,
+  "openspecChange": "harden-printcraft-skill-execution",
+  "tasksCompleted": 35,
+  "tasksTotal": 38,
+  "openTasks": [
+    "7.2",
+    "7.4",
+    "7.5"
+  ],
+  "ci": "NOT_RUN",
+  "otherPlatforms": "BLOCKED_BEFORE_NATIVE_EXECUTION",
+  "chineseOcr": "UNSUPPORTED_BY_PINNED_NATIVE",
+  "crossPlugin": "PASS_PUBLIC_ENTRY_LOCAL_NATIVE_MOBILE_NOT_RUN",
+  "localTests": {
+    "passed": 52,
+    "failed": 0
+  },
+  "independentCheckout": "PASS_DEV_3",
+  "repository": "https://github.com/full-aigc-skills/printcraft-skills"
+}

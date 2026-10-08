@@ -1,0 +1,526 @@
+{
+  "runKey": "f4f4c7561af5e8b4fb5c121750cd83c1f885056b10ce038da8455d8e439cc29e",
+  "tasks": [
+    {
+      "nodeId": "change",
+      "receipt": {
+        "taskId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3",
+        "attemptId": "6e8b6ea9-e611-405a-b716-d82ec7faabba",
+        "state": "review_ready",
+        "epoch": 1,
+        "runtimeIdentity": {
+          "pluginId": "vectorcraft",
+          "pluginVersion": "0.1.0-cross-plugin-acceptance",
+          "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+          "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+          "mode": "headless",
+          "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+        },
+        "outputRefs": [
+          {
+            "protocolVersion": "craft-artifact/v1",
+            "assetId": "change-pdf",
+            "version": "7bf53e5e78ee52092659f48e435622f779e2d6e18519ce08b605e44f8643e009",
+            "sha256": "7bf53e5e78ee52092659f48e435622f779e2d6e18519ce08b605e44f8643e009",
+            "bytes": 4207,
+            "mediaType": "application/pdf",
+            "producerTaskId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3",
+            "sourceRefs": [],
+            "nativeProjectRef": {
+              "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-bd874764e1b6eff2",
+              "version": "f260a47320647d0051a6181c80b3abeb72406866438a3c36e88237ed85de9a8b",
+              "sha256": "f260a47320647d0051a6181c80b3abeb72406866438a3c36e88237ed85de9a8b",
+              "location": "project.vectorcraft"
+            },
+            "renditions": [],
+            "dependencies": [],
+            "technicalMetadata": {},
+            "lossReportRef": {
+              "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-832b6e90dd1c3c59",
+              "version": "62389aab2f4a27304fd38ab5b16f6175e80b54685da6f7c848849a2134571a96",
+              "sha256": "62389aab2f4a27304fd38ab5b16f6175e80b54685da6f7c848849a2134571a96",
+              "location": "exchange-loss.json"
+            },
+            "evidenceRefs": [
+              {
+                "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-ffa5b716b5a57837",
+                "version": "0d8d9c41179a5761ae7995a471854400bc6c560485b05e2b4d910948f95e826c",
+                "sha256": "0d8d9c41179a5761ae7995a471854400bc6c560485b05e2b4d910948f95e826c",
+                "location": "manifest.json"
+              }
+            ],
+            "location": "artboard-1.pdf"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-ffa5b716b5a57837",
+            "version": "0d8d9c41179a5761ae7995a471854400bc6c560485b05e2b4d910948f95e826c",
+            "sha256": "0d8d9c41179a5761ae7995a471854400bc6c560485b05e2b4d910948f95e826c",
+            "location": "manifest.json"
+          }
+        ],
+        "error": null
+      },
+      "request": {
+        "protocolVersion": "craft-task/v1",
+        "taskId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3",
+        "idempotencyKey": "wf-node:7b39061c2df9d81ae9ef6098e22a3e2400db65c1905ef1ecac204685490595bd",
+        "planHash": "a25a2bbcf044dfbc49fd794200ad9abd653c471c333694d597a18a8f55acda99",
+        "inputRefs": [],
+        "expectedRevision": null,
+        "runtimeIdentity": {
+          "pluginId": "vectorcraft",
+          "pluginVersion": "0.1.0-cross-plugin-acceptance",
+          "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+          "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+          "mode": "headless",
+          "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+        },
+        "authorizationRef": "printcraft-cross-plugin-fixtures",
+        "budget": {
+          "currency": "USD",
+          "maxMinorUnits": 0,
+          "maxRevisions": 2,
+          "maxExternalCalls": 0
+        },
+        "deadline": "2026-10-08T11:00:16.217Z",
+        "payload": {
+          "schemaVersion": "craft-skill-workflow/v1",
+          "plan": {
+            "document": {
+              "name": "change",
+              "width": 128,
+              "height": 96,
+              "units": "Points"
+            },
+            "operations": [
+              {
+                "command": "shape.rectangle",
+                "params": {
+                  "x": 24,
+                  "y": 24,
+                  "width": 64,
+                  "height": 48
+                },
+                "as": "badge"
+              },
+              {
+                "command": "paint.setFill",
+                "params": {
+                  "ids": [
+                    {
+                      "$ref": "badge.id"
+                    }
+                  ],
+                  "color": "#ef5b36"
+                }
+              },
+              {
+                "command": "paint.setStroke",
+                "params": {
+                  "ids": [
+                    {
+                      "$ref": "badge.id"
+                    }
+                  ],
+                  "none": true
+                }
+              }
+            ],
+            "exports": [
+              {
+                "format": "pdf",
+                "artboard": 0
+              },
+              {
+                "format": "png",
+                "artboard": 0
+              }
+            ]
+          },
+          "assetBindings": [],
+          "outputs": [
+            {
+              "assetId": "change-pdf",
+              "location": "artboard-1.pdf",
+              "mediaType": "application/pdf"
+            }
+          ]
+        }
+      },
+      "execution": {
+        "token": "32a81585-2152-44ef-8724-4d222914cc52",
+        "status": "stopped",
+        "pid": 57772,
+        "commandHash": "e0dc62b3b7b80e96f1f4748969d1668c9fbbee50db089e1a53f1882589644065",
+        "exitCode": 0,
+        "signal": null,
+        "groupStopped": true,
+        "diagnostics": {
+          "schema": "craft-native-diagnostics/v1",
+          "domainCode": null,
+          "source": null,
+          "stdout": {
+            "bytes": 1312,
+            "sha256": "cdbbc552db1d75f8bc36893cd19c39b211f0a8998b2ce41bc46bb6e89e994cb0",
+            "truncated": false,
+            "complete": true
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "truncated": false,
+            "complete": true
+          }
+        }
+      },
+      "events": [
+        {
+          "toState": "planned",
+          "epoch": 0,
+          "detail": {
+            "planHash": "a25a2bbcf044dfbc49fd794200ad9abd653c471c333694d597a18a8f55acda99"
+          }
+        },
+        {
+          "toState": "ready",
+          "epoch": 0,
+          "detail": {}
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "attemptId": "6e8b6ea9-e611-405a-b716-d82ec7faabba"
+          }
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "execution": "prepared",
+            "commandHash": "e0dc62b3b7b80e96f1f4748969d1668c9fbbee50db089e1a53f1882589644065"
+          }
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "execution": "spawned",
+            "pid": 57772
+          }
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "execution": "closed",
+            "exitCode": 0,
+            "signal": null,
+            "groupStopped": true,
+            "diagnostics": {
+              "schema": "craft-native-diagnostics/v1",
+              "domainCode": null,
+              "source": null,
+              "stdout": {
+                "bytes": 1312,
+                "sha256": "cdbbc552db1d75f8bc36893cd19c39b211f0a8998b2ce41bc46bb6e89e994cb0",
+                "truncated": false,
+                "complete": true
+              },
+              "stderr": {
+                "bytes": 0,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "truncated": false,
+                "complete": true
+              }
+            }
+          }
+        },
+        {
+          "toState": "verifying",
+          "epoch": 1,
+          "detail": {}
+        },
+        {
+          "toState": "review_ready",
+          "epoch": 1,
+          "detail": {
+            "outputHashes": [
+              "7bf53e5e78ee52092659f48e435622f779e2d6e18519ce08b605e44f8643e009"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nodeId": "preserve",
+      "receipt": {
+        "taskId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638",
+        "attemptId": "18f6fa63-d514-4e64-98ad-3e994e5deb40",
+        "state": "review_ready",
+        "epoch": 1,
+        "runtimeIdentity": {
+          "pluginId": "vectorcraft",
+          "pluginVersion": "0.1.0-cross-plugin-acceptance",
+          "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+          "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+          "mode": "headless",
+          "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+        },
+        "outputRefs": [
+          {
+            "protocolVersion": "craft-artifact/v1",
+            "assetId": "preserve-pdf",
+            "version": "120dac17608499f895fd6c11d7121d26976c27a8d0d1e11b49ec2e87b82c4f64",
+            "sha256": "120dac17608499f895fd6c11d7121d26976c27a8d0d1e11b49ec2e87b82c4f64",
+            "bytes": 4210,
+            "mediaType": "application/pdf",
+            "producerTaskId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638",
+            "sourceRefs": [],
+            "nativeProjectRef": {
+              "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-bd874764e1b6eff2",
+              "version": "2cc1cddb554b96eecfb744c5f4aa681a2774ddfa5f1ede0d937a5bacbe9342b1",
+              "sha256": "2cc1cddb554b96eecfb744c5f4aa681a2774ddfa5f1ede0d937a5bacbe9342b1",
+              "location": "project.vectorcraft"
+            },
+            "renditions": [],
+            "dependencies": [],
+            "technicalMetadata": {},
+            "lossReportRef": {
+              "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-832b6e90dd1c3c59",
+              "version": "41f9d80d4a856872e5e5bf389701e34ba9215f54a90168b1fdae7a615c392dc5",
+              "sha256": "41f9d80d4a856872e5e5bf389701e34ba9215f54a90168b1fdae7a615c392dc5",
+              "location": "exchange-loss.json"
+            },
+            "evidenceRefs": [
+              {
+                "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-ffa5b716b5a57837",
+                "version": "746e14d18749107d03032ceffb116d3509910e914d7da161069dba679a2ec50c",
+                "sha256": "746e14d18749107d03032ceffb116d3509910e914d7da161069dba679a2ec50c",
+                "location": "manifest.json"
+              }
+            ],
+            "location": "artboard-1.pdf"
+          }
+        ],
+        "evidenceRefs": [
+          {
+            "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-ffa5b716b5a57837",
+            "version": "746e14d18749107d03032ceffb116d3509910e914d7da161069dba679a2ec50c",
+            "sha256": "746e14d18749107d03032ceffb116d3509910e914d7da161069dba679a2ec50c",
+            "location": "manifest.json"
+          }
+        ],
+        "error": null
+      },
+      "request": {
+        "protocolVersion": "craft-task/v1",
+        "taskId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638",
+        "idempotencyKey": "wf-node:570b4c36deae9d71ae13db201eacce61ab4275b8b53b88ca46ff9820aaee22fc",
+        "planHash": "06e0d5b40fc92fcf93ac58909754b5949e0f288e692f7b18c089982310530112",
+        "inputRefs": [],
+        "expectedRevision": null,
+        "runtimeIdentity": {
+          "pluginId": "vectorcraft",
+          "pluginVersion": "0.1.0-cross-plugin-acceptance",
+          "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+          "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+          "mode": "headless",
+          "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+        },
+        "authorizationRef": "printcraft-cross-plugin-fixtures",
+        "budget": {
+          "currency": "USD",
+          "maxMinorUnits": 0,
+          "maxRevisions": 2,
+          "maxExternalCalls": 0
+        },
+        "deadline": "2026-10-08T11:00:16.217Z",
+        "payload": {
+          "schemaVersion": "craft-skill-workflow/v1",
+          "plan": {
+            "document": {
+              "name": "preserve",
+              "width": 128,
+              "height": 96,
+              "units": "Points"
+            },
+            "operations": [
+              {
+                "command": "shape.rectangle",
+                "params": {
+                  "x": 24,
+                  "y": 24,
+                  "width": 64,
+                  "height": 48
+                },
+                "as": "badge"
+              },
+              {
+                "command": "paint.setFill",
+                "params": {
+                  "ids": [
+                    {
+                      "$ref": "badge.id"
+                    }
+                  ],
+                  "color": "#27ae60"
+                }
+              },
+              {
+                "command": "paint.setStroke",
+                "params": {
+                  "ids": [
+                    {
+                      "$ref": "badge.id"
+                    }
+                  ],
+                  "none": true
+                }
+              }
+            ],
+            "exports": [
+              {
+                "format": "pdf",
+                "artboard": 0
+              },
+              {
+                "format": "png",
+                "artboard": 0
+              }
+            ]
+          },
+          "assetBindings": [],
+          "outputs": [
+            {
+              "assetId": "preserve-pdf",
+              "location": "artboard-1.pdf",
+              "mediaType": "application/pdf"
+            }
+          ]
+        }
+      },
+      "execution": {
+        "token": "31c719aa-3822-4448-a708-26e6a5f15f14",
+        "status": "stopped",
+        "pid": 57773,
+        "commandHash": "ae98c38c90d651d0b77972a816dd738148903dc50c3475a672b47e89d48d9eb0",
+        "exitCode": 0,
+        "signal": null,
+        "groupStopped": true,
+        "diagnostics": {
+          "schema": "craft-native-diagnostics/v1",
+          "domainCode": null,
+          "source": null,
+          "stdout": {
+            "bytes": 1312,
+            "sha256": "dc0a9b8ac84213997ea9114ba3748e6800c48909dcf61340bae90ab1e31b2c28",
+            "truncated": false,
+            "complete": true
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "truncated": false,
+            "complete": true
+          }
+        }
+      },
+      "events": [
+        {
+          "toState": "planned",
+          "epoch": 0,
+          "detail": {
+            "planHash": "06e0d5b40fc92fcf93ac58909754b5949e0f288e692f7b18c089982310530112"
+          }
+        },
+        {
+          "toState": "ready",
+          "epoch": 0,
+          "detail": {}
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "attemptId": "18f6fa63-d514-4e64-98ad-3e994e5deb40"
+          }
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "execution": "prepared",
+            "commandHash": "ae98c38c90d651d0b77972a816dd738148903dc50c3475a672b47e89d48d9eb0"
+          }
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "execution": "spawned",
+            "pid": 57773
+          }
+        },
+        {
+          "toState": "running",
+          "epoch": 1,
+          "detail": {
+            "execution": "closed",
+            "exitCode": 0,
+            "signal": null,
+            "groupStopped": true,
+            "diagnostics": {
+              "schema": "craft-native-diagnostics/v1",
+              "domainCode": null,
+              "source": null,
+              "stdout": {
+                "bytes": 1312,
+                "sha256": "dc0a9b8ac84213997ea9114ba3748e6800c48909dcf61340bae90ab1e31b2c28",
+                "truncated": false,
+                "complete": true
+              },
+              "stderr": {
+                "bytes": 0,
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "truncated": false,
+                "complete": true
+              }
+            }
+          }
+        },
+        {
+          "toState": "verifying",
+          "epoch": 1,
+          "detail": {}
+        },
+        {
+          "toState": "review_ready",
+          "epoch": 1,
+          "detail": {
+            "outputHashes": [
+              "120dac17608499f895fd6c11d7121d26976c27a8d0d1e11b49ec2e87b82c4f64"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "accountKey": "001243646b14b2c3db12eed56ac02219752367797125b9d24036f3d23581e7d3",
+    "limits": {
+      "currency": "USD",
+      "maxMinorUnits": 0,
+      "maxRevisions": 2,
+      "maxExternalCalls": 0
+    },
+    "allocated": {
+      "minorUnits": 0,
+      "externalCalls": 0,
+      "revisions": 0
+    }
+  },
+  "state": "review_ready"
+}

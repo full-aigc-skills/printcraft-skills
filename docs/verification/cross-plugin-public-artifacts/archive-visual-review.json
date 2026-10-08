@@ -1,0 +1,7 @@
+{
+  "ruleVersion": 1,
+  "requestSha256": "fc75143f928bf09b9c7417b64e263aa13d87ba7a9f73fbe19bb79e5ddd255eab",
+  "decision": "approve",
+  "reviewer": "Codex actual image inspection",
+  "notes": "Only original synthetic badges. Final six PAM files match the actual inspected originals byte for byte: target red becomes blue; crop retains the full target; independent green page unchanged. No device or human acceptance claim."
+}

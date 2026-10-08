@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF 任务入口"
+  short_description: "General PDF task routing and verified delivery"
+  default_prompt: "Use $printcraft-use to handle the requested PDF task and verify its artifacts."
+policy:
+  allow_implicit_invocation: true

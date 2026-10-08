@@ -1,0 +1,54 @@
+{
+  "protocol": "printcraft.verification/1",
+  "ruleVersion": 1,
+  "runId": null,
+  "inputSha256": {},
+  "requestSha256": "12aad0b94ceea769f25e1092734976b539394017a18716ba3e9b5fb1646cad43",
+  "artifacts": [
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/scan.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 7286,
+      "sha256": "c244d838826a97532fa94f6c865ab46c8ae7d91713106ecabe8eb4844d33dddb",
+      "info": {
+        "annotations": 0,
+        "attachments": 0,
+        "author": null,
+        "bookmarks": 0,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/scan.pdf",
+        "file_size": 7286,
+        "first_page_pt": [
+          612.0,
+          792.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1"
+        ],
+        "pages": 1,
+        "pdf_version": "1.4",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        ""
+      ],
+      "textClassification": "EMPTY_NEEDS_OCR_OR_INTENT_REVIEW",
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "DETERMINISTIC_PASS_REVIEW_REQUIRED",
+  "completeAcceptance": false,
+  "visualReview": "NOT_RUN",
+  "automaticRevision": false
+}

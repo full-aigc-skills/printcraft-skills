@@ -1,0 +1,32 @@
+{
+  "first": {
+    "command": [
+      "node",
+      "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-plugins-repositories/artcraft-plugin/src/cli.ts",
+      "verify-package",
+      "--package",
+      "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/package-v1",
+      "--sha",
+      "d569dbfb3854858a45d756d33c0d260051cc9910d877e0239cdd99bd65e3c0a1"
+    ],
+    "exitCode": 0,
+    "sha256": "d569dbfb3854858a45d756d33c0d260051cc9910d877e0239cdd99bd65e3c0a1",
+    "children": 2,
+    "files": 21
+  },
+  "second": {
+    "command": [
+      "node",
+      "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-plugins-repositories/artcraft-plugin/src/cli.ts",
+      "verify-package",
+      "--package",
+      "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/package-v2",
+      "--sha",
+      "fa02f77e93212f049e44d4c6b31ea8fc007ffa06ad84bb6d813b582d28198200"
+    ],
+    "exitCode": 0,
+    "sha256": "fa02f77e93212f049e44d4c6b31ea8fc007ffa06ad84bb6d813b582d28198200",
+    "children": 2,
+    "files": 30
+  }
+}

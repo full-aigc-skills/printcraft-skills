@@ -1,0 +1,7 @@
+{
+  "nodeVersion": "v24.15.0",
+  "nodeSha256": "f124ba7e98dfa5ec42c302d2c7c14d05038108736fb66bd8c058ebe6e258b7f1",
+  "pythonVersion": "Python 3.13.5",
+  "pythonSha256": "5527e998a5bd993c838437c9326e6de73bd4e3820f2931247458022df251a2ce",
+  "platformScope": "macOS arm64, local current source, no host cross-plugin discovery claim"
+}

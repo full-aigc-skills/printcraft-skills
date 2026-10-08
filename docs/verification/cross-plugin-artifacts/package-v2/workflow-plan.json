@@ -1,0 +1,184 @@
+{
+  "workflowId": "printcraft-cross-plugin",
+  "ownerId": "fixture-owner",
+  "revision": "v2",
+  "authorizationRef": "printcraft-cross-plugin-fixtures",
+  "budget": {
+    "currency": "USD",
+    "maxMinorUnits": 0,
+    "maxRevisions": 2,
+    "maxExternalCalls": 0
+  },
+  "deadline": "2026-10-08T11:00:16.217Z",
+  "nodes": [
+    {
+      "id": "change",
+      "dependsOn": [],
+      "projectKey": "change",
+      "runtimeIdentity": {
+        "pluginId": "vectorcraft",
+        "pluginVersion": "0.1.0-cross-plugin-acceptance",
+        "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+        "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+        "mode": "headless",
+        "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+      },
+      "expectedRevision": "f260a47320647d0051a6181c80b3abeb72406866438a3c36e88237ed85de9a8b",
+      "payload": {
+        "schemaVersion": "craft-skill-workflow/v1",
+        "plan": {
+          "operations": [
+            {
+              "command": "paint.setFill",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "color": "#2458d6"
+              }
+            }
+          ],
+          "exports": [
+            {
+              "format": "pdf",
+              "artboard": 0
+            },
+            {
+              "format": "png",
+              "artboard": 0
+            }
+          ]
+        },
+        "assetBindings": [],
+        "outputs": [
+          {
+            "assetId": "change-pdf",
+            "location": "artboard-1.pdf",
+            "mediaType": "application/pdf"
+          }
+        ],
+        "sourceProject": {
+          "assetId": "change-pdf"
+        }
+      },
+      "externalInputs": [
+        {
+          "root": "/tmp/printcraft-acceptance/cross-plugin-final/producer/deliveries/0128370e7d9394064f288bcfd8444daba9ad58c8bb2d0ca6d46ba7b5420b3460/delivery",
+          "artifact": {
+            "protocolVersion": "craft-artifact/v1",
+            "assetId": "change-pdf",
+            "version": "7bf53e5e78ee52092659f48e435622f779e2d6e18519ce08b605e44f8643e009",
+            "sha256": "7bf53e5e78ee52092659f48e435622f779e2d6e18519ce08b605e44f8643e009",
+            "bytes": 4207,
+            "mediaType": "application/pdf",
+            "producerTaskId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3",
+            "sourceRefs": [],
+            "nativeProjectRef": {
+              "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-bd874764e1b6eff2",
+              "version": "f260a47320647d0051a6181c80b3abeb72406866438a3c36e88237ed85de9a8b",
+              "sha256": "f260a47320647d0051a6181c80b3abeb72406866438a3c36e88237ed85de9a8b",
+              "location": "project.vectorcraft"
+            },
+            "renditions": [],
+            "dependencies": [],
+            "technicalMetadata": {},
+            "lossReportRef": {
+              "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-832b6e90dd1c3c59",
+              "version": "62389aab2f4a27304fd38ab5b16f6175e80b54685da6f7c848849a2134571a96",
+              "sha256": "62389aab2f4a27304fd38ab5b16f6175e80b54685da6f7c848849a2134571a96",
+              "location": "exchange-loss.json"
+            },
+            "evidenceRefs": [
+              {
+                "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-ffa5b716b5a57837",
+                "version": "0d8d9c41179a5761ae7995a471854400bc6c560485b05e2b4d910948f95e826c",
+                "sha256": "0d8d9c41179a5761ae7995a471854400bc6c560485b05e2b4d910948f95e826c",
+                "location": "manifest.json"
+              }
+            ],
+            "location": "artboard-1.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "id": "preserve",
+      "dependsOn": [],
+      "projectKey": "preserve",
+      "runtimeIdentity": {
+        "pluginId": "vectorcraft",
+        "pluginVersion": "0.1.0-cross-plugin-acceptance",
+        "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+        "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+        "mode": "headless",
+        "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+      },
+      "expectedRevision": null,
+      "payload": {
+        "schemaVersion": "craft-skill-workflow/v1",
+        "plan": {
+          "document": {
+            "name": "preserve",
+            "width": 128,
+            "height": 96,
+            "units": "Points"
+          },
+          "operations": [
+            {
+              "command": "shape.rectangle",
+              "params": {
+                "x": 24,
+                "y": 24,
+                "width": 64,
+                "height": 48
+              },
+              "as": "badge"
+            },
+            {
+              "command": "paint.setFill",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "color": "#27ae60"
+              }
+            },
+            {
+              "command": "paint.setStroke",
+              "params": {
+                "ids": [
+                  {
+                    "$ref": "badge.id"
+                  }
+                ],
+                "none": true
+              }
+            }
+          ],
+          "exports": [
+            {
+              "format": "pdf",
+              "artboard": 0
+            },
+            {
+              "format": "png",
+              "artboard": 0
+            }
+          ]
+        },
+        "assetBindings": [],
+        "outputs": [
+          {
+            "assetId": "preserve-pdf",
+            "location": "artboard-1.pdf",
+            "mediaType": "application/pdf"
+          }
+        ]
+      }
+    }
+  ]
+}

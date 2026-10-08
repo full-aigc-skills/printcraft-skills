@@ -1,0 +1,6 @@
+interface:
+  display_name: "页面编辑"
+  short_description: "Edit PDF pages with order and geometry checks"
+  default_prompt: "Use $printcraft-cli-pages to handle the requested PDF task and verify its artifacts."
+policy:
+  allow_implicit_invocation: false

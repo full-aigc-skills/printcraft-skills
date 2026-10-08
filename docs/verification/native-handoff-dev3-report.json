@@ -1,0 +1,311 @@
+{
+  "runtimeVersion": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft",
+  "originalSha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+  "results": {
+    "reorder": {
+      "status": "PASS",
+      "details": {
+        "executionRunId": "caa2fb0d-875d-488a-a981-47f209f1096d",
+        "sha256": "2d32fe62fca1bc260363d1ac5166748eac307b8970c20261bac34eff8810cb30",
+        "text": [
+          "PAGE-GAMMA",
+          "PAGE-ALPHA",
+          "PAGE-BETA"
+        ],
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/tmp/printcraft-acceptance/native-handoff-dev3/reorder.pdf",
+          "file_size": 919,
+          "first_page_pt": [
+            612.0,
+            792.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        }
+      }
+    },
+    "extract": {
+      "status": "PASS",
+      "details": {
+        "runId": "1586e0ae-9f6b-4493-b8f1-24f48ed583e7",
+        "sha256": "29f31c46c9180c09b36022497a2dfe7289fceb16f118d8e88cc5a370c183ead2"
+      }
+    },
+    "combine": {
+      "status": "PASS",
+      "details": {
+        "runId": "d3dc03f6-7641-4b9b-8054-55997030eb82",
+        "sha256": "b2eb419afb1336b231b677f41a5424e203fa7edbe3b33d04b1f678745aa6c3cc"
+      }
+    },
+    "rotate": {
+      "status": "PASS",
+      "details": {
+        "executionRunId": "b476ed63-6a8c-43fe-be5b-24696ea5c80e",
+        "sha256": "54b9ec41d0dd744852bcf95bf290f5131459441e741eab0d4aac5abd36a68431",
+        "text": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ],
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/tmp/printcraft-acceptance/native-handoff-dev3/rotate.pdf",
+          "file_size": 928,
+          "first_page_pt": [
+            792.0,
+            612.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        }
+      }
+    },
+    "crop": {
+      "status": "PASS",
+      "details": {
+        "executionRunId": "8db1daa1-e127-419d-81c9-8496068d56db",
+        "sha256": "dc0c399664ca7a4a62117ef9e58254efe0dec73467e46f1acbd1b8221b41c599",
+        "text": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ],
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/tmp/printcraft-acceptance/native-handoff-dev3/crop.pdf",
+          "file_size": 936,
+          "first_page_pt": [
+            592.0,
+            772.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        }
+      }
+    },
+    "partial_write_failure": {
+      "status": "PASS",
+      "details": {
+        "runId": "f41db41c-ef25-4267-a83a-4e9f71f088c6",
+        "status": "FAILED_OR_PARTIAL",
+        "artifacts": [
+          {
+            "path": "/tmp/printcraft-acceptance/native-handoff-dev3/partial.pdf",
+            "role": "delivery",
+            "mediaType": "application/pdf",
+            "status": "PRESENT",
+            "size": 921,
+            "sha256": "3e51afd7356becb814c1173bf6f1c0487734e6e104292012d2840dbb1ea9bf16"
+          }
+        ]
+      }
+    },
+    "form_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "fields": {
+          "count": 1,
+          "fields": [
+            {
+              "multiline": false,
+              "name": "sample",
+              "page": 1,
+              "read_only": false,
+              "rect": [
+                72.0,
+                120.0,
+                200.0,
+                150.0
+              ],
+              "required": false,
+              "type": "text",
+              "value": "verified form"
+            }
+          ]
+        },
+        "sha256": "7a37941e2e8f436cb7f315742f5004d75d20ec0087578c0a5e69a59aa609433f"
+      }
+    },
+    "pdfa_subset_report": {
+      "status": "PASS",
+      "details": {
+        "compliant": false,
+        "declared": {
+          "output_intents": [],
+          "pdfa": null,
+          "pdfua": null
+        },
+        "issues": [
+          {
+            "clause": "6.6.2.1",
+            "fixable": true,
+            "message": "The document has no XMP metadata",
+            "page": null
+          },
+          {
+            "clause": "6.2.11.4",
+            "fixable": false,
+            "message": "The font Helvetica isn't embedded",
+            "page": null
+          }
+        ],
+        "level": "PDF/A-2b"
+      }
+    },
+    "unsigned_signature_inspection": {
+      "status": "PASS",
+      "details": {
+        "unsignedDocument": {
+          "all_valid": false,
+          "count": 0,
+          "signatures": [],
+          "signed": 0
+        },
+        "actualSigning": "NOT_RUN_NO_TEST_IDENTITY"
+      }
+    },
+    "redaction_text_objects_render": {
+      "status": "PASS",
+      "details": {
+        "sha256": "d54761fb883bdbdb109ba931d973fd1c8741cdef74e53e9e877f6b08a7fb93bd",
+        "removedTextAbsent": true,
+        "objectBytesAbsent": true,
+        "render": "redacted.pam",
+        "visualReview": "NOT_RUN"
+      }
+    },
+    "signature_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "sha256": "d339233c433451e9d677c89bb27f0e24c90866b5b01aa3e77431e31d8ac665f2",
+        "signatures": {
+          "all_valid": false,
+          "count": 1,
+          "signatures": [
+            {
+              "algorithm": "RSA 2048-bit with SHA-256",
+              "certificate": {
+                "email": null,
+                "issuer": "CN=PrintCraft Test Only",
+                "key": "RSA 2048-bit",
+                "name": "PrintCraft Test Only",
+                "self_signed": true,
+                "serial": "7763FEEF87108F2A",
+                "sha256": "D3 46 9D 3D C9 3F 9F ED C1 C3 F5 72 E1 08 85 30 ED 82 51 28 2A 24 44 00 9F 94 83 C0 E1 2C B9 0D",
+                "subject": "CN=PrintCraft Test Only",
+                "valid_from": "2026.10.08 10:58:52 UTC",
+                "valid_to": "2031.10.08 10:58:52 UTC"
+              },
+              "certify": null,
+              "chain": [],
+              "changes": [],
+              "contact": null,
+              "date": "D:20261008185852+08'00'",
+              "details": [
+                "This document has not been modified since this signature was applied.",
+                "The signer's identity is unknown because it has not been included in your list of trusted certificates and none of its parent certificates are trusted certificates.",
+                "Signing time is from the clock on the signer's computer."
+              ],
+              "field": "Signature1",
+              "location": null,
+              "modification": "none",
+              "page": 1,
+              "reason": null,
+              "rect": null,
+              "revision": 2,
+              "signed": true,
+              "signer": "PrintCraft Test Only",
+              "status": "unknown",
+              "sub_filter": "ETSI.CAdES.detached",
+              "summary": "Signature validity is unknown",
+              "timestamp": false,
+              "visible": false
+            }
+          ],
+          "signed": 1
+        },
+        "trust": "SELF_SIGNED_FIXTURE_ONLY"
+      }
+    },
+    "ocr_status": {
+      "status": "OBSERVED",
+      "details": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/models",
+          "/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/../Resources/models",
+          "/Users/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+        ]
+      },
+      "chineseRecognition": "NOT_RUN",
+      "otherPlatforms": "NOT_RUN"
+    }
+  },
+  "sourceUnchanged": true,
+  "visualReview": "NOT_RUN"
+}

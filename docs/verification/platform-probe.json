@@ -1,0 +1,72 @@
+{
+  "nativeSha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+  "version": {
+    "command": [
+      "/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+      "--version"
+    ],
+    "exitCode": 0,
+    "stdout": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft\n",
+    "stderr": ""
+  },
+  "ocrStatus": {
+    "command": [
+      "/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+      "run",
+      "--script",
+      "/tmp/printcraft-acceptance/platform-probe/ocr-status-plan.json"
+    ],
+    "exitCode": 0,
+    "stdout": "{\n  \"available\": false,\n  \"languages\": [\n    {\n      \"code\": \"en\",\n      \"name\": \"English\"\n    }\n  ],\n  \"search_dirs\": [\n    \"/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/models\",\n    \"/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/../Resources/models\",\n    \"/Users/runner/work/printcraft/printcraft/crates/ocr/../../assets/models\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  "chineseRequest": {
+    "command": [
+      "/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+      "run",
+      "--script",
+      "/tmp/printcraft-acceptance/platform-probe/ocr-zh-plan.json"
+    ],
+    "exitCode": 1,
+    "stdout": "",
+    "stderr": "printcraft-cli: step 1 (ocr_recognize): unsupported language \"zh\"\n"
+  },
+  "macosX86Attempt": {
+    "command": [
+      "/usr/bin/arch",
+      "-x86_64",
+      "/tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+      "--version"
+    ],
+    "exitCode": 1,
+    "stdout": "",
+    "stderr": "arch: posix_spawnp: /tmp/printcraft-acceptance/隔离 runtime/printcraft/0.2.1/printcraft-cli: Bad CPU type in executable\n"
+  },
+  "linuxContainerAttempt": {
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--network",
+      "none",
+      "--entrypoint",
+      "/bin/sh",
+      "-v",
+      "/tmp/printcraft-acceptance/linux-native:/native:ro",
+      "mysql:8.4",
+      "-c",
+      "/native/printcraft-cli --version"
+    ],
+    "exitCode": 125,
+    "stdout": "",
+    "stderr": "docker: Error response from daemon: write /var/lib/desktop-containerd/daemon/io.containerd.metadata.v1.bolt/meta.db: read-only file system\n\nRun 'docker run --help' for more information\n"
+  },
+  "linuxArtifact": {
+    "version": "0.2.1",
+    "archiveFilename": "printcraft-0.2.1-linux-aarch64.tar.gz",
+    "archiveSha256": "c7ae5dac00b3c11bea4e7cc502878a1b6ab520362d09885293e48417452e5dc0",
+    "binarySha256": "8123365733dbfd70e982eaad2bec6e12b87a203ee9ffa9acf7bc8ceba6a0ad36",
+    "archiveMember": "printcraft-0.2.1-linux-aarch64/bin/printcraft-cli"
+  },
+  "remoteWindows": "NOT_RUN_CONNECTOR_UNAVAILABLE"
+}

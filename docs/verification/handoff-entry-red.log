@@ -1,0 +1,23 @@
+test_compatible_explicit_version_without_native_install (test_handoff_entry.PublicHandoff.test_compatible_explicit_version_without_native_install) ... FAIL
+
+======================================================================
+FAIL: test_compatible_explicit_version_without_native_install (test_handoff_entry.PublicHandoff.test_compatible_explicit_version_without_native_install)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_handoff_entry.py", line 19, in test_compatible_explicit_version_without_native_install
+    self.assertEqual(result.returncode,0,result.stdout+result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: commands.py [-h] [--catalog CATALOG] [--runtime-home RUNTIME_HOME]
+                   [--archive ARCHIVE] [--output OUTPUT] [--source SOURCE]
+                   [--library LIBRARY] [--import IMPORTS] [--root ROOT]
+                   [--input INPUTS] [--allow-scope ALLOW_SCOPE]
+                   [--expect EXPECT] [--run-id RUN_ID]
+                   {list,describe,check,run,status,reconcile,verify}
+                   [argument]
+commands.py: error: argument action: invalid choice: 'handoff' (choose from list, describe, check, run, status, reconcile, verify)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.054s
+
+FAILED (failures=1)

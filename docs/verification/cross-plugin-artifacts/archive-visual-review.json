@@ -1,0 +1,7 @@
+{
+  "ruleVersion": 1,
+  "requestSha256": "648eba5a2d7d3449d9ab09dc57ee3218cc5aba03e99f573026eee90533644447",
+  "decision": "approve",
+  "reviewer": "Codex actual image inspection",
+  "notes": "Only original synthetic badges: red-to-blue target change, blue cropped page remains complete, independent green page unchanged. Inspected images and final PAM hashes agree; no mobile-device or broad creative claim."
+}

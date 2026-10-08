@@ -1,0 +1,67 @@
+{
+  "protocol": "printcraft.verification/1",
+  "ruleVersion": 1,
+  "runId": null,
+  "inputSha256": {
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": "54fd26bcf4b9ef5e3aa9ad3ac88f9748832ea2ae6299362116b59d12369369cc",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef"
+  },
+  "requestSha256": "fc75143f928bf09b9c7417b64e263aa13d87ba7a9f73fbe19bb79e5ddd255eab",
+  "artifacts": [
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/revised.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 4996,
+      "sha256": "42db8b468aab763d66ac02aa893f32337ef4b983e2d4e4cf7e03311fad0664b7",
+      "info": {
+        "annotations": 0,
+        "attachments": 2,
+        "author": null,
+        "bookmarks": 2,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-public-artifacts/revised.pdf",
+        "file_size": 4996,
+        "first_page_pt": [
+          120.0,
+          88.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2"
+        ],
+        "pages": 2,
+        "pdf_version": "1.7",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "",
+        ""
+      ],
+      "textClassification": "EMPTY_NEEDS_OCR_OR_INTENT_REVIEW",
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "VERIFIED",
+  "completeAcceptance": true,
+  "visualReview": {
+    "ruleVersion": 1,
+    "requestSha256": "fc75143f928bf09b9c7417b64e263aa13d87ba7a9f73fbe19bb79e5ddd255eab",
+    "decision": "approve",
+    "reviewer": "Codex actual image inspection",
+    "notes": "Only original synthetic badges. Final six PAM files match the actual inspected originals byte for byte: target red becomes blue; crop retains the full target; independent green page unchanged. No device or human acceptance claim."
+  },
+  "automaticRevision": false
+}

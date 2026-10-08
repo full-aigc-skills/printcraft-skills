@@ -1,0 +1,80 @@
+[
+  {
+    "command": "document.open",
+    "params": {
+      "path": "project.vectorcraft"
+    },
+    "result": {
+      "format": "vectorcraft",
+      "index": 1,
+      "missingLinks": [],
+      "modifiedLinks": [],
+      "restored": false,
+      "title": "project.vectorcraft",
+      "updatedLinks": [],
+      "warnings": []
+    }
+  },
+  {
+    "command": "paint.setFill",
+    "params": {
+      "ids": [
+        2
+      ],
+      "color": "#2458d6"
+    },
+    "result": null
+  },
+  {
+    "command": "text.fonts",
+    "params": {},
+    "result": []
+  },
+  {
+    "command": "document.save",
+    "params": {
+      "path": "project.vectorcraft"
+    },
+    "result": {
+      "bytes": 23889,
+      "format": "vectorcraft",
+      "path": "project.vectorcraft",
+      "warnings": []
+    }
+  },
+  {
+    "command": "document.export",
+    "params": {
+      "path": "artboard-1.pdf",
+      "format": "pdf",
+      "artboard": 0,
+      "artboards": [
+        0
+      ],
+      "created": 1791457028
+    },
+    "result": {
+      "bytes": 4207,
+      "format": "pdf",
+      "path": "artboard-1.pdf",
+      "warnings": []
+    }
+  },
+  {
+    "command": "document.export",
+    "params": {
+      "path": "artboard-1.png",
+      "format": "png",
+      "artboard": 0,
+      "artboards": [
+        0
+      ]
+    },
+    "result": {
+      "bytes": 334,
+      "format": "png",
+      "path": "artboard-1.png",
+      "warnings": []
+    }
+  }
+]

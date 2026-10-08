@@ -1,0 +1,12 @@
+{
+  "protocol": "printcraft.verification/1",
+  "ruleVersion": 1,
+  "outputs": [
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/artifacts/scan.pdf",
+      "sha256": "c244d838826a97532fa94f6c865ab46c8ae7d91713106ecabe8eb4844d33dddb",
+      "pages": 1,
+      "textPolicy": "scan"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schema": "craft-project-package/v1",
+  "state": "review_ready",
+  "workflow": {
+    "runKey": "f4f4c7561af5e8b4fb5c121750cd83c1f885056b10ce038da8455d8e439cc29e",
+    "ownerId": "fixture-owner",
+    "workflowId": "printcraft-cross-plugin",
+    "revision": "v1",
+    "authorizationRef": "printcraft-cross-plugin-fixtures",
+    "planSha256": "9a470b05606980531e9cc7efdb536d3172d861d12372bc4ea8cfb16f8aaf1e9a",
+    "portablePlanSha256": "9a470b05606980531e9cc7efdb536d3172d861d12372bc4ea8cfb16f8aaf1e9a"
+  },
+  "children": [
+    {
+      "nodeId": "change",
+      "taskId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3",
+      "projectKey": "change",
+      "runtimeIdentity": {
+        "pluginId": "vectorcraft",
+        "pluginVersion": "0.1.0-cross-plugin-acceptance",
+        "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+        "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+        "mode": "headless",
+        "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+      },
+      "root": "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51",
+      "outputs": [
+        {
+          "protocolVersion": "craft-artifact/v1",
+          "assetId": "change-pdf",
+          "version": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+          "sha256": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+          "bytes": 4207,
+          "mediaType": "application/pdf",
+          "producerTaskId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3",
+          "sourceRefs": [],
+          "nativeProjectRef": {
+            "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-bd874764e1b6eff2",
+            "version": "3ad1114bf9bef3798764cd13ef7de209b025cc2f3ef0ba17f7154b3a1386d442",
+            "sha256": "3ad1114bf9bef3798764cd13ef7de209b025cc2f3ef0ba17f7154b3a1386d442",
+            "location": "project.vectorcraft"
+          },
+          "renditions": [],
+          "dependencies": [],
+          "technicalMetadata": {},
+          "lossReportRef": {
+            "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-832b6e90dd1c3c59",
+            "version": "0343690c47076cda11eb68104e7a18f0c05d77802871d96de864b63d88410f24",
+            "sha256": "0343690c47076cda11eb68104e7a18f0c05d77802871d96de864b63d88410f24",
+            "location": "exchange-loss.json"
+          },
+          "evidenceRefs": [
+            {
+              "assetId": "wf-90a987ed8a20fe4cb7e7e0f8c472a8e3be11520cc9cd2fa3-ffa5b716b5a57837",
+              "version": "8b8a53173f5045172bf28f4e959fd8b3614a1464040a821e424b1abae0b94b45",
+              "sha256": "8b8a53173f5045172bf28f4e959fd8b3614a1464040a821e424b1abae0b94b45",
+              "location": "manifest.json"
+            }
+          ],
+          "location": "artboard-1.pdf"
+        }
+      ]
+    },
+    {
+      "nodeId": "preserve",
+      "taskId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638",
+      "projectKey": "preserve",
+      "runtimeIdentity": {
+        "pluginId": "vectorcraft",
+        "pluginVersion": "0.1.0-cross-plugin-acceptance",
+        "cliVersion": "vectorcraft-cli 0.2.0-craft.2",
+        "sha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+        "mode": "headless",
+        "capabilitySnapshotSha256": "3c0502d55737eba4ac921503ff775c53559c17ea0ea88168b670d288fe06ed9a"
+      },
+      "root": "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3",
+      "outputs": [
+        {
+          "protocolVersion": "craft-artifact/v1",
+          "assetId": "preserve-pdf",
+          "version": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+          "sha256": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+          "bytes": 4210,
+          "mediaType": "application/pdf",
+          "producerTaskId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638",
+          "sourceRefs": [],
+          "nativeProjectRef": {
+            "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-bd874764e1b6eff2",
+            "version": "8627a26e76cbc5158d3f4cf9442b0acf67c7d7d84885f239ed7a5353f2212fca",
+            "sha256": "8627a26e76cbc5158d3f4cf9442b0acf67c7d7d84885f239ed7a5353f2212fca",
+            "location": "project.vectorcraft"
+          },
+          "renditions": [],
+          "dependencies": [],
+          "technicalMetadata": {},
+          "lossReportRef": {
+            "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-832b6e90dd1c3c59",
+            "version": "c2b92052985f645151560388d918c6384e0826bd19de09d4a1573771d2608e79",
+            "sha256": "c2b92052985f645151560388d918c6384e0826bd19de09d4a1573771d2608e79",
+            "location": "exchange-loss.json"
+          },
+          "evidenceRefs": [
+            {
+              "assetId": "wf-25cd0548fb7012cfa44f046fbec33379a4fb4d50577b4638-ffa5b716b5a57837",
+              "version": "fdc98b9d1774753c2292f318c67b1426283935b599e579d64f102ffb02018053",
+              "sha256": "fdc98b9d1774753c2292f318c67b1426283935b599e579d64f102ffb02018053",
+              "location": "manifest.json"
+            }
+          ],
+          "location": "artboard-1.pdf"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "files": {
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/plan.json": {
+      "sha256": "babb20b040fc48e9bf9855eff2069b67a0f018e4656ba6b34e8a12a8bef87995",
+      "bytes": 791
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/project.vectorcraft": {
+      "sha256": "3ad1114bf9bef3798764cd13ef7de209b025cc2f3ef0ba17f7154b3a1386d442",
+      "bytes": 23889
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/exchange-loss.json": {
+      "sha256": "0343690c47076cda11eb68104e7a18f0c05d77802871d96de864b63d88410f24",
+      "bytes": 2821
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/native.json": {
+      "sha256": "a7b035d350d2717144493d485e426934f92f61c936b239b936a9cb58a3e63e2a",
+      "bytes": 22805
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": {
+      "sha256": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+      "bytes": 4207
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.png": {
+      "sha256": "ee9954be079cbe31a2097ebf5bbdf86d2a097af37ef474d1034056e492461cd3",
+      "bytes": 334
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/operations.json": {
+      "sha256": "2f6d9bb6d1ab0be6fd5d7fc96d718830c9f2f4f16c0fbfdc9fe5c3dfadfd8c3b",
+      "bytes": 1605
+    },
+    "children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/manifest.json": {
+      "sha256": "8b8a53173f5045172bf28f4e959fd8b3614a1464040a821e424b1abae0b94b45",
+      "bytes": 1474
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/plan.json": {
+      "sha256": "86f32a18d155814bb76ff36c5c884c9ca1a181e1ed0001381edb35265733f235",
+      "bytes": 793
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/project.vectorcraft": {
+      "sha256": "8627a26e76cbc5158d3f4cf9442b0acf67c7d7d84885f239ed7a5353f2212fca",
+      "bytes": 23891
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/exchange-loss.json": {
+      "sha256": "c2b92052985f645151560388d918c6384e0826bd19de09d4a1573771d2608e79",
+      "bytes": 2821
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/native.json": {
+      "sha256": "465b154b9256eca9aa33a2366fe5d02aed125b58a377670d8d0ae01ff1d96677",
+      "bytes": 22806
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": {
+      "sha256": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+      "bytes": 4210
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.png": {
+      "sha256": "cb99fda5a7983e7871fdd630c2e7a962e6d9322890f536e48b63bd82c283e19a",
+      "bytes": 336
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/operations.json": {
+      "sha256": "34f46c94cfb0f079375fcfb13c82bda0b4135ee4f91b70f664dee52cee9116b2",
+      "bytes": 1607
+    },
+    "children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/manifest.json": {
+      "sha256": "fdc98b9d1774753c2292f318c67b1426283935b599e579d64f102ffb02018053",
+      "bytes": 1474
+    },
+    "workflow-plan.json": {
+      "sha256": "de7fc10b574cd5ca777516203937dfa5dd478c2e10a6274e651d963d5bfc4cfd",
+      "bytes": 4380
+    },
+    "workflow-plan-portable.json": {
+      "sha256": "de7fc10b574cd5ca777516203937dfa5dd478c2e10a6274e651d963d5bfc4cfd",
+      "bytes": 4380
+    },
+    "workflow-record.json": {
+      "sha256": "dc9782dfa213daa5d60f3e325b0b5886cf0c8a94eee471e2345197ce80b11d00",
+      "bytes": 17596
+    }
+  }
+}

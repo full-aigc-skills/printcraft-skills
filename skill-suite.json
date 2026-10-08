@@ -1,0 +1,16 @@
+{
+  "domain": "printcraft",
+  "version": "0.1.0-dev.3",
+  "nativeVersion": "0.2.1",
+  "skills": [
+    "printcraft-cli",
+    "printcraft-cli-automation",
+    "printcraft-cli-inspect",
+    "printcraft-cli-pages",
+    "printcraft-cli-setup",
+    "printcraft-use"
+  ],
+  "sourceStatus": "published-release",
+  "repository": "https://github.com/full-aigc-skills/printcraft-skills",
+  "releaseTag": "v0.1.0-dev.3"
+}

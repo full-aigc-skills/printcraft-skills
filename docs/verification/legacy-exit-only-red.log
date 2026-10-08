@@ -1,0 +1,17 @@
+.......F..
+======================================================================
+FAIL: test_actual_gateway_cli_and_native_timeout_keep_unknown (test_execution_hardening.RealNestedGateway.test_actual_gateway_cli_and_native_timeout_keep_unknown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_execution_hardening.py", line 100, in test_actual_gateway_cli_and_native_timeout_keep_unknown
+    receipt=json.loads((root/'task/receipt.json').read_text());self.assertEqual(receipt['status'],'UNKNOWN');self.assertEqual(receipt['phase'],'native-timeout');self.assertIn('partial-native',receipt['stdout'])
+                                                               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'FAILED_OR_PARTIAL' != 'UNKNOWN'
+- FAILED_OR_PARTIAL
++ UNKNOWN
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.794s
+
+FAILED (failures=1)

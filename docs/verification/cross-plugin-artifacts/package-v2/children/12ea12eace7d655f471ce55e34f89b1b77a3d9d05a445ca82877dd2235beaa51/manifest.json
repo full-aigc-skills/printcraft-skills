@@ -1,0 +1,41 @@
+{
+  "schema": "vectorcraft-delivery/v1",
+  "sourceProjectSha256": "f260a47320647d0051a6181c80b3abeb72406866438a3c36e88237ed85de9a8b",
+  "runtimeSha256": "ac47d32f34b8910dd559cff59d64cafaaade066227714359d1821cb2b0e59d1b",
+  "bindings": {
+    "badge": {
+      "id": 2
+    }
+  },
+  "outputs": [
+    {
+      "path": "artboard-1.pdf",
+      "artboardId": 1,
+      "warnings": [],
+      "pdfCreated": 1791456616,
+      "pdfDateBinding": "native-document-created"
+    },
+    {
+      "path": "artboard-1.png",
+      "artboardId": 1,
+      "warnings": []
+    }
+  ],
+  "fontDependencies": [],
+  "assets": {},
+  "files": {
+    "plan.json": "21ee1db1c0172d684cdfd6add40771694eb4db9c480dc08c33cdd8748f2e155d",
+    "project.vectorcraft": "c99e19ca9050fbcf6ac699ce5a0399e85aa9bade38d68f2e409bb5f23b60938c",
+    "exchange-loss.json": "4c112b89cf0bc965c2c6c7ad5968a7e8adf3f44f6759e7f60c4cdace7c69b847",
+    "pdf-export-date.json": "3e4bcd020edee8fb65e94c6ada7f9d1c8489e9da3425e865ba3aa8b5e868b770",
+    "native.json": "045e01d02754fefe26d96eab160c1ee1fd7d4b57ebad21ebc6d5dca15a63b367",
+    "artboard-1.pdf": "64e0e93ede070638269304abc164314653b56af4ba44cad732c766458e84deee",
+    "artboard-1.png": "42934385bbbaded8f2190024bedcae959515e5eca5cb9a8e70c8b13e3a5c6744",
+    "operations.json": "6c282a03bcfef19ed73ef66c1ab05d16f2961d017a92ccb92e8574f7f679c109"
+  },
+  "lossReport": {
+    "path": "exchange-loss.json",
+    "sha256": "4c112b89cf0bc965c2c6c7ad5968a7e8adf3f44f6759e7f60c4cdace7c69b847"
+  },
+  "acceptance": "requires-domain-and-visual-review"
+}

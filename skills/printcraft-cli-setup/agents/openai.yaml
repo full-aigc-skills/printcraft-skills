@@ -1,0 +1,6 @@
+interface:
+  display_name: "安装与只读诊断"
+  short_description: "Diagnose and install the pinned PDF runtime"
+  default_prompt: "Use $printcraft-cli-setup to handle the requested PDF task and verify its artifacts."
+policy:
+  allow_implicit_invocation: false

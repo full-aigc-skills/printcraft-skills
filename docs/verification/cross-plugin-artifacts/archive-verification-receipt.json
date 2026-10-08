@@ -1,0 +1,61 @@
+{
+  "protocol": "printcraft.verification/1",
+  "ruleVersion": 1,
+  "runId": null,
+  "inputSha256": {
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": "7bf53e5e78ee52092659f48e435622f779e2d6e18519ce08b605e44f8643e009",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": "120dac17608499f895fd6c11d7121d26976c27a8d0d1e11b49ec2e87b82c4f64",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": "64e0e93ede070638269304abc164314653b56af4ba44cad732c766458e84deee",
+    "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": "120dac17608499f895fd6c11d7121d26976c27a8d0d1e11b49ec2e87b82c4f64"
+  },
+  "requestSha256": "648eba5a2d7d3449d9ab09dc57ee3218cc5aba03e99f573026eee90533644447",
+  "artifacts": [
+    {
+      "path": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/revised.pdf",
+      "role": "delivery",
+      "mediaType": "application/pdf",
+      "size": 4996,
+      "sha256": "533bf6921cf4c29b05cb06402f8fc705007138e6b5bf1d9527fe49e651330886",
+      "info": {
+        "annotations": 0,
+        "attachments": 2,
+        "author": null,
+        "bookmarks": 2,
+        "creator": null,
+        "encrypted": false,
+        "fields": 0,
+        "file": "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/docs/verification/cross-plugin-artifacts/revised.pdf",
+        "file_size": 4996,
+        "first_page_pt": [
+          120.0,
+          88.0
+        ],
+        "javascript": false,
+        "layers": 0,
+        "links": 0,
+        "page_labels": [
+          "1",
+          "2"
+        ],
+        "pages": 2,
+        "pdf_version": "1.7",
+        "producer": null,
+        "tagged": false,
+        "title": null,
+        "warnings": [],
+        "xfa": null
+      },
+      "pageText": [
+        "",
+        ""
+      ],
+      "textClassification": "EMPTY_NEEDS_OCR_OR_INTENT_REVIEW",
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "DETERMINISTIC_PASS_REVIEW_REQUIRED",
+  "completeAcceptance": false,
+  "visualReview": "NOT_RUN",
+  "automaticRevision": false
+}
