@@ -1,0 +1,75 @@
+test_backend_is_explicit_before_any_write (test_external_ocr.ExternalOcr.test_backend_is_explicit_before_any_write) ... FAIL
+test_deadline_and_failed_child_do_not_replay (test_external_ocr.ExternalOcr.test_deadline_and_failed_child_do_not_replay) ... ERROR
+test_identity_diagnosis_is_readonly_and_hash_bound (test_external_ocr.ExternalOcr.test_identity_diagnosis_is_readonly_and_hash_bound) ... ERROR
+test_identity_mismatch_and_unknown_fields_rejected (test_external_ocr.ExternalOcr.test_identity_mismatch_and_unknown_fields_rejected) ... ERROR
+test_missing_backend_identity_rejects_without_task_creation (test_external_ocr.ExternalOcr.test_missing_backend_identity_rejects_without_task_creation) ... ERROR
+test_pam_preserves_pixels_and_rejects_transparency (test_external_ocr.ExternalOcr.test_pam_preserves_pixels_and_rejects_transparency) ... ERROR
+test_requires_rasterize_and_existing_directory_is_preserved (test_external_ocr.ExternalOcr.test_requires_rasterize_and_existing_directory_is_preserved) ... ERROR
+
+======================================================================
+ERROR: test_deadline_and_failed_child_do_not_replay (test_external_ocr.ExternalOcr.test_deadline_and_failed_child_do_not_replay)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 85, in test_deadline_and_failed_child_do_not_replay
+    with self.assertRaises(ocr.ChildFailure):
+                           ^^^^^^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'ChildFailure'
+
+======================================================================
+ERROR: test_identity_diagnosis_is_readonly_and_hash_bound (test_external_ocr.ExternalOcr.test_identity_diagnosis_is_readonly_and_hash_bound)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 44, in test_identity_diagnosis_is_readonly_and_hash_bound
+    with patch.object(ocr.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0, 'tesseract 5.5.3\n', '')):
+                      ^^^^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'subprocess'
+
+======================================================================
+ERROR: test_identity_mismatch_and_unknown_fields_rejected (test_external_ocr.ExternalOcr.test_identity_mismatch_and_unknown_fields_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 56, in test_identity_mismatch_and_unknown_fields_rejected
+    ocr.validate_lock(identity, identity)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'validate_lock'
+
+======================================================================
+ERROR: test_missing_backend_identity_rejects_without_task_creation (test_external_ocr.ExternalOcr.test_missing_backend_identity_rejects_without_task_creation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 99, in test_missing_backend_identity_rejects_without_task_creation
+    ocr.run_ocr({}, source, root / 'task', root / 'runtime', 'chi_sim', 150, 60, True)
+    ^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'run_ocr'
+
+======================================================================
+ERROR: test_pam_preserves_pixels_and_rejects_transparency (test_external_ocr.ExternalOcr.test_pam_preserves_pixels_and_rejects_transparency)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 31, in test_pam_preserves_pixels_and_rejects_transparency
+    self.assertEqual(ocr.pam_to_ppm(header + bytes([1, 2, 3, 255, 4, 5, 6, 255])), b'P6\n2 1\n255\n' + bytes([1, 2, 3, 4, 5, 6]))
+                     ^^^^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'pam_to_ppm'
+
+======================================================================
+ERROR: test_requires_rasterize_and_existing_directory_is_preserved (test_external_ocr.ExternalOcr.test_requires_rasterize_and_existing_directory_is_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 70, in test_requires_rasterize_and_existing_directory_is_preserved
+    ocr.run_ocr({}, source, root / 'new', root / 'runtime', 'chi_sim', 150, 60, False)
+    ^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'run_ocr'
+
+======================================================================
+FAIL: test_backend_is_explicit_before_any_write (test_external_ocr.ExternalOcr.test_backend_is_explicit_before_any_write)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 26, in test_backend_is_explicit_before_any_write
+    self.assertIn('--backend', result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '--backend' not found in 'usage: ocr.py [-h] {diagnose,run}\nocr.py: error: optional_backend_not_implemented\n'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.052s
+
+FAILED (failures=1, errors=6)

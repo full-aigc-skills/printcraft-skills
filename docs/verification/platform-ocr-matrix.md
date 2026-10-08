@@ -10,7 +10,7 @@
 | 其他平台的技能安装/包装执行 | NOT_RUN / UNSUPPORTED_BY_CURRENT_LOCK | 安装锁仍只声明 darwin-arm64，不把直接原生测试推广到包装器 |
 | 英语 OCR | PASS_SCOPED_5_NATIVE_PLATFORMS | 固定上游模型双摘要；无文本扫描件识别、保存、新进程读回 PAGE-GAMMA、原件不变 |
 | 中文原生 OCR | UNSUPPORTED_BY_PINNED_NATIVE | 五平台实时 Schema 均 enum=[en]；既有本机真实 zh 请求拒绝，不记为识别通过 |
-| 外部 Tesseract 中文模型 | PRESENT / INTEGRATION_NOT_RUN | 本机只读列出 chi_sim/chi_tra；未集成技能，不能替代原生能力 |
+| 显式外部 Tesseract 中文 OCR | PASS_SCOPED_MACOS_ARM64 | Tesseract 5.5.3 / 官方 tessdata_fast 4.1.0，简繁各两页无文本扫描件、中文目标、新进程重开与无损像素一致；不替代原生中文能力，见 external-ocr-2026-10-08.md |
 | 扫描件分类 | PASS | scan-receipt.json: 无文本图像 PDF 需 OCR/意图审阅 |
 | ArtCraft 协议 | 夹具完整性/兼容拒绝 PASS | verification.validate_handoff 单测 |
 | ArtCraft 实际生产者及选择性返工 | PASS_SCOPED_LOCAL_NATIVE | 真实调度器/VectorCraft 源工程/PDF 交接，详见 cross-plugin-2026-10-08.md |

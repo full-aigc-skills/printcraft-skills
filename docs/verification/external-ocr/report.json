@@ -1,0 +1,170 @@
+{
+  "protocol": "printcraft.external-ocr-acceptance/1",
+  "cases": {
+    "chi_sim": {
+      "status": "PASS",
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-I",
+        "-B",
+        "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/skills/printcraft-use/scripts/ocr.py",
+        "run",
+        "--backend",
+        "tesseract",
+        "--language",
+        "chi_sim",
+        "--backend-lock",
+        "/private/tmp/printcraft-ocr-20261008/最终源 验收/chi_sim-backend.json",
+        "--input",
+        "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/fixtures/chinese/chi_sim.pdf",
+        "--output-dir",
+        "/private/tmp/printcraft-ocr-20261008/最终源 验收/chi_sim",
+        "--runtime-home",
+        "/tmp/printcraft-publish-20261008/隔离 runtime",
+        "--rasterize"
+      ],
+      "diagnosisArgv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-I",
+        "-B",
+        "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/skills/printcraft-use/scripts/ocr.py",
+        "diagnose",
+        "--backend",
+        "tesseract",
+        "--language",
+        "chi_sim",
+        "--tesseract",
+        "/opt/homebrew/bin/tesseract",
+        "--tessdata-dir",
+        "/opt/homebrew/share/tessdata"
+      ],
+      "inputSha256": "def72095ad4f3b45672ab7478ffc62902a94c650082c4894315fe21238e01344",
+      "inputTextEmpty": true,
+      "expected": {
+        "lines": [
+          "中文扫描识别测试",
+          "合同金额一千元",
+          "打印交付验收",
+          "中文扫描交付",
+          "打印任务完成",
+          "中文识别验收"
+        ],
+        "nativeTargets": [
+          "打印交付验收",
+          "打印任务完成"
+        ]
+      },
+      "extracted": [
+        "中文扫描识别测试合同金额一千元打印交付验收",
+        "中文扫描交付打印任务完成中文识别验收"
+      ],
+      "recognizedText": "中文扫描识别测试\n合同金额一千元\n打印交付验收\n\f中文扫描交付\n打印任务完成\n中文识别验收\n\n",
+      "outputSha256": "1e3d0ccafa4c2e1fbb6bf26ba6c3032ad07b965bc5578cec6f70e7c40ef0d37d",
+      "receiptSha256": "36731cfba73dd6195cf70d6f9fbe124707df9a33e542ceb4c9b5b5478dd07437",
+      "backend": {
+        "protocol": "printcraft.ocr-backend/1",
+        "backend": "tesseract",
+        "executable": "/opt/homebrew/Cellar/tesseract/5.5.3/bin/tesseract",
+        "tessdataDir": "/opt/homebrew/share/tessdata",
+        "version": "tesseract 5.5.3",
+        "platform": "darwin-arm64",
+        "language": "chi_sim",
+        "binarySha256": "21674e0595020d02c049765fba6a51cedccdbae26eac94c5d15b55e3e6ecdec3",
+        "modelSha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730",
+        "pdfFontSha256": "c7845420925a23d88ed830a63957b8af85a66a8daf8d9fc90e843673b2ef1a59"
+      },
+      "readingOrderLimitation": "Native text contains spacing/order differences; scoped targets and backend text checked separately"
+    },
+    "chi_tra": {
+      "status": "PASS",
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-I",
+        "-B",
+        "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/skills/printcraft-use/scripts/ocr.py",
+        "run",
+        "--backend",
+        "tesseract",
+        "--language",
+        "chi_tra",
+        "--backend-lock",
+        "/private/tmp/printcraft-ocr-20261008/最终源 验收/chi_tra-backend.json",
+        "--input",
+        "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/fixtures/chinese/chi_tra.pdf",
+        "--output-dir",
+        "/private/tmp/printcraft-ocr-20261008/最终源 验收/chi_tra",
+        "--runtime-home",
+        "/tmp/printcraft-publish-20261008/隔离 runtime",
+        "--rasterize"
+      ],
+      "diagnosisArgv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-I",
+        "-B",
+        "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/skills/printcraft-use/scripts/ocr.py",
+        "diagnose",
+        "--backend",
+        "tesseract",
+        "--language",
+        "chi_tra",
+        "--tesseract",
+        "/opt/homebrew/bin/tesseract",
+        "--tessdata-dir",
+        "/opt/homebrew/share/tessdata"
+      ],
+      "inputSha256": "85a798a710287131bc4365fdb17ac8d345308677550db46106e8b215e00ee665",
+      "inputTextEmpty": true,
+      "expected": {
+        "lines": [
+          "繁體中文掃描測試",
+          "文件交付驗收",
+          "合同金額一千元",
+          "繁體掃描交付",
+          "列印文件完成",
+          "中文辨識驗收"
+        ],
+        "nativeTargets": [
+          "文件交付驗收",
+          "列印文件完成"
+        ]
+      },
+      "extracted": [
+        "繁中文體掃描測試文件交付驗收合金同額一千元",
+        "繁體掃描交付列印文件完成中文辨識驗收"
+      ],
+      "recognizedText": "繁體中文掃描測試\n文件交付驗收\n合同金額一千元\n\f繁體掃描交付\n列印文件完成\n中文辨識驗收\n\n",
+      "outputSha256": "35033157262e592c7805ba78cf4b3ca7c4c58ffeb595a30056eaf7ef35025200",
+      "receiptSha256": "3d2604e58c19e1ae466de32aa3cc54dd576e9aa0e69e30dd3cfac7db96cefdd7",
+      "backend": {
+        "protocol": "printcraft.ocr-backend/1",
+        "backend": "tesseract",
+        "executable": "/opt/homebrew/Cellar/tesseract/5.5.3/bin/tesseract",
+        "tessdataDir": "/opt/homebrew/share/tessdata",
+        "version": "tesseract 5.5.3",
+        "platform": "darwin-arm64",
+        "language": "chi_tra",
+        "binarySha256": "21674e0595020d02c049765fba6a51cedccdbae26eac94c5d15b55e3e6ecdec3",
+        "modelSha256": "529c5b5797d64b126065cd55f2bb4c7fd7b15790798091b1ff259941a829330b",
+        "pdfFontSha256": "c7845420925a23d88ed830a63957b8af85a66a8daf8d9fc90e843673b2ef1a59"
+      },
+      "readingOrderLimitation": "Native text contains spacing/order differences; scoped targets and backend text checked separately"
+    }
+  },
+  "scope": "macOS arm64 explicit external backend, original CC0 two-page scans only",
+  "nativeChineseSupport": false,
+  "arbitraryOcrAccuracy": "NOT_CLAIMED",
+  "mobile": "NOT_RUN",
+  "visualReview": "NOT_RUN",
+  "sourceSha256": {
+    "bootstrap.py": "f2f0901641c2ca58d48a00bc2e16d1095ee0e3b0d322279ef3c5edee136e745c",
+    "command_gateway.py": "1be50fce5946fcb63f7b0848bfdb4a94a76a30ab35be290006b61dd0c79a9704",
+    "verification.py": "e4caf0fa3984a8ad174efe28feadf86350880ec448f884992d397881f981e7b1",
+    "execution.py": "2423a53f57ef375f32d44339bea15d3c04ff62d65f232ed165a96bc4dba259f5",
+    "runtime.lock.json": "7db3b75e565e2a4da83118875e1ada8652913f670c401b4f60173af3f1547462",
+    "ocr.py": "83d84b578e86753c689dadcab5f1be28551fd5db885b8a799f9f17302b3c878e",
+    "cli.py": "b7441d0c7c27c8116a874f40f929f44be4285c718b00ccae8f61f20dd8d4fbf8",
+    "commands.py": "35eaaf7866e1104eb7ccd9639d6744182f009b48b26029423e7f4aeb38b57b62"
+  },
+  "acceptanceScriptSha256": "e52a4ddd31ee8e7758c4fb352ede200ea899340ffcef36f524036def220c0268",
+  "status": "PASS"
+}

@@ -1,0 +1,23 @@
+test_backend_is_explicit_before_any_write (test_external_ocr.ExternalOcr.test_backend_is_explicit_before_any_write) ... ok
+test_deadline_and_failed_child_do_not_replay (test_external_ocr.ExternalOcr.test_deadline_and_failed_child_do_not_replay) ... ok
+test_identity_diagnosis_is_readonly_and_hash_bound (test_external_ocr.ExternalOcr.test_identity_diagnosis_is_readonly_and_hash_bound) ... ok
+test_identity_mismatch_and_unknown_fields_rejected (test_external_ocr.ExternalOcr.test_identity_mismatch_and_unknown_fields_rejected) ... ok
+test_missing_backend_identity_rejects_without_task_creation (test_external_ocr.ExternalOcr.test_missing_backend_identity_rejects_without_task_creation) ... ok
+test_output_parent_alias_is_canonical_for_leptonica (test_external_ocr.ExternalOcr.test_output_parent_alias_is_canonical_for_leptonica) ... ok
+test_pam_preserves_pixels_and_rejects_transparency (test_external_ocr.ExternalOcr.test_pam_preserves_pixels_and_rejects_transparency) ... ok
+test_png_transport_is_lossless_rgb (test_external_ocr.ExternalOcr.test_png_transport_is_lossless_rgb) ... ERROR
+test_requires_rasterize_and_existing_directory_is_preserved (test_external_ocr.ExternalOcr.test_requires_rasterize_and_existing_directory_is_preserved) ... ok
+
+======================================================================
+ERROR: test_png_transport_is_lossless_rgb (test_external_ocr.ExternalOcr.test_png_transport_is_lossless_rgb)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_external_ocr.py", line 27, in test_png_transport_is_lossless_rgb
+    data = load().ppm_to_png(b'P6\n2 1\n255\n' + pixels)
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'external_ocr' has no attribute 'ppm_to_png'. Did you mean: 'pam_to_ppm'?
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.069s
+
+FAILED (errors=1)

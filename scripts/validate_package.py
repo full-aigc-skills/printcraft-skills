@@ -13,7 +13,7 @@ def validate():
     actual={p.name for p in (ROOT/'skills').iterdir() if p.is_dir()}
     if actual!=expected:raise ValueError('skill_set_mismatch')
     canonical=ROOT/'skills'/f'{domain}-use'/'scripts'
-    resources=('bootstrap.py','cli.py','runtime.lock.json','commands.py','command_gateway.py','execution.py','verification.py')
+    resources=('bootstrap.py','cli.py','runtime.lock.json','commands.py','command_gateway.py','execution.py','verification.py','ocr.py')
     for name in sorted(expected):
         p=ROOT/'skills'/name
         if p.is_symlink():raise ValueError('skill_symlink')

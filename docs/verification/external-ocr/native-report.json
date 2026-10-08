@@ -1,0 +1,311 @@
+{
+  "runtimeVersion": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft",
+  "originalSha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+  "results": {
+    "reorder": {
+      "status": "PASS",
+      "details": {
+        "executionRunId": "c5fd0490-77b2-4b1f-820a-6a10e1d36131",
+        "sha256": "8f421ca5c460c0516881999c0ac2010dbf4dba40cfb8905a0e5ece6b554431f8",
+        "text": [
+          "PAGE-GAMMA",
+          "PAGE-ALPHA",
+          "PAGE-BETA"
+        ],
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/tmp/printcraft-ocr-20261008/最终源 原生回归/reorder.pdf",
+          "file_size": 918,
+          "first_page_pt": [
+            612.0,
+            792.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        }
+      }
+    },
+    "extract": {
+      "status": "PASS",
+      "details": {
+        "runId": "12cd34e6-8ca0-4607-a52b-c4f1107b165c",
+        "sha256": "b2544ffeab3e11d2a13cf6bc14a58b35948993533e6bba9968cf019e067f589f"
+      }
+    },
+    "combine": {
+      "status": "PASS",
+      "details": {
+        "runId": "03da2aaf-9af6-4ed1-a353-24a9849407d0",
+        "sha256": "4dcd84b6c5d351dbe871b0be5999bab24cf0b7ceb889024ff308be3a468a01a8"
+      }
+    },
+    "rotate": {
+      "status": "PASS",
+      "details": {
+        "executionRunId": "17df5057-1fcb-4af8-a716-4a7cd12d1e59",
+        "sha256": "94c571b6eb0070993a67448f758c6c75985ee7c3beaa178796e9fe4d597c3ecd",
+        "text": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ],
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/tmp/printcraft-ocr-20261008/最终源 原生回归/rotate.pdf",
+          "file_size": 928,
+          "first_page_pt": [
+            792.0,
+            612.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        }
+      }
+    },
+    "crop": {
+      "status": "PASS",
+      "details": {
+        "executionRunId": "7adf83ab-53f1-40b7-97b7-aed87be197f2",
+        "sha256": "a0e8e4954010653888142cde45aa5ad8cfb1c6791762ac99155009214b8b291d",
+        "text": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ],
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/tmp/printcraft-ocr-20261008/最终源 原生回归/crop.pdf",
+          "file_size": 935,
+          "first_page_pt": [
+            592.0,
+            772.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        }
+      }
+    },
+    "partial_write_failure": {
+      "status": "PASS",
+      "details": {
+        "runId": "d436d5cc-39ad-4a4a-910b-04d6aa14309e",
+        "status": "FAILED_OR_PARTIAL",
+        "artifacts": [
+          {
+            "path": "/tmp/printcraft-ocr-20261008/最终源 原生回归/partial.pdf",
+            "role": "delivery",
+            "mediaType": "application/pdf",
+            "status": "PRESENT",
+            "size": 920,
+            "sha256": "88501fd8e027939f6361e2a542baf850c1ca894b60168b6b74b32de8bd4035ca"
+          }
+        ]
+      }
+    },
+    "form_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "fields": {
+          "count": 1,
+          "fields": [
+            {
+              "multiline": false,
+              "name": "sample",
+              "page": 1,
+              "read_only": false,
+              "rect": [
+                72.0,
+                120.0,
+                200.0,
+                150.0
+              ],
+              "required": false,
+              "type": "text",
+              "value": "verified form"
+            }
+          ]
+        },
+        "sha256": "99e563ccfb38150ba7c881d18a684a299b5497928c4639f6c5f1718c89a993f0"
+      }
+    },
+    "pdfa_subset_report": {
+      "status": "PASS",
+      "details": {
+        "compliant": false,
+        "declared": {
+          "output_intents": [],
+          "pdfa": null,
+          "pdfua": null
+        },
+        "issues": [
+          {
+            "clause": "6.6.2.1",
+            "fixable": true,
+            "message": "The document has no XMP metadata",
+            "page": null
+          },
+          {
+            "clause": "6.2.11.4",
+            "fixable": false,
+            "message": "The font Helvetica isn't embedded",
+            "page": null
+          }
+        ],
+        "level": "PDF/A-2b"
+      }
+    },
+    "unsigned_signature_inspection": {
+      "status": "PASS",
+      "details": {
+        "unsignedDocument": {
+          "all_valid": false,
+          "count": 0,
+          "signatures": [],
+          "signed": 0
+        },
+        "actualSigning": "NOT_RUN_NO_TEST_IDENTITY"
+      }
+    },
+    "redaction_text_objects_render": {
+      "status": "PASS",
+      "details": {
+        "sha256": "271e9fb872a61eadcd591fa294b3c0729f5e13fb292a2950d6ddce14dfa9846b",
+        "removedTextAbsent": true,
+        "objectBytesAbsent": true,
+        "render": "redacted.pam",
+        "visualReview": "NOT_RUN"
+      }
+    },
+    "signature_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "sha256": "b3f212af20e9498cf525cc72b080ef205e65a0f0de08f903edbaae7ed09e2d82",
+        "signatures": {
+          "all_valid": false,
+          "count": 1,
+          "signatures": [
+            {
+              "algorithm": "RSA 2048-bit with SHA-256",
+              "certificate": {
+                "email": null,
+                "issuer": "CN=PrintCraft Test Only",
+                "key": "RSA 2048-bit",
+                "name": "PrintCraft Test Only",
+                "self_signed": true,
+                "serial": "7D7333BF611026C5",
+                "sha256": "A7 0C 87 42 20 F6 3D CF F9 5D 89 80 CA 52 52 7A 4D 34 36 F9 0D 2F E5 43 2E 5C 69 85 2D 88 00 69",
+                "subject": "CN=PrintCraft Test Only",
+                "valid_from": "2026.10.08 12:33:34 UTC",
+                "valid_to": "2031.10.08 12:33:34 UTC"
+              },
+              "certify": null,
+              "chain": [],
+              "changes": [],
+              "contact": null,
+              "date": "D:20261008203334+08'00'",
+              "details": [
+                "This document has not been modified since this signature was applied.",
+                "The signer's identity is unknown because it has not been included in your list of trusted certificates and none of its parent certificates are trusted certificates.",
+                "Signing time is from the clock on the signer's computer."
+              ],
+              "field": "Signature1",
+              "location": null,
+              "modification": "none",
+              "page": 1,
+              "reason": null,
+              "rect": null,
+              "revision": 2,
+              "signed": true,
+              "signer": "PrintCraft Test Only",
+              "status": "unknown",
+              "sub_filter": "ETSI.CAdES.detached",
+              "summary": "Signature validity is unknown",
+              "timestamp": false,
+              "visible": false
+            }
+          ],
+          "signed": 1
+        },
+        "trust": "SELF_SIGNED_FIXTURE_ONLY"
+      }
+    },
+    "ocr_status": {
+      "status": "OBSERVED",
+      "details": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/models",
+          "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/../Resources/models",
+          "/Users/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+        ]
+      },
+      "chineseRecognition": "NOT_RUN",
+      "otherPlatforms": "NOT_RUN"
+    }
+  },
+  "sourceUnchanged": true,
+  "visualReview": "NOT_RUN"
+}

@@ -82,3 +82,23 @@ runId 只解决追踪和同任务互斥，不提供全局 exactly-once。进程�
 使用已由真实 ArtCraft/VectorCraft 生成并归档的完整 v1/v2 项目包与返工 PDF，保留原始 producer 版本及清单/文件摘要。独立 macOS 发送作业打包并上传 Actions artifact，Linux 和 Intel Mac 接收作业从该 artifact 下载至新位置；固定 ArtCraft 消费者源码提交，调用官方 verify-package，验证文件表、源工程和 portable plan 引用。PrintCraft 公共 handoff 入口验证原 producer 版本与 PDF 摘要，固定原生 0.2.1 在接收机重开、渲染，并仅裁剪目标页，断言另一页渲染不变、全部传入文件不变。
 
 记录发送/接收作业及真实 OS/CPU、传输 ZIP 摘要、官方验包输出、命令、工具和原生摘要、输入及新产物摘要。它是跨机器文件/项目包交付证据，不表示在接收机重新运行 ArtCraft 的过期原工作流，也不替代手机/平板交付、宿主路由或技能安装器的平台验收；7.4 仍须等待其剩余门禁。
+
+### 显式外部中文 OCR（用户已授权）
+
+保留固定原生锁。新增随六技能独立分发的 ocr.py，诊断生成 printcraft.ocr-backend/1 身份，run 必须显式指定 backend=tesseract、该身份锁和 --rasterize；不调用安装入口。支持单一 chi_sim 或 chi_tra，用户本机现有二进制/模型/pdf.ttf 的版本、平台、摘要绑定执行。用固定原生渲染全部页，标准库将不透明 PAM 转为 PPM，Tesseract 图像列表生成多页 PDF 和 txt，新原生进程验证页数、逐页中文文本与渲染图像。栅格化副本丢失原交互语义，原件保留。
+
+总截止由单调时钟控制，各子进程复用 execution/1；全新私有任务目录先写 attempted UNKNOWN，未知或失败保留阶段和部分产物，无恢复写入或自动重放。资源/输入/后端执行前后重新绑定。单位回归与真实简繁中文验收分层，手机门禁仍独立开放。
+
+```mermaid
+flowchart LR
+  A[显式后端锁与原始 PDF] --> B{身份及全新目录预检}
+  B -->|通过| C[固定原生逐页渲染]
+  C --> D[Tesseract 简体或繁体模型]
+  D --> E[新图像 PDF 与文本层]
+  E --> F[新原生重开 / 文字及像素验证]
+  F --> G[摘要绑定回执 / 待视觉审阅]
+  B -->|拒绝| H[不写用户材料]
+  C -->|超时或失败| I[保留 UNKNOWN 或部分结果 / 禁止自动重放]
+  D -->|超时或失败| I
+  F -->|断言不符| I
+```

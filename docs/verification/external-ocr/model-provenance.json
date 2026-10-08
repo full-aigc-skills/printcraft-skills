@@ -1,0 +1,29 @@
+[
+  {
+    "file": "chi_sim.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/4.1.0/chi_sim.traineddata",
+    "localSha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730",
+    "officialSha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730",
+    "match": true,
+    "bytes": 2469156,
+    "license": "Apache-2.0"
+  },
+  {
+    "file": "chi_tra.traineddata",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/4.1.0/chi_tra.traineddata",
+    "localSha256": "529c5b5797d64b126065cd55f2bb4c7fd7b15790798091b1ff259941a829330b",
+    "officialSha256": "529c5b5797d64b126065cd55f2bb4c7fd7b15790798091b1ff259941a829330b",
+    "match": true,
+    "bytes": 2366642,
+    "license": "Apache-2.0"
+  },
+  {
+    "file": "pdf.ttf",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/5.5.3/tessdata/pdf.ttf",
+    "localSha256": "c7845420925a23d88ed830a63957b8af85a66a8daf8d9fc90e843673b2ef1a59",
+    "officialSha256": "c7845420925a23d88ed830a63957b8af85a66a8daf8d9fc90e843673b2ef1a59",
+    "match": true,
+    "bytes": 572,
+    "license": "Apache-2.0"
+  }
+]

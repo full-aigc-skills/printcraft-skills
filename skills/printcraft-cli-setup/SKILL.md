@@ -8,7 +8,7 @@ license: Apache-2.0
 
 先 --diagnose 只读检查；已有安装授权后才运行安装命令。损坏旧目录保留调查，不删除、不自动升级。
 
-本地未发布候选。Python 3.11+；固定发行 printcraft-cli 0.2.1，仅 macOS arm64 锁已验证。入口保持 printcraft，不把 research 的 PdfCraft 新接口当成当前发行能力。
+受控开发预发布。Python 3.11+；固定发行 printcraft-cli 0.2.1，仅 macOS arm64 锁已验证。入口保持 printcraft，不把 research 的 PdfCraft 新接口当成当前发行能力。
 
 将 `SKILL_DIR` 设置为宿主实际加载的本文件目录。所有脚本和引用都随本技能分发，不依赖兄弟目录；运行时放在独立用户数据目录。
 
@@ -39,6 +39,8 @@ python3 -I -B "$SKILL_DIR/scripts/commands.py" verify "$VERIFY_REQUEST" --runtim
 零退出只到 REVIEW_REQUIRED。必须检查显式清单、大小/摘要、新进程重开、逐页文本与几何，再完成当前摘要绑定的视觉审阅。未知或部分结果不自动重放；不自动循环修订。表单、脱敏、签名、PDF/A、OCR 分别记录验收状态。
 
 秘密字段包含 password/passwd/secret/token/api_key/credential；公开回执脱敏，私有执行材料权限 0600，结束后清理。避免把秘密放进文件名或不相关普通字段。任务目录仍可能含敏感 PDF，应由用户按保留策略清理。
+
+中文扫描识别：显式可选 Tesseract 后端见 [中文 OCR 契约](references/ocr.md)。原生 0.2.1 仍只有英语；该路径生成栅格化新副本，先核实输出策略及后端身份。
 
 详见 [契约与边界](references/contracts.md)、[成功/失败/拒绝案例](examples/scenarios.md)。
 

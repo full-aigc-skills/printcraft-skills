@@ -4,7 +4,7 @@
 - 页码为 1-based；页框以 point 表示。page_set_box 的 rect 从显示页左上角起；margins 从 MediaBox 左/下/右/上量。先 describe，不把 UI 坐标直接塞入 PDF。
 - doc_open 返回的 ID 仅当前 run 有效；新进程必须重开。首次单会话只打开一个文档才可预期 ID 1，不跨任务保存 ID。多步骤非事务，错误可能留下前序输出。
 - doc_save 带新 path 为另存；省略会写原路径，必须具有原件修改授权。只读对账不会重新保存。书签/表单/签名/加密的保留须独立比较，不从页数推断。
-- 扫描件空文本分类为 EMPTY_NEEDS_OCR_OR_INTENT_REVIEW，不能当成无内容；OCR 语言和模型须现场 ocr_status 确认，中文与其他平台目前未验收。
+- 扫描件空文本分类为 EMPTY_NEEDS_OCR_OR_INTENT_REVIEW，不能当成无内容；OCR 语言和模型须现场 ocr_status 确认，原生中文仍不支持。显式 Tesseract 中文路径、版本与平台边界见本技能 ocr.md，不把外部能力计入原生目录。
 - query 120s，edit 600s，render/run 1800s；MCP/UI 无普通任务截止，通过 EOF/显式停止结束。超时即 UNKNOWN；后代未确认结束时绝不重放。
 - execution/1 回执绑定 runId、attempted、plan/catalog/input/resource/runtime 摘要；私有文件原子写入。status/reconcile 只读，旧回执拒绝恢复。
 - verification/1 请求包含 ruleVersion:1 和 outputs，每项 path、sha256、pages，可选 pageText、firstPagePt、textPolicy(required/scan/optional)。内容或规则变化需重新验收，不能复用审阅。
