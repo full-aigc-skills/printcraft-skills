@@ -1,0 +1,97 @@
+test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) ... 
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='../escape') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='/absolute') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a/../escape') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a//b') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a/./b') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='C:/escape') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a\\b') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='') ... FAIL
+  test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a\x00b') ... FAIL
+test_safe_member_paths_preserve_unicode_and_spaces (test_cross_machine_acceptance.CrossMachineTests.test_safe_member_paths_preserve_unicode_and_spaces) ... ok
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='../escape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='/absolute')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a/../escape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a//b')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a/./b')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='C:/escape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a\\b')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonportable_or_escaping_member_is_refused (test_cross_machine_acceptance.CrossMachineTests.test_nonportable_or_escaping_member_is_refused) (name='a\x00b')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/wandl/workspaces/workspace-agent-skills/full-aigc-skills-repositories/printcraft-skills/tests/test_cross_machine_acceptance.py", line 17, in test_nonportable_or_escaping_member_is_refused
+    with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'member_path_invalid'):
+                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=9)

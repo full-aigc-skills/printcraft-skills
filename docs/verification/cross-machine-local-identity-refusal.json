@@ -1,0 +1,43 @@
+{
+  "status": "FAILED",
+  "scope": "LOCAL_PRECHECK_NOT_CROSS_MACHINE",
+  "receiver": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "release": "27.0.0",
+    "python": "3.14.3",
+    "runnerName": null,
+    "workflowRunId": null,
+    "workflowJob": null,
+    "sourceCommit": "85516f565dbfd513f6a4a936cf17e3d3096a32c4"
+  },
+  "mobileDevice": "NOT_RUN",
+  "visualReview": "NOT_RUN",
+  "producerReexecution": "NOT_RUN",
+  "skillInstaller": "NOT_RUN_DIRECT_NATIVE_ONLY",
+  "sourceFiles": {
+    "tests/cross_machine_acceptance.py": "8f53c0ef0e1d34bfc94144fc9bf8347976d7700732a2d87ff7803290e67fa450",
+    "tests/cross-machine-fixture.json": "efd9f63b942cf57076a0f1b316863967065d145284f6e1d2a4f67e4a6a25cd6d",
+    "tests/platform_acceptance.py": "5bad75cb385c12c26c9c7c1a489d141d208258834e42bdda2c6282b026a36325",
+    "tests/platform-artifacts.json": "8c03b465e51e8f53bb337ffef75eb67cba12d945c3c319ad70619bbe01929717",
+    "skills/printcraft-use/scripts/verification.py": "e4caf0fa3984a8ad174efe28feadf86350880ec448f884992d397881f981e7b1",
+    "skills/printcraft-use/scripts/commands.py": "35eaaf7866e1104eb7ccd9639d6744182f009b48b26029423e7f4aeb38b57b62"
+  },
+  "sender": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "release": "27.0.0",
+    "python": "3.14.3",
+    "runnerName": null,
+    "workflowRunId": null,
+    "workflowJob": null,
+    "sourceCommit": "85516f565dbfd513f6a4a936cf17e3d3096a32c4"
+  },
+  "transportSha256": "600236241eccc598b478c40417ccfdad2e7fb8259ebcfd588f9cf069ab277937",
+  "error": "ef6656f0fa6c51717e8eaa7a09fbdfd3ea0d0d55",
+  "artifacts": {
+    "001-call.json": "a013a78e85c0cfd763ac25d18938deca59b8572222f22d245a0b9546d3e5740e",
+    "001-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "001-stdout.log": "f733aae062a0ff6e49e8ffe1101ef6e95c1c7260110d1a698238be44ee1090dc"
+  }
+}

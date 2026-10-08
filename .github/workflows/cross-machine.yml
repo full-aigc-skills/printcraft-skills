@@ -1,0 +1,60 @@
+name: Cross machine project delivery
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sender:
+    runs-on: macos-15
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -I -B tests/cross_machine_acceptance.py pack --workdir sender-evidence
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project-transport-${{ github.run_id }}
+          path: sender-evidence/*
+          if-no-files-found: error
+  receiver:
+    needs: sender
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-24.04
+            platform: linux-x86_64
+          - os: macos-15-intel
+            platform: darwin-x86_64
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: full-aigc-plugins/artcraft-plugin
+          ref: 4ff30a88bbdc0c268dc17d7cddb7f3aed77544e8
+          path: .artcraft-source
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          name: project-transport-${{ github.run_id }}
+          path: transport
+      - run: python -I -B tests/cross_machine_acceptance.py receive --bundle transport --artcraft-root .artcraft-source --platform ${{ matrix.platform }} --workdir receiver-evidence
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: receiver-${{ matrix.platform }}-${{ github.run_id }}
+          path: |
+            receiver-evidence/*.json
+            receiver-evidence/*.log
+            receiver-evidence/*.pdf
+            receiver-evidence/*.pam
+          if-no-files-found: error

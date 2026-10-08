@@ -76,6 +76,8 @@
     "scripts/validate_package.py": "70ab99547ba260fffff09e404f9cc297fd56193d381e227084a477a335e416be",
     "tests/artcraft_acceptance.py": "ea150707f1d41df49d1619a6d5e3920cfbc676ecb9adea4bf37ab67e34e4d386",
     "tests/artcraft_producer.ts": "bda62745d7608c20934fed5b8dd40683c68816d7cd54991a606de70038084a5d",
+    "tests/cross-machine-fixture.json": "efd9f63b942cf57076a0f1b316863967065d145284f6e1d2a4f67e4a6a25cd6d",
+    "tests/cross_machine_acceptance.py": "8f53c0ef0e1d34bfc94144fc9bf8347976d7700732a2d87ff7803290e67fa450",
     "tests/fixtures/LICENSE": "e0645f4441b24ee6fae9a511788a5518800aa9c3be3af10326307e29ec6e0be3",
     "tests/fixtures/make_pdf.py": "c41f12f867c5f81e359c3197373214c65e89fc2e58ff5643198afbffd4ac7993",
     "tests/fixtures/scan_pdf.py": "b04c9bf09d7e3645f915c58539778ea9b2b5c26bce03067c28ded640c1831605",
@@ -83,6 +85,7 @@
     "tests/ocr-models.json": "ee3d3f82d18485cf57f74bd551ba039c705ae3d9fb139e607e75822cf94a7fa8",
     "tests/platform-artifacts.json": "8c03b465e51e8f53bb337ffef75eb67cba12d945c3c319ad70619bbe01929717",
     "tests/platform_acceptance.py": "5bad75cb385c12c26c9c7c1a489d141d208258834e42bdda2c6282b026a36325",
+    "tests/test_cross_machine_acceptance.py": "b7b466ac43f34a657891baf577696e5e2d7f7a1e734fbeb8a2a93ff72dd4ea81",
     "tests/test_execution_hardening.py": "7ef7bbdec6b890cf86944f17833c4380f3828c5bcf64f79503dcfdfe249e9587",
     "tests/test_gateway_receipts.py": "f85a51c5a0a7c3e046a08486cbc4f337d973a04064246289a7530b757b6859ee",
     "tests/test_handoff_entry.py": "dcd08c1ef7b35cf5e6183e85662fdba29e56cb6c043f594e296a65502e5ecefa",
@@ -98,6 +101,8 @@
     "docs/tool-coverage.json": "a231542459b176e860158f1767df70d2fd1b98ce391bc3ded1ff5f59adcae545"
   },
   "evidenceSha256": {
+    ".gitattributes": "a53c2bb8bc0669bc5b3fc5a35a3ea1791021d139331c50f4c500997adf1e9f4b",
+    ".github/workflows/cross-machine.yml": "8be68637ac964486c954d6c6dc2914d86ac5d181522758878fd6ae6e076665b6",
     ".github/workflows/native-platforms.yml": "7de9be6c2b4d959e31e016822773fd350c0c95ad50e6c2a82044ebc371bde743",
     ".github/workflows/verify.yml": "a7aceb24e24d396805fe304c33eb1c13da51263f080da25b83b7c0234276ab1f",
     "README.md": "e906acdcf20ff3f77744eb1cab5d0869e7d233d4fb1fd5c1bdd62199564d443e",
@@ -126,6 +131,10 @@
     "docs/verification/artifacts/signed.pdf": "7ed1ee01ab8f5573e8b6836213971e310ff895077f219ee6b72105a98cebbe9f",
     "docs/verification/artifacts/source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
     "docs/verification/combined-verification.json": "65b751ad027684a088855abd070e831ec77c344608bf53cb10becef207d37e93",
+    "docs/verification/cross-machine-2026-10-08.md": "78d3fb3771e172e25dfabfdd4302b5072561810ab6d065e55d350c73e075cece",
+    "docs/verification/cross-machine-local-identity-refusal.json": "4816dd2fd3348397585b4881f5d4e3a50b99d27d05d6ab613ff6eb2dc63680dd",
+    "docs/verification/cross-machine-red.log": "03e3efdc2d80659924c85a1a821eee6725c9ab14e2324e4ab37cd3bcc95fe5bc",
+    "docs/verification/cross-machine-tests-63.log": "b0b8410e9e2e971babc09d5be7be5babeb229aaebe9a27404b3bfa139b50af65",
     "docs/verification/cross-plugin-2026-10-08.md": "576f704695765f4075238273ef417d6ddc4048c2d7646cbdc4542ce2f1870e6d",
     "docs/verification/cross-plugin-artifacts/archive-artcraft-verification.json": "e5318248eb5fee6f72adecf74f45a4b53cf662267458bad4c8c64fdb7b5e27e5",
     "docs/verification/cross-plugin-artifacts/archive-combined-verification.json": "e2d2fbf2a36de54ed6a81b9a3072498c721c36f647c6b1ac2f5ebe2f0b6d34fd",
@@ -346,7 +355,7 @@
     "docs/verification/verification-receipt.json": "fb362a12ec9f99f60d8bc5c21fcb912a96d023727302d00b2807c7776512007a",
     "docs/verification/verification-request.json": "bfeb7dc88be2b3ed841b770cbb61e63c43f722e41c75ddd8d5c2b40f0ff0c10a",
     "docs/verification/visual-review.json": "5bb17fc7c1dbbc6f7892a9e7bc4ab91a28a297570ae8a15ae3c6285a5411f9de",
-    "openspec/changes/harden-printcraft-skill-execution/design.md": "1211e9af2a3c88d23c02cf1fc7be61d773ceafaddc0d6d01006fc658bbde4dfc",
+    "openspec/changes/harden-printcraft-skill-execution/design.md": "9426a9717b0d0e1c1324d1619953de1b33df54decb3e677c27ba6e4c59566b02",
     "openspec/changes/harden-printcraft-skill-execution/proposal.md": "da81f7b0b64311a5d03169d862825cdc4af5b03c6db18a5f40686eb81521d9e6",
     "openspec/changes/harden-printcraft-skill-execution/specs/acceptance-evidence/spec.md": "c395e942af95a2cac63c984a7d5abe13a34c557482815990a4c42f09971d5636",
     "openspec/changes/harden-printcraft-skill-execution/specs/execution-lifecycle/spec.md": "0f7b131f66c4da7359d66516509267d6ce88d02c4aa3fd8a21af06d97a60ff6f",
@@ -355,13 +364,12 @@
     "openspec/changes/harden-printcraft-skill-execution/specs/skill-routing/spec.md": "0a9e9e96f48251a9df8ddf444d15a4fccfd78f4b8960fe9ad28d09d97d2a3e06",
     "openspec/changes/harden-printcraft-skill-execution/tasks.md": "1c3823922c9a43c8955ec544a505f541de36b6665b3e063039ed03894fb8d82c",
     "openspec/changes/harden-printcraft-skill-execution/verification.md": "d5d2ca3993755707a2c3f3f4a4a85584536ce02c57de3bf0f4aa12a629efc5f0",
-    "project-status.json": "8a2875c20df436aab0ae4ab34de7f1c1b60e1040bd13df92625ca7bbd0305bc2",
-    ".gitattributes": "a53c2bb8bc0669bc5b3fc5a35a3ea1791021d139331c50f4c500997adf1e9f4b"
+    "project-status.json": "37edaa79002a6ccad3c5af861f978476d9f856aa43ef153fad2435b1fd29b2c2"
   },
   "layers": {
     "localTests": {
       "status": "PASS",
-      "count": 57
+      "count": 63
     },
     "independentCheckout": "PASS_DEV_3",
     "nativeRuntime": {
@@ -445,5 +453,5 @@
     "removed": []
   },
   "unchangedResourceEvidenceReuse": "dev.3 base/isolated tests, native scenarios, public cross-plugin entry, host discovery and model PDF were re-executed; unchanged bootstrap/CLI/service evidence retains original scope. Old dev.2 model artifacts are historical.",
-  "publicationDelta": "Published dev.5 skill and harness files unchanged. Author native-platform/English-OCR tests added after release; immutable CI commits and archives bind these scoped results. New main documentation does not change distributed resources."
+  "publicationDelta": "Release metadata, host adapters and author tests may change; distributed execution resources and prior scoped native/model artifacts remain digest-bound. Public installation is recorded separately."
 }

@@ -1,0 +1,17 @@
+{
+  "producerVersion": "0.1.0-dev.113-runtime.1",
+  "projectSha256": {
+    "package-v1": "2bc262cc670dae1997d9eced7792dbf8f1daf9bd6997a2dac222ff7d5f856b12",
+    "package-v2": "1caa92b3d0a9d1d6089b7e4c9628ee88683c3f515f531175af32e7bac06798f3"
+  },
+  "deliverySha256": "42db8b468aab763d66ac02aa893f32337ef4b983e2d4e4cf7e03311fad0664b7",
+  "deliveryRenderSha256": [
+    "d7d8880f7a70f62efd0f38ed3d4661ed634b91d9807d6fe32a5060761fb25534",
+    "638919dab3c4e77720bd2965a231e689c5133823bccf632c83512d9f474039ac"
+  ],
+  "producerReportSha256": "1ed72f8c08da4afde5c120f3bbc372516c3dc8e656dd5e251a5d43815629fd6e",
+  "consumer": {
+    "repository": "full-aigc-plugins/artcraft-plugin",
+    "commit": "4ff30a88bbdc0c268dc17d7cddb7f3aed77544e8"
+  }
+}

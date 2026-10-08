@@ -22,7 +22,7 @@
   "chineseOcr": "UNSUPPORTED_BY_PINNED_NATIVE",
   "crossPlugin": "PASS_PUBLIC_ENTRY_LOCAL_NATIVE_MOBILE_NOT_RUN",
   "localTests": {
-    "passed": 57,
+    "passed": 63,
     "failed": 0
   },
   "independentCheckout": "PASS_PUBLISHED_DEV_5_RESOURCE_DIGESTS",
