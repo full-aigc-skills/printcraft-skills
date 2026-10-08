@@ -1,14 +1,14 @@
 {
   "domain": "printcraft",
   "version": "0.1.0-dev.5",
-  "status": "LOCAL_IMPLEMENTED_EXTERNAL_GATES_OPEN",
-  "gitRepository": "INITIALIZED_PUBLIC_REMOTE_RELEASE_PENDING",
+  "status": "PRERELEASE_PUBLISHED_EXTERNAL_GATES_OPEN",
+  "gitRepository": "PUBLIC_REMOTE_MAIN_TRACKED",
   "specification": "OPEN_SPEC_IMPLEMENTED_LOCAL_VERIFY_PASS_NOT_ARCHIVED",
   "nativeInstallation": "PASS_MACOS_ARM64_PINNED_0_2_1",
-  "hostDiscovery": "PASS_CODEX_0_153_4_DEV_3",
-  "modelDispatch": "PASS_GPT_5_6_SOL_DEV_3_SCOPED_CASES",
+  "hostDiscovery": "PASS_CODEX_0_147_0_PUBLIC_DEV_5",
+  "modelDispatch": "PASS_GPT_5_6_SOL_PUBLIC_DEV_5_SCOPED_CASES",
   "creativeAcceptance": "PASS_ORIGINAL_PDF_FIXTURES_ONLY",
-  "published": false,
+  "published": true,
   "openspecChange": "harden-printcraft-skill-execution",
   "tasksCompleted": 35,
   "tasksTotal": 38,
@@ -17,7 +17,7 @@
     "7.4",
     "7.5"
   ],
-  "ci": "NOT_RUN",
+  "ci": "PASS_4_PACKAGE_JOBS_ON_RELEASE_COMMIT",
   "otherPlatforms": "BLOCKED_BEFORE_NATIVE_EXECUTION",
   "chineseOcr": "UNSUPPORTED_BY_PINNED_NATIVE",
   "crossPlugin": "PASS_PUBLIC_ENTRY_LOCAL_NATIVE_MOBILE_NOT_RUN",
@@ -25,6 +25,11 @@
     "passed": 52,
     "failed": 0
   },
-  "independentCheckout": "PASS_DEV_3",
-  "repository": "https://github.com/full-aigc-skills/printcraft-skills"
+  "independentCheckout": "PASS_PUBLISHED_DEV_5_RESOURCE_DIGESTS",
+  "repository": "https://github.com/full-aigc-skills/printcraft-skills",
+  "releaseTag": "v0.1.0-dev.5",
+  "releaseCommit": "2dd3801a59f217800a8b433ab379a1f6d8712886",
+  "releaseStatus": "PRERELEASE",
+  "ciRunId": 37768846237,
+  "marketplaceCommit": "f41f0adcf017e5753bcbc366b18c3855b2ac1177"
 }

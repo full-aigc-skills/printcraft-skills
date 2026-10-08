@@ -1,0 +1,10 @@
+{
+  "status": "PASS_REMOTE_PLUGIN_TAG_RELEASE_ARCHIVE_AND_69_FILES",
+  "tag": "v0.1.0-dev.5",
+  "commit": "1f8b259f162c172ab659c5746f6d040edfa1b8d2",
+  "releaseUrl": "https://github.com/full-aigc-plugins/printcraft-plugin/releases/tag/v0.1.0-dev.5",
+  "releaseId": 406750372,
+  "archiveSha256": "6b0f10782d80ab1ace9b126480659db403d23fce45f42fb008f1cf58b49dc4cd",
+  "skillFileCount": 69,
+  "prerelease": true
+}

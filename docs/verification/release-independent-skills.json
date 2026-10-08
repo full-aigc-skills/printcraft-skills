@@ -1,0 +1,110 @@
+{
+  "status": "PASS_6_INDEPENDENT_SKILL_DIRECTORIES_FROM_PUBLISHED_ARCHIVE",
+  "sourceTag": "v0.1.0-dev.5",
+  "results": [
+    {
+      "skill": "printcraft-cli",
+      "independentDirectory": "/tmp/printcraft-publish-20261008/independent-skills/printcraft-cli/only-skill",
+      "resourceFiles": 7,
+      "diagnosis": {
+        "executable": "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+        "reused": true,
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "version": "0.2.1",
+        "platform": "darwin-arm64",
+        "versionOutput": "printcraft-cli 0.2.1",
+        "artifact": "printcraft-cli",
+        "status": "VERIFIED",
+        "installed": true,
+        "readOnly": true
+      }
+    },
+    {
+      "skill": "printcraft-cli-automation",
+      "independentDirectory": "/tmp/printcraft-publish-20261008/independent-skills/printcraft-cli-automation/only-skill",
+      "resourceFiles": 7,
+      "diagnosis": {
+        "executable": "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+        "reused": true,
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "version": "0.2.1",
+        "platform": "darwin-arm64",
+        "versionOutput": "printcraft-cli 0.2.1",
+        "artifact": "printcraft-cli",
+        "status": "VERIFIED",
+        "installed": true,
+        "readOnly": true
+      }
+    },
+    {
+      "skill": "printcraft-cli-inspect",
+      "independentDirectory": "/tmp/printcraft-publish-20261008/independent-skills/printcraft-cli-inspect/only-skill",
+      "resourceFiles": 7,
+      "diagnosis": {
+        "executable": "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+        "reused": true,
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "version": "0.2.1",
+        "platform": "darwin-arm64",
+        "versionOutput": "printcraft-cli 0.2.1",
+        "artifact": "printcraft-cli",
+        "status": "VERIFIED",
+        "installed": true,
+        "readOnly": true
+      }
+    },
+    {
+      "skill": "printcraft-cli-pages",
+      "independentDirectory": "/tmp/printcraft-publish-20261008/independent-skills/printcraft-cli-pages/only-skill",
+      "resourceFiles": 7,
+      "diagnosis": {
+        "executable": "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+        "reused": true,
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "version": "0.2.1",
+        "platform": "darwin-arm64",
+        "versionOutput": "printcraft-cli 0.2.1",
+        "artifact": "printcraft-cli",
+        "status": "VERIFIED",
+        "installed": true,
+        "readOnly": true
+      }
+    },
+    {
+      "skill": "printcraft-cli-setup",
+      "independentDirectory": "/tmp/printcraft-publish-20261008/independent-skills/printcraft-cli-setup/only-skill",
+      "resourceFiles": 7,
+      "diagnosis": {
+        "executable": "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+        "reused": true,
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "version": "0.2.1",
+        "platform": "darwin-arm64",
+        "versionOutput": "printcraft-cli 0.2.1",
+        "artifact": "printcraft-cli",
+        "status": "VERIFIED",
+        "installed": true,
+        "readOnly": true
+      }
+    },
+    {
+      "skill": "printcraft-use",
+      "independentDirectory": "/tmp/printcraft-publish-20261008/independent-skills/printcraft-use/only-skill",
+      "resourceFiles": 7,
+      "diagnosis": {
+        "executable": "/tmp/printcraft-publish-20261008/隔离 runtime/printcraft/0.2.1/printcraft-cli",
+        "reused": true,
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "version": "0.2.1",
+        "platform": "darwin-arm64",
+        "versionOutput": "printcraft-cli 0.2.1",
+        "artifact": "printcraft-cli",
+        "status": "VERIFIED",
+        "installed": true,
+        "readOnly": true
+      }
+    }
+  ],
+  "skillsCli": "NOT_INSTALLED_NOT_RUN",
+  "globalInstallPerformed": false
+}

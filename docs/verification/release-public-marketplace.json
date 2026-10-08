@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FRESH_PUBLIC_MARKETPLACE_INSTALL",
+  "codexVersion": "codex-cli 0.147.0",
+  "marketplaceRepository": "partme-ai/full-aigc-plugins",
+  "marketplaceCommit": "f41f0adcf017e5753bcbc366b18c3855b2ac1177",
+  "pluginRepository": "full-aigc-plugins/printcraft-plugin",
+  "pluginTag": "v0.1.0-dev.5",
+  "version": "0.1.0-dev.5",
+  "installedSkillFiles": 69,
+  "skillsMatchRelease": true,
+  "globalUserConfigChanged": false,
+  "authLinkUsed": false,
+  "install": {
+    "marketplace": {
+      "marketplaceName": "full-aigc-plugins",
+      "installedRoot": "/private/tmp/printcraft-publish-20261008/公开 市场/codex-home/.tmp/marketplaces/full-aigc-plugins",
+      "alreadyAdded": false
+    },
+    "plugin": {
+      "pluginId": "printcraft@full-aigc-plugins",
+      "name": "printcraft",
+      "marketplaceName": "full-aigc-plugins",
+      "version": "0.1.0-dev.5",
+      "installedPath": "/private/tmp/printcraft-publish-20261008/公开 市场/codex-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.5",
+      "authPolicy": "ON_USE"
+    }
+  },
+  "validator": {
+    "plugin": "printcraft",
+    "upstreamSkills": 6,
+    "localSkills": 1,
+    "skills": 7,
+    "snapshot": "PASS",
+    "sourceRelease": "OFFLINE_IDENTITY_ONLY_REMOTE_NOT_VERIFIED",
+    "remoteSourceVerification": "NOT_RUN",
+    "hostAcceptance": "NOT_RUN"
+  }
+}

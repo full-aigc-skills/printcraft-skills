@@ -10,7 +10,7 @@ See [中文使用说明](README.zh-CN.md), [implementation evidence](docs/verifi
 Install a single skill from the immutable prerelease:
 
 ```bash
-npx skills add full-aigc-skills/printcraft-skills@v0.1.0-dev.5 --skill printcraft-use
+npx skills add https://github.com/full-aigc-skills/printcraft-skills/tree/v0.1.0-dev.5/skills/printcraft-use
 ```
 
 [Release](https://github.com/full-aigc-skills/printcraft-skills/releases/tag/v0.1.0-dev.5). This is a development prerelease, not full platform or production acceptance.

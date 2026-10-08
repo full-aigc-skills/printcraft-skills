@@ -1,0 +1,15 @@
+{
+  "protocol": "printcraft.remote-source-verification/1",
+  "status": "PASS_REMOTE_TAG_RELEASE_ARCHIVE_AND_66_FILES",
+  "repository": "full-aigc-skills/printcraft-skills",
+  "tag": "v0.1.0-dev.5",
+  "commit": "2dd3801a59f217800a8b433ab379a1f6d8712886",
+  "releaseId": 406741735,
+  "releaseUrl": "https://github.com/full-aigc-skills/printcraft-skills/releases/tag/v0.1.0-dev.5",
+  "publishedAt": "2026-10-08T11:15:37Z",
+  "prerelease": true,
+  "archiveSha256": "19df26de095cd0ce9097b01ee246ac15558aeca48dfb436d0b5856f2ad9fe653",
+  "sourceSuiteSha256": "230b58a4a365ccc331903e55bbc8c8551c0ce71504f3dcee5861935a559f97b7",
+  "managedFileCount": 66,
+  "offlineValidatorClaimsRemoteProof": false
+}

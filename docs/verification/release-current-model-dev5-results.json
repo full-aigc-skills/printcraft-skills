@@ -1,0 +1,30 @@
+{
+  "codexVersion": "codex-cli 0.147.0",
+  "model": "gpt-5.6-sol",
+  "packageVersion": "0.1.0-dev.5",
+  "cases": [
+    {
+      "case": "natural",
+      "exitCode": 0
+    },
+    {
+      "case": "explicit",
+      "exitCode": 0
+    }
+  ],
+  "scope": "actual command and artifact evidence must be reviewed independently",
+  "status": "PASS_CURRENT_PUBLIC_INSTALLED_PACKAGE_SCOPED_TASKS",
+  "loadedSkillCount": 7,
+  "sourcePdfSha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+  "resultPdfSha256": "77fdadab2c4ac498b0836b340ef0f1ab0c4a29f3fb294f02d73f59a6b0cefac0",
+  "pageText": [
+    "PAGE-GAMMA",
+    "PAGE-ALPHA",
+    "PAGE-BETA"
+  ],
+  "deterministicVerification": "PASS",
+  "visualReview": "PASS_CODEX_INSPECTION_ORIGINAL_LABEL_FIXTURE",
+  "authLinkRemoved": true,
+  "executionResourcesMatchRelease": true,
+  "completeProductAcceptance": false
+}

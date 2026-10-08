@@ -58,7 +58,7 @@ python3 scripts/sync_local_snapshot.py --plugin-root "$PLUGIN_ROOT"
 ## 预发布安装
 
 ```bash
-npx skills add full-aigc-skills/printcraft-skills@v0.1.0-dev.5 --skill printcraft-use
+npx skills add https://github.com/full-aigc-skills/printcraft-skills/tree/v0.1.0-dev.5/skills/printcraft-use
 ```
 
 [GitHub 预发布](https://github.com/full-aigc-skills/printcraft-skills/releases/tag/v0.1.0-dev.5)。不捆绑原生二进制、字体或 OCR 模型；需要运行时安装时按技能入口明确执行。

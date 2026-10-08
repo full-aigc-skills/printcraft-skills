@@ -95,8 +95,8 @@
   },
   "evidenceSha256": {
     ".github/workflows/verify.yml": "a7aceb24e24d396805fe304c33eb1c13da51263f080da25b83b7c0234276ab1f",
-    "README.md": "f6385286751ef245c398424fb7496240bd9da1786bd47db01b6aedf10a03d0f0",
-    "README.zh-CN.md": "23277e8e2c64c2f4a019dd516cc4b5e19b57122ed049cd478d8170b2c43c2a77",
+    "README.md": "e906acdcf20ff3f77744eb1cab5d0869e7d233d4fb1fd5c1bdd62199564d443e",
+    "README.zh-CN.md": "f354762767f566adcb764139c11e0909b6f9a319bff88d17078d825e8d65839b",
     "docs/verification/artifacts/combine.pdf": "8b51d262e44244bbb5e9285fc23f023074bc4b4c1893a1537ec0a9c2975ed92f",
     "docs/verification/artifacts/crop.pdf": "00ef1f2cf775d979541bab430f5745f585563fadf9b3d0c27e13810ac976ff35",
     "docs/verification/artifacts/crop.png": "c00bd21391b2b165715e51935c4bbf3ad06f945dbf1fd9679a55e52adc0441d8",
@@ -282,7 +282,7 @@
     "docs/verification/handoff-entry-dev3.md": "11cef34007552eaa664ec3cbe62a3f1ec28af998efbe5e5deed1ef52df6ad792",
     "docs/verification/handoff-entry-red.log": "40962aa6a9f6c8be2ea5267aed27e0937ee5095a83045e7bb2dfb64a3ed6954e",
     "docs/verification/handoff-local-tests.log": "5e59f12a7382b26223e3843ca0b4916ee6c7bd9d10ee95a60c2fd4668d400e24",
-    "docs/verification/implementation-2026-10-08.md": "3365b7b5652b9ff26e52836bf5568e7fff71bafe8f86a9b288cb64c08d215bda",
+    "docs/verification/implementation-2026-10-08.md": "bbeae5aba3f3cf171c784575a0f20135d045af9e9794c9431bfd44ab27c95258",
     "docs/verification/installation-receipt.json": "b86041877a2e79450eb60c1d9a2dd26fbe73df6ce11ad5c549e644a928297137",
     "docs/verification/isolated-handoff-dev3.json": "91b6d1b7a81e3ce6271a36c38de7b8d6209871ed478cbb33236eaff332f4a4b0",
     "docs/verification/isolated-repository.json": "57065102ef95844cf00a33827b652224eab4032be32edbd654e8ce7d653b4f4c",
@@ -294,10 +294,16 @@
     "docs/verification/plugin-model-handoff-dev3-binding.json": "f6f4304051e7ec64a4d8eb463d9fa675af13121c2515bb0cb04005ffa47d02a7",
     "docs/verification/plugin-model-handoff-dev3-results.json": "c102332c1049db10b4ee3aa508cded81347ef703ce62f80e3906c7dbed18108e",
     "docs/verification/plugin-plugin-read-dev3.json": "9092718f06cef83b293e9f9548bb4b09d173e4b093e4d3cf7a909f836fdc697b",
+    "docs/verification/release-2026-10-08.md": "72a95d981bf70bb3c032502e264c13e70bbdd4a6a8cb074a4a3de732cb929fcf",
     "docs/verification/release-ci-dev4-red.log": "ad403deccca9e329d3eb1973d280e2155ddd36b9419c21bc2e30d438af997bcb",
+    "docs/verification/release-current-model-dev5-results.json": "1dd713e90bcb33aeb154169f108883b0035f51fdd91d734eab035075f73e5905",
+    "docs/verification/release-independent-skills.json": "e430dcb9d924910c2a2a1483bedc73c6f80625d7d623d323bebb99d52c754a3c",
     "docs/verification/release-local-tests.log": "bd51fc2dc2fe9acfd64293a97b5351c0bae0d3d22a3cb9bb4fcf84d8abf5ba87",
     "docs/verification/release-preparation.md": "8d5288e33ecd4f1e03edbc21556a9669b053c06879e11a268de28ab83cecd2a8",
-    "docs/verification/remaining-gates-2026-10-08.md": "566ac2461786ff4dfefdc86e39a09c9ec0faf65a34ff7cc27eda501a18d8d48a",
+    "docs/verification/release-public-marketplace.json": "ae637f9c2cdd22d55441be9d5df2f77552f7efb900fb8a15cf37af15bd2b4113",
+    "docs/verification/remaining-gates-2026-10-08.md": "bf31bd369e07a086043cbd0c71b42ea1fec9792354f98654453418d00ce5f683",
+    "docs/verification/remote-plugin-release.json": "7571fe0c2417a5b954453e03c32cb1c36e02c11b80e30154c859874c0420cc22",
+    "docs/verification/remote-source-release.json": "030073cdb5509021ff2cd3124952bf8d4e4c1c45015053cbc445c2c854076271",
     "docs/verification/scan-receipt.json": "0b72aaff5ca3cbee51bed1e67b5e5712a091285f8f17181c994d8348eb6c4f3a",
     "docs/verification/scan-request.json": "12aad0b94ceea769f25e1092734976b539394017a18716ba3e9b5fb1646cad43",
     "docs/verification/verification-receipt.json": "fb362a12ec9f99f60d8bc5c21fcb912a96d023727302d00b2807c7776512007a",
@@ -312,7 +318,7 @@
     "openspec/changes/harden-printcraft-skill-execution/specs/skill-routing/spec.md": "0a9e9e96f48251a9df8ddf444d15a4fccfd78f4b8960fe9ad28d09d97d2a3e06",
     "openspec/changes/harden-printcraft-skill-execution/tasks.md": "0b0da50e9289ff64d4b3034a4f817cd05181e83002bc515a3d8e9277dd4827e1",
     "openspec/changes/harden-printcraft-skill-execution/verification.md": "d5d2ca3993755707a2c3f3f4a4a85584536ce02c57de3bf0f4aa12a629efc5f0",
-    "project-status.json": "cf52fa2fae22adeb081ab823cc884627e77fc72fa5994e38543bb4ea15f92ff9"
+    "project-status.json": "0461b8056e24493b489a9075f823a18f4783fb52c314976da1059113e115e47b"
   },
   "layers": {
     "localTests": {
@@ -327,23 +333,29 @@
       "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995"
     },
     "host": {
-      "status": "PASS_SCOPED",
-      "version": "codex-cli 0.153.4",
-      "packageVersion": "0.1.0-dev.3",
+      "status": "PASS_CURRENT_PUBLIC_INSTALL",
+      "version": "codex-cli 0.147.0",
+      "packageVersion": "0.1.0-dev.5",
       "skillDiscoveryCount": 7
     },
     "model": {
-      "status": "PASS_SCOPED_DEV_3_PUBLIC_HANDOFF_AND_PDF",
+      "status": "PASS_CURRENT_PUBLIC_INSTALLED_PACKAGE_SCOPED_TASKS",
       "model": "gpt-5.6-sol",
-      "configuredGpt6Astra": "CLI_UPGRADE_REQUIRED_NOT_PERFORMED",
-      "packageVersion": "0.1.0-dev.3"
+      "packageVersion": "0.1.0-dev.5",
+      "cases": 2
     },
     "visual": "PASS_ORIGINAL_FIXTURES_CODEX_IMAGE_INSPECTION",
     "otherPlatforms": "BLOCKED_BEFORE_NATIVE_EXECUTION",
     "chineseOCR": "UNSUPPORTED_BY_PINNED_NATIVE_ACTUAL_ZH_REQUEST_REFUSED",
     "crossPluginRealProducer": "PASS_PUBLIC_ENTRY_LOCAL_NATIVE_MOBILE_NOT_RUN",
-    "publication": "NOT_RUN",
-    "ci": "NOT_RUN",
+    "publication": "PASS_PUBLIC_PRERELEASE_TAG_ARCHIVE_MARKETPLACE_INSTALL",
+    "ci": {
+      "status": "PASS",
+      "releaseCommit": "2dd3801a59f217800a8b433ab379a1f6d8712886",
+      "runId": 37768846237,
+      "jobs": 4,
+      "scope": "package-only; native platform acceptance unchanged"
+    },
     "sameMachinePortableDelivery": "PASS_SCOPED",
     "mobileDevice": "NOT_RUN",
     "crossMachine": "NOT_RUN"
