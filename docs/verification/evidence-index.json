@@ -131,11 +131,22 @@
     "docs/verification/artifacts/signed.pdf": "7ed1ee01ab8f5573e8b6836213971e310ff895077f219ee6b72105a98cebbe9f",
     "docs/verification/artifacts/source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
     "docs/verification/combined-verification.json": "65b751ad027684a088855abd070e831ec77c344608bf53cb10becef207d37e93",
-    "docs/verification/cross-machine-2026-10-08.md": "78d3fb3771e172e25dfabfdd4302b5072561810ab6d065e55d350c73e075cece",
+    "docs/verification/cross-machine-2026-10-08.md": "1555d813048b9934b32df96bff68027999b5c9892dbf6ddef2740384798f340e",
+    "docs/verification/cross-machine-ci/artifacts.json": "a91ced9411efb7168b64acddea9ee232011bb9aa07ff9b74dd441b8d73723f1e",
+    "docs/verification/cross-machine-ci/collection.json": "50ed82f009fa6e280d35606dd0c0141471c3616e36f1ea1562bc74c2a89ec57d",
+    "docs/verification/cross-machine-ci/darwin-x86_64-report.json": "4c43af382fd7a8fd4615eaa6131d65f8e6b21b3fe92921643505d600ee426346",
+    "docs/verification/cross-machine-ci/jobs.json": "c74c15dd7e42298e20cf42811ec3c2a320364f12f4a9db24846c91e9e431e17a",
+    "docs/verification/cross-machine-ci/linux-x86_64-report.json": "a692f75d53d15e231facaee867be23751a2d416a4570c1b2ef5412816556df98",
+    "docs/verification/cross-machine-ci/project-transport-37773443950.zip": "7cc630cb188fed26a4e72c7e904005b789099cad4e00ec9088687e25d5d76a07",
+    "docs/verification/cross-machine-ci/receiver-darwin-x86_64-37773443950.zip": "6589ddb0ad5e80eca1a98cfd01803d9e5d2880abf43191312392d19bc87a5832",
+    "docs/verification/cross-machine-ci/receiver-linux-x86_64-37773443950.zip": "8e310f64a5d9557285b0e53df1329a486aea1b1ecbee54075508a05489ec7c81",
+    "docs/verification/cross-machine-ci/run.json": "8ec5f7534d0379f94f3af2d5eb0bbcca428ca53bc20dc75036c4d3fa5bea1117",
+    "docs/verification/cross-machine-ci/sender-report.json": "f9f8f24b4e53e74ee30ca98b890d0b5a6477582e2456b74c6a782a6a9b541f40",
+    "docs/verification/cross-machine-ci/workflow.log": "9e42f70c421e3a0b8091fed3bdbfd335e00ea45466a0facd976f3c6fc56aa748",
     "docs/verification/cross-machine-local-identity-refusal.json": "4816dd2fd3348397585b4881f5d4e3a50b99d27d05d6ab613ff6eb2dc63680dd",
     "docs/verification/cross-machine-red.log": "03e3efdc2d80659924c85a1a821eee6725c9ab14e2324e4ab37cd3bcc95fe5bc",
     "docs/verification/cross-machine-tests-63.log": "b0b8410e9e2e971babc09d5be7be5babeb229aaebe9a27404b3bfa139b50af65",
-    "docs/verification/cross-plugin-2026-10-08.md": "576f704695765f4075238273ef417d6ddc4048c2d7646cbdc4542ce2f1870e6d",
+    "docs/verification/cross-plugin-2026-10-08.md": "5fe7d077452313146d78e4f5932543a896031657ca060d98704a6ec9431b1579",
     "docs/verification/cross-plugin-artifacts/archive-artcraft-verification.json": "e5318248eb5fee6f72adecf74f45a4b53cf662267458bad4c8c64fdb7b5e27e5",
     "docs/verification/cross-plugin-artifacts/archive-combined-verification.json": "e2d2fbf2a36de54ed6a81b9a3072498c721c36f647c6b1ac2f5ebe2f0b6d34fd",
     "docs/verification/cross-plugin-artifacts/archive-verification-receipt.json": "cefd3b86799796c9a101f2b08114cccabc47fef8e0600fa6742fb676af78db31",
@@ -302,6 +313,7 @@
     "docs/verification/isolated-repository.json": "57065102ef95844cf00a33827b652224eab4032be32edbd654e8ce7d653b4f4c",
     "docs/verification/legacy-exit-only-red.log": "f3d2b23a03d05a886b500880b6ab70b3d112e4533c1f2cf67de26da08d0aeeef",
     "docs/verification/local-tests.log": "80705eb6e247c3d1c65b3207a6d0582dc9702eda6634172a76fadb527fd2adae",
+    "docs/verification/mobile-device-status.json": "423517c809e32df0736c4c6ee3f4c5fde37e3442eb93cf079ae548e1c12193f8",
     "docs/verification/native-handoff-dev3-report.json": "03a845494cb8bd1fb135eb44a2a72f9d7beb1352316201d64dee41de70daf905",
     "docs/verification/native-platform-ci/artifacts.json": "fc37a853339d31c939b83defbfa1f1cb18afc5bda20dfcc1d3c2615ff987b2fb",
     "docs/verification/native-platform-ci/collection.json": "e7f10d7bab21e0cbc57e55eaebe5e4414de0ebecabc62383f6a058f8de8c59a5",
@@ -334,7 +346,7 @@
     "docs/verification/native-platform-ocr-ci/windows-x86_64-report.json": "6e8fd98e20c9d49536d8e1bc226ff1de02a1ffd037049b4efd0d4f02111a4525",
     "docs/verification/native-platform-ocr-ci/workflow.log": "cec6713f67ed47f06fc31bebf9789f3d2f02a0b076e2e0405cab4f0e2af81f6f",
     "docs/verification/native-platforms-2026-10-08.md": "6bb232bcaa5b33fd5f17d0afe865213e7edba4386ace09f0c44902dc4dcc5807",
-    "docs/verification/platform-ocr-matrix.md": "1792829322c4ad1f2760bccc7cfb3231699b4a5a658d97d4a75f13a883274d8b",
+    "docs/verification/platform-ocr-matrix.md": "ebb8075191fc85632515084b35fdf1c7a137a44072e6bd2e6c269bedf82914dc",
     "docs/verification/platform-probe.json": "892dfbb7c5d22f5ae462f697d1f56893e9582bbef87fcd99ea25e5b63f87e1c3",
     "docs/verification/platform-tests-57.log": "91501a4a14aa257000fd611cbc246e0a4356bcea80136beb95ec3bde35bfcdb7",
     "docs/verification/plugin-model-handoff-dev3-binding.json": "f6f4304051e7ec64a4d8eb463d9fa675af13121c2515bb0cb04005ffa47d02a7",
@@ -362,9 +374,10 @@
     "openspec/changes/harden-printcraft-skill-execution/specs/pdf-delivery-verification/spec.md": "09606beb0dc2a628b5b569ec7e29caf01611e2fbe75bb74d689f6dfe3fc3a22d",
     "openspec/changes/harden-printcraft-skill-execution/specs/runtime-contract/spec.md": "bd40d61444f4dbabf9a5d8fb0babc7cf6df178d6eebcdf845988e13ac206f5f5",
     "openspec/changes/harden-printcraft-skill-execution/specs/skill-routing/spec.md": "0a9e9e96f48251a9df8ddf444d15a4fccfd78f4b8960fe9ad28d09d97d2a3e06",
-    "openspec/changes/harden-printcraft-skill-execution/tasks.md": "1c3823922c9a43c8955ec544a505f541de36b6665b3e063039ed03894fb8d82c",
+    "openspec/changes/harden-printcraft-skill-execution/tasks.md": "da9857d37c1a8f2f5c22ad619a8bc90a7278e78dcc9182566121bb1cb9da17e7",
     "openspec/changes/harden-printcraft-skill-execution/verification.md": "d5d2ca3993755707a2c3f3f4a4a85584536ce02c57de3bf0f4aa12a629efc5f0",
-    "project-status.json": "37edaa79002a6ccad3c5af861f978476d9f856aa43ef153fad2435b1fd29b2c2"
+    "project-status.json": "9810e9ab0d8727173c1c17b43d1226078b16c1e4bf1072e2cb0025cb042d036e",
+    "docs/verification/openspec-validation-2026-10-08.json": "b88e640a39ac0d0beb05e719f42140720f42578dd082ece31d1ecb0921ddbf39"
   },
   "layers": {
     "localTests": {
@@ -404,7 +417,21 @@
     },
     "sameMachinePortableDelivery": "PASS_SCOPED",
     "mobileDevice": "NOT_RUN",
-    "crossMachine": "NOT_RUN",
+    "crossMachine": {
+      "status": "PASS_SCOPED_CROSS_MACHINE",
+      "ciRunId": 37773443950,
+      "sourceCommit": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da",
+      "transportSha256": "2ff3a91f5f649b94bb3958933435e937cac5fc9941fe1f6b96bc04c3b6294089",
+      "files": 59,
+      "receivers": [
+        "linux-x86_64",
+        "darwin-x86_64"
+      ],
+      "consumerCommit": "4ff30a88bbdc0c268dc17d7cddb7f3aed77544e8",
+      "mobileDevice": "DEVICE_AUTHORIZATION_REQUIRED_NOT_RUN",
+      "producerReexecution": "NOT_RUN",
+      "visualReview": "NOT_RUN"
+    },
     "nativePlatforms": {
       "status": "PASS_SCOPED_NATIVE_DIRECT",
       "ciRunId": 37772042337,
@@ -453,5 +480,5 @@
     "removed": []
   },
   "unchangedResourceEvidenceReuse": "dev.3 base/isolated tests, native scenarios, public cross-plugin entry, host discovery and model PDF were re-executed; unchanged bootstrap/CLI/service evidence retains original scope. Old dev.2 model artifacts are historical.",
-  "publicationDelta": "Release metadata, host adapters and author tests may change; distributed execution resources and prior scoped native/model artifacts remain digest-bound. Public installation is recorded separately."
+  "publicationDelta": "Published dev.5 distributed skill and harness files unchanged; later author tests/CI evidence bind immutable native, English-OCR and cross-machine commits. Phone/tablet and native Chinese OCR gates remain open."
 }

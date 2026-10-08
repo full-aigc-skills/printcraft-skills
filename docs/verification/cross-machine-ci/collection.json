@@ -1,0 +1,192 @@
+{
+  "runId": "37773443950",
+  "url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37773443950",
+  "sourceCommit": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da",
+  "status": "PASS_SCOPED_CROSS_MACHINE",
+  "sender": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "release": "24.6.0",
+    "python": "3.13.15",
+    "runnerName": "GitHub Actions 1000000372",
+    "workflowRunId": "37773443950",
+    "workflowJob": "sender",
+    "sourceCommit": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+  },
+  "transportSha256": "2ff3a91f5f649b94bb3958933435e937cac5fc9941fe1f6b96bc04c3b6294089",
+  "transferredFileCount": 59,
+  "sourceDigestsVerified": 14,
+  "memberDigestsVerified": 165,
+  "receivers": {
+    "linux-x86_64": {
+      "host": {
+        "system": "Linux",
+        "machine": "x86_64",
+        "release": "6.17.0-1022-azure",
+        "python": "3.13.16",
+        "runnerName": "GitHub Actions 1000000374",
+        "workflowRunId": "37773443950",
+        "workflowJob": "receiver",
+        "sourceCommit": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+      },
+      "consumer": {
+        "repository": "full-aigc-plugins/artcraft-plugin",
+        "commit": "4ff30a88bbdc0c268dc17d7cddb7f3aed77544e8",
+        "version": "0.1.0-dev.122-runtime.1",
+        "node": "v24.21.0",
+        "verifyModuleSha256": "f57104c4a71e27f2a17b54a895c3c44eaff5c2eaa1dc0c740f7556325e5d1dd6"
+      },
+      "runtime": {
+        "system": "linux",
+        "machine": "x86_64",
+        "asset": "printcraft-0.2.1-linux-x86_64.tar.gz",
+        "url": "https://github.com/storytold/pdfcraft/releases/download/v0.2.1/printcraft-0.2.1-linux-x86_64.tar.gz",
+        "archiveSha256": "73b2977330d73716971237f68f89cba6ad52cbfb563ad0ab6d9ad18f44d45192",
+        "member": "printcraft-0.2.1-linux-x86_64/bin/printcraft-cli",
+        "binarySha256": "83fa013a814583d569fb2463bc6e1379f4aa0f9d293b034cf96308e8f77c54c4",
+        "versionOutput": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft\n"
+      },
+      "packageVerification": {
+        "package-v1": {
+          "sha256": "2bc262cc670dae1997d9eced7792dbf8f1daf9bd6997a2dac222ff7d5f856b12",
+          "files": 21,
+          "children": 2,
+          "status": "OFFICIAL_VERIFY_PACKAGE_PASS"
+        },
+        "package-v2": {
+          "sha256": "1caa92b3d0a9d1d6089b7e4c9628ee88683c3f515f531175af32e7bac06798f3",
+          "files": 30,
+          "children": 2,
+          "status": "OFFICIAL_VERIFY_PACKAGE_PASS"
+        }
+      },
+      "selectiveRework": {
+        "changedPages": [
+          1
+        ],
+        "preservedPages": [
+          2
+        ],
+        "outputSha256": "be0344424464c7e60dcc969357a094241d41ba101c03f2c32d2a8234350bc122",
+        "info": {
+          "annotations": 0,
+          "attachments": 2,
+          "author": null,
+          "bookmarks": 2,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/receiver-evidence/receiver-revised.pdf",
+          "file_size": 4996,
+          "first_page_pt": [
+            120.0,
+            88.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2"
+          ],
+          "pages": 2,
+          "pdf_version": "1.7",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "status": "PASS_NATIVE_SAVE_REOPEN_RENDER"
+      },
+      "allTransferredInputsUnchanged": true
+    },
+    "darwin-x86_64": {
+      "host": {
+        "system": "Darwin",
+        "machine": "x86_64",
+        "release": "24.6.0",
+        "python": "3.13.15",
+        "runnerName": "GitHub Actions 1000000373",
+        "workflowRunId": "37773443950",
+        "workflowJob": "receiver",
+        "sourceCommit": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+      },
+      "consumer": {
+        "repository": "full-aigc-plugins/artcraft-plugin",
+        "commit": "4ff30a88bbdc0c268dc17d7cddb7f3aed77544e8",
+        "version": "0.1.0-dev.122-runtime.1",
+        "node": "v24.19.0",
+        "verifyModuleSha256": "f57104c4a71e27f2a17b54a895c3c44eaff5c2eaa1dc0c740f7556325e5d1dd6"
+      },
+      "runtime": {
+        "system": "darwin",
+        "machine": "x86_64",
+        "asset": "printcraft-cli-0.2.1-macos-universal.zip",
+        "url": "https://github.com/storytold/pdfcraft/releases/download/v0.2.1/printcraft-cli-0.2.1-macos-universal.zip",
+        "archiveSha256": "bda65829033916c5de5a7ddc0763437f8db2e8792ee43c8dc2676434acb3d495",
+        "member": "printcraft-cli-0.2.1-macos-universal/printcraft-cli",
+        "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+        "versionOutput": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft\n"
+      },
+      "packageVerification": {
+        "package-v1": {
+          "sha256": "2bc262cc670dae1997d9eced7792dbf8f1daf9bd6997a2dac222ff7d5f856b12",
+          "files": 21,
+          "children": 2,
+          "status": "OFFICIAL_VERIFY_PACKAGE_PASS"
+        },
+        "package-v2": {
+          "sha256": "1caa92b3d0a9d1d6089b7e4c9628ee88683c3f515f531175af32e7bac06798f3",
+          "files": 30,
+          "children": 2,
+          "status": "OFFICIAL_VERIFY_PACKAGE_PASS"
+        }
+      },
+      "selectiveRework": {
+        "changedPages": [
+          1
+        ],
+        "preservedPages": [
+          2
+        ],
+        "outputSha256": "9ec0b2cef259e0d4cd2836da79ff78a6cfb03ba27f307689ea986181698ae1cf",
+        "info": {
+          "annotations": 0,
+          "attachments": 2,
+          "author": null,
+          "bookmarks": 2,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/Users/runner/work/printcraft-skills/printcraft-skills/receiver-evidence/receiver-revised.pdf",
+          "file_size": 4996,
+          "first_page_pt": [
+            120.0,
+            88.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2"
+          ],
+          "pages": 2,
+          "pdf_version": "1.7",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "status": "PASS_NATIVE_SAVE_REOPEN_RENDER"
+      },
+      "allTransferredInputsUnchanged": true
+    }
+  },
+  "mobileDevice": "NOT_RUN",
+  "visualReview": "NOT_RUN",
+  "skillInstaller": "NOT_RUN_DIRECT_NATIVE_ONLY",
+  "producerReexecution": "NOT_RUN"
+}

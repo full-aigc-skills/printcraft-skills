@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-08T12:01:23.544499+00:00",
+  "command": "adb devices -l",
+  "processExitCode": 0,
+  "connectedDeviceCount": 1,
+  "authorizationStates": [
+    "unauthorized"
+  ],
+  "deviceIdentifiers": "OMITTED",
+  "deviceTypeAndModel": "UNKNOWN_UNTIL_AUTHORIZED",
+  "iosDeviceTool": "DEVICETCL_NOT_AVAILABLE",
+  "status": "DEVICE_AUTHORIZATION_REQUIRED",
+  "phoneTabletAcceptance": "NOT_RUN",
+  "requiredAction": "设备所有者在 Android 上授权此电脑 USB 调试；尚未因等待超时推定授权。"
+}

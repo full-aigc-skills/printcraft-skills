@@ -1,0 +1,65 @@
+{
+  "total_count": 3,
+  "artifacts": [
+    {
+      "id": 11549175098,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0OTE3NTA5OA==",
+      "name": "receiver-linux-x86_64-37773443950",
+      "size_in_bytes": 64324,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11549175098",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11549175098/zip",
+      "expired": false,
+      "digest": "sha256:8e310f64a5d9557285b0e53df1329a486aea1b1ecbee54075508a05489ec7c81",
+      "created_at": "2026-10-08T11:57:14Z",
+      "updated_at": "2026-10-08T11:57:14Z",
+      "expires_at": "2027-01-06T11:56:51Z",
+      "workflow_run": {
+        "id": 37773443950,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+      }
+    },
+    {
+      "id": 11549160345,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0OTE2MDM0NQ==",
+      "name": "receiver-darwin-x86_64-37773443950",
+      "size_in_bytes": 64354,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11549160345",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11549160345/zip",
+      "expired": false,
+      "digest": "sha256:6589ddb0ad5e80eca1a98cfd01803d9e5d2880abf43191312392d19bc87a5832",
+      "created_at": "2026-10-08T11:57:44Z",
+      "updated_at": "2026-10-08T11:57:44Z",
+      "expires_at": "2027-01-06T11:56:51Z",
+      "workflow_run": {
+        "id": 37773443950,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+      }
+    },
+    {
+      "id": 11548254329,
+      "node_id": "MDg6QXJ0aWZhY3QxMTU0ODI1NDMyOQ==",
+      "name": "project-transport-37773443950",
+      "size_in_bytes": 82239,
+      "url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548254329",
+      "archive_download_url": "https://api.github.com/repos/full-aigc-skills/printcraft-skills/actions/artifacts/11548254329/zip",
+      "expired": false,
+      "digest": "sha256:7cc630cb188fed26a4e72c7e904005b789099cad4e00ec9088687e25d5d76a07",
+      "created_at": "2026-10-08T11:57:02Z",
+      "updated_at": "2026-10-08T11:57:02Z",
+      "expires_at": "2027-01-06T11:56:51Z",
+      "workflow_run": {
+        "id": 37773443950,
+        "repository_id": 1410189141,
+        "head_repository_id": 1410189141,
+        "head_branch": "main",
+        "head_sha": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+      }
+    }
+  ]
+}

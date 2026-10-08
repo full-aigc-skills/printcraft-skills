@@ -1,0 +1,254 @@
+{
+  "status": "PACKED_NOT_RECEIVED",
+  "sender": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "release": "24.6.0",
+    "python": "3.13.15",
+    "runnerName": "GitHub Actions 1000000372",
+    "workflowRunId": "37773443950",
+    "workflowJob": "sender",
+    "sourceCommit": "cb90b21920e04fbe0f65be3d0fe8619cbe33e1da"
+  },
+  "transportSha256": "2ff3a91f5f649b94bb3958933435e937cac5fc9941fe1f6b96bc04c3b6294089",
+  "files": {
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": {
+      "sha256": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+      "bytes": 4207
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.png": {
+      "sha256": "ee9954be079cbe31a2097ebf5bbdf86d2a097af37ef474d1034056e492461cd3",
+      "bytes": 334
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/exchange-loss.json": {
+      "sha256": "0343690c47076cda11eb68104e7a18f0c05d77802871d96de864b63d88410f24",
+      "bytes": 2821
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/manifest.json": {
+      "sha256": "8b8a53173f5045172bf28f4e959fd8b3614a1464040a821e424b1abae0b94b45",
+      "bytes": 1474
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/native.json": {
+      "sha256": "a7b035d350d2717144493d485e426934f92f61c936b239b936a9cb58a3e63e2a",
+      "bytes": 22805
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/operations.json": {
+      "sha256": "2f6d9bb6d1ab0be6fd5d7fc96d718830c9f2f4f16c0fbfdc9fe5c3dfadfd8c3b",
+      "bytes": 1605
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/plan.json": {
+      "sha256": "babb20b040fc48e9bf9855eff2069b67a0f018e4656ba6b34e8a12a8bef87995",
+      "bytes": 791
+    },
+    "package-v1/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/project.vectorcraft": {
+      "sha256": "3ad1114bf9bef3798764cd13ef7de209b025cc2f3ef0ba17f7154b3a1386d442",
+      "bytes": 23889
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": {
+      "sha256": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+      "bytes": 4210
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.png": {
+      "sha256": "cb99fda5a7983e7871fdd630c2e7a962e6d9322890f536e48b63bd82c283e19a",
+      "bytes": 336
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/exchange-loss.json": {
+      "sha256": "c2b92052985f645151560388d918c6384e0826bd19de09d4a1573771d2608e79",
+      "bytes": 2821
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/manifest.json": {
+      "sha256": "fdc98b9d1774753c2292f318c67b1426283935b599e579d64f102ffb02018053",
+      "bytes": 1474
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/native.json": {
+      "sha256": "465b154b9256eca9aa33a2366fe5d02aed125b58a377670d8d0ae01ff1d96677",
+      "bytes": 22806
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/operations.json": {
+      "sha256": "34f46c94cfb0f079375fcfb13c82bda0b4135ee4f91b70f664dee52cee9116b2",
+      "bytes": 1607
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/plan.json": {
+      "sha256": "86f32a18d155814bb76ff36c5c884c9ca1a181e1ed0001381edb35265733f235",
+      "bytes": 793
+    },
+    "package-v1/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/project.vectorcraft": {
+      "sha256": "8627a26e76cbc5158d3f4cf9442b0acf67c7d7d84885f239ed7a5353f2212fca",
+      "bytes": 23891
+    },
+    "package-v1/project.json": {
+      "sha256": "2bc262cc670dae1997d9eced7792dbf8f1daf9bd6997a2dac222ff7d5f856b12",
+      "bytes": 9521
+    },
+    "package-v1/workflow-plan-portable.json": {
+      "sha256": "de7fc10b574cd5ca777516203937dfa5dd478c2e10a6274e651d963d5bfc4cfd",
+      "bytes": 4380
+    },
+    "package-v1/workflow-plan.json": {
+      "sha256": "de7fc10b574cd5ca777516203937dfa5dd478c2e10a6274e651d963d5bfc4cfd",
+      "bytes": 4380
+    },
+    "package-v1/workflow-record.json": {
+      "sha256": "dc9782dfa213daa5d60f3e325b0b5886cf0c8a94eee471e2345197ce80b11d00",
+      "bytes": 17596
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.pdf": {
+      "sha256": "54fd26bcf4b9ef5e3aa9ad3ac88f9748832ea2ae6299362116b59d12369369cc",
+      "bytes": 4207
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/artboard-1.png": {
+      "sha256": "33f92e46a29dd0892547ad2dfcdfef82acd7dde56a8fe07b27dc5c922d0c9330",
+      "bytes": 334
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/exchange-loss.json": {
+      "sha256": "d164992044e9756b251b3c39d11e42756298f53156ee12e36ec12063abf48b23",
+      "bytes": 2821
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/manifest.json": {
+      "sha256": "2e8c3cf06a06d99a8fab95a81ab106836e72ae09b886bf1d553feaefb3a58171",
+      "bytes": 1536
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/native.json": {
+      "sha256": "f8e3a3b8609e9322bfa221f090905bcb065115f98dfe9041b7ed44fea72103ad",
+      "bytes": 22803
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/operations.json": {
+      "sha256": "f916cd9e9f563ca38a9e9e3ae313bb1c1852aeeb9e25e598356a29d780e7010b",
+      "bytes": 1413
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/plan.json": {
+      "sha256": "cba35e5461d59dcfe1e79afeb3c6b3e085b986ad34ddb9f185a777f37894a842",
+      "bytes": 434
+    },
+    "package-v2/children/12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51/project.vectorcraft": {
+      "sha256": "dd632d612da2f65bf21deb1f2cf566db87d00b8b643b84af115b948dfce6d189",
+      "bytes": 23889
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.pdf": {
+      "sha256": "bf6fd26b9ca7347c6f09c4e4f7578752249b24d6948e9f0cf1190bd33a9ee2ef",
+      "bytes": 4210
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/artboard-1.png": {
+      "sha256": "cb99fda5a7983e7871fdd630c2e7a962e6d9322890f536e48b63bd82c283e19a",
+      "bytes": 336
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/exchange-loss.json": {
+      "sha256": "c2b92052985f645151560388d918c6384e0826bd19de09d4a1573771d2608e79",
+      "bytes": 2821
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/manifest.json": {
+      "sha256": "fdc98b9d1774753c2292f318c67b1426283935b599e579d64f102ffb02018053",
+      "bytes": 1474
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/native.json": {
+      "sha256": "465b154b9256eca9aa33a2366fe5d02aed125b58a377670d8d0ae01ff1d96677",
+      "bytes": 22806
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/operations.json": {
+      "sha256": "34f46c94cfb0f079375fcfb13c82bda0b4135ee4f91b70f664dee52cee9116b2",
+      "bytes": 1607
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/plan.json": {
+      "sha256": "86f32a18d155814bb76ff36c5c884c9ca1a181e1ed0001381edb35265733f235",
+      "bytes": 793
+    },
+    "package-v2/children/1daf82f62247f3a1d148c2d88b1828c9efa2d5f087d7059e98650aafe7afdea3/project.vectorcraft": {
+      "sha256": "8627a26e76cbc5158d3f4cf9442b0acf67c7d7d84885f239ed7a5353f2212fca",
+      "bytes": 23891
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/artboard-1.pdf": {
+      "sha256": "cc210e23d3b9a0fd0c7f5690c23e9506a2edb0a52f1a26d153145745a05a0e2e",
+      "bytes": 4207
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/artboard-1.png": {
+      "sha256": "ee9954be079cbe31a2097ebf5bbdf86d2a097af37ef474d1034056e492461cd3",
+      "bytes": 334
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/exchange-loss.json": {
+      "sha256": "0343690c47076cda11eb68104e7a18f0c05d77802871d96de864b63d88410f24",
+      "bytes": 2821
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/manifest.json": {
+      "sha256": "8b8a53173f5045172bf28f4e959fd8b3614a1464040a821e424b1abae0b94b45",
+      "bytes": 1474
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/native.json": {
+      "sha256": "a7b035d350d2717144493d485e426934f92f61c936b239b936a9cb58a3e63e2a",
+      "bytes": 22805
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/operations.json": {
+      "sha256": "2f6d9bb6d1ab0be6fd5d7fc96d718830c9f2f4f16c0fbfdc9fe5c3dfadfd8c3b",
+      "bytes": 1605
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/pdf-export-date.json": {
+      "sha256": "d7b420bc536f7beb9e5e84b8776119df18913241276ee77fdf3de6c6dc751a24",
+      "bytes": 107
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/plan.json": {
+      "sha256": "babb20b040fc48e9bf9855eff2069b67a0f018e4656ba6b34e8a12a8bef87995",
+      "bytes": 791
+    },
+    "package-v2/inputs/167af38b7d94a3a849cef272aaa14f51b14cde7b34e27770409be95a6ece9975/project.vectorcraft": {
+      "sha256": "3ad1114bf9bef3798764cd13ef7de209b025cc2f3ef0ba17f7154b3a1386d442",
+      "bytes": 23889
+    },
+    "package-v2/project.json": {
+      "sha256": "1caa92b3d0a9d1d6089b7e4c9628ee88683c3f515f531175af32e7bac06798f3",
+      "bytes": 13415
+    },
+    "package-v2/workflow-plan-portable.json": {
+      "sha256": "5bf8cfcbf590c70516c34486862b4b3339e27ee787c787a8674e24e2a3b28746",
+      "bytes": 5789
+    },
+    "package-v2/workflow-plan.json": {
+      "sha256": "ce87ae1fc8620c1251f077d2dbc73c389ea31524902c13aa6a29c34ff835c895",
+      "bytes": 5858
+    },
+    "package-v2/workflow-record.json": {
+      "sha256": "51a0f8e14613b95f24150a70e7026e98f36ae1379a544930dd3bca4fa767d207",
+      "bytes": 17538
+    },
+    "revised.pdf": {
+      "sha256": "42db8b468aab763d66ac02aa893f32337ef4b983e2d4e4cf7e03311fad0664b7",
+      "bytes": 4996
+    },
+    "second.pdf": {
+      "sha256": "699e182b1371dba7b16a9dfa41d2cfa0782712aae9a8d955089692ca960ad27f",
+      "bytes": 4984
+    },
+    "revised-1.pam": {
+      "sha256": "d7d8880f7a70f62efd0f38ed3d4661ed634b91d9807d6fe32a5060761fb25534",
+      "bytes": 74949
+    },
+    "revised-2.pam": {
+      "sha256": "638919dab3c4e77720bd2965a231e689c5133823bccf632c83512d9f474039ac",
+      "bytes": 87109
+    },
+    "cross-plugin-report.json": {
+      "sha256": "6c59eccea9146c3f4cf55aeb0c6b0473515fb3e333201425d07465a1c88dfed6",
+      "bytes": 8927
+    },
+    "producer-report.json": {
+      "sha256": "1ed72f8c08da4afde5c120f3bbc372516c3dc8e656dd5e251a5d43815629fd6e",
+      "bytes": 32899
+    }
+  },
+  "inputUnchanged": true,
+  "mobileDevice": "NOT_RUN"
+}

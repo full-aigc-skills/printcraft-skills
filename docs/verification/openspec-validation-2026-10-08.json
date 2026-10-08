@@ -1,0 +1,22 @@
+{
+  "tool": "openspec",
+  "version": "1.13.1",
+  "observedAt": "2026-10-08T12:02:51.511472+00:00",
+  "checks": [
+    {
+      "change": "harden-printcraft-skill-execution",
+      "command": "openspec validate harden-printcraft-skill-execution --strict --no-interactive",
+      "exitCode": 0
+    },
+    {
+      "change": "harden-printcraft-plugin-delivery",
+      "command": "openspec validate harden-printcraft-plugin-delivery --strict --no-interactive",
+      "exitCode": 0
+    }
+  ],
+  "scope": "FORMAT_AND_REQUIREMENT_STRUCTURE_ONLY",
+  "fullImplementationAcceptance": "NOT_COMPLETE",
+  "nativeChineseOcr": "UNSUPPORTED_BY_PINNED_NATIVE",
+  "phoneTablet": "DEVICE_AUTHORIZATION_REQUIRED_NOT_RUN",
+  "syncArchive": "NOT_RUN_GATES_OPEN"
+}

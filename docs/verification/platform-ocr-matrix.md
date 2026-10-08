@@ -15,7 +15,8 @@
 | ArtCraft 协议 | 夹具完整性/兼容拒绝 PASS | verification.validate_handoff 单测 |
 | ArtCraft 实际生产者及选择性返工 | PASS_SCOPED_LOCAL_NATIVE | 真实调度器/VectorCraft 源工程/PDF 交接，详见 cross-plugin-2026-10-08.md |
 | 本机目录移动交付 | PASS_SCOPED | 实际项目包验包、PDF 重开及保留页渲染摘要 |
-| 跨机器/手机平板交付 | NOT_RUN | 不用本机目录移动或托管运行器测试替代设备交付，7.4 继续开放 |
+| 跨机器项目包/PDF 交付 | PASS_SCOPED_CROSS_MACHINE | macOS arm64 发送，Linux x64 / macOS Intel 实际接收验包、PDF 重开及单页返工；见 cross-machine-2026-10-08.md |
+| 手机/平板交付 | DEVICE_AUTHORIZATION_REQUIRED / NOT_RUN | 已连接 Android USB 设备尚未授权；不将跨机器托管运行器替代手机/平板实测，7.4 继续开放 |
 
 五平台真实执行与模型来源见 [专项验收](native-platforms-2026-10-08.md)。初始本机探测 platform-probe.json 作为历史记录保留；其中 Docker/Rosetta/远程主机的阻塞不再代表原生平台矩阵当前状态。
 
