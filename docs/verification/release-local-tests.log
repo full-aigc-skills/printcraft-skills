@@ -52,6 +52,6 @@ test_published_source_identity_is_never_replaced_by_local_candidate (test_snapsh
 test_user_snapshot_edits_are_preserved (test_snapshot_sync.SnapshotSyncContract.test_user_snapshot_edits_are_preserved) ... ok
 
 ----------------------------------------------------------------------
-Ran 52 tests in 3.545s
+Ran 52 tests in 2.904s
 
 OK

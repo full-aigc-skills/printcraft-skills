@@ -4,6 +4,7 @@ import importlib.util
 import json
 from pathlib import Path
 import subprocess
+import platform
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -110,6 +111,9 @@ class InstallationBoundaries(unittest.TestCase):
             artifact='printcraft-cli';content=b'#!/bin/sh\nprintf "printcraft-cli 0.3.0\\n"\n';archive=root/'runtime.zip'
             with zipfile.ZipFile(archive,'w') as z:z.writestr(artifact,content);z.writestr('LICENSE-MIT','Synthetic test fixture')
             lock={'artifact':artifact,'resolvedVersion':'0.3.0','artifacts':{'darwin-arm64':{'url':'https://github.com/storytold/pdfcraft/releases/download/v0.3.0/printcraft-cli-0.3.0-macos-universal.zip','archiveSha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'binarySha256':hashlib.sha256(content).hexdigest(),'versionOutput':'printcraft-cli 0.3.0'}}}
+            # 合成 shell 夹具按当前测试宿主登记；不声称对应官方原生制品。
+            key=f'{platform.system().lower()}-{platform.machine().lower()}'
+            lock['artifacts']={key:lock['artifacts']['darwin-arm64']}
             (root/'runtime.lock.json').write_text(json.dumps(lock));argv=[sys.executable,str(script),'--runtime-home',str(root/'runtime'),'--archive',str(archive)]
             processes=[subprocess.Popen(argv,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True) for _ in range(2)]
             results=[]

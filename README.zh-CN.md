@@ -1,6 +1,6 @@
 # PrintCraft 独立技能
 
-预发布 **0.1.0-dev.4**，固定 `printcraft-cli 0.2.1`，Python 3.11+ / macOS arm64。六项技能可单独复制安装；默认自然语言入口 `printcraft-use`，专业入口显式调用。GitHub 发行身份与发布回执见 project-status.json；该版本用于受控测试。
+预发布 **0.1.0-dev.5**，固定 `printcraft-cli 0.2.1`，Python 3.11+ / macOS arm64。六项技能可单独复制安装；默认自然语言入口 `printcraft-use`，专业入口显式调用。GitHub 发行身份与发布回执见 project-status.json；该版本用于受控测试。
 
 | 技能 | 职责 |
 |---|---|
@@ -58,7 +58,7 @@ python3 scripts/sync_local_snapshot.py --plugin-root "$PLUGIN_ROOT"
 ## 预发布安装
 
 ```bash
-npx skills add full-aigc-skills/printcraft-skills@v0.1.0-dev.4 --skill printcraft-use
+npx skills add full-aigc-skills/printcraft-skills@v0.1.0-dev.5 --skill printcraft-use
 ```
 
-[GitHub 预发布](https://github.com/full-aigc-skills/printcraft-skills/releases/tag/v0.1.0-dev.4)。不捆绑原生二进制、字体或 OCR 模型；需要运行时安装时按技能入口明确执行。
+[GitHub 预发布](https://github.com/full-aigc-skills/printcraft-skills/releases/tag/v0.1.0-dev.5)。不捆绑原生二进制、字体或 OCR 模型；需要运行时安装时按技能入口明确执行。

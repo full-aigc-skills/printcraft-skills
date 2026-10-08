@@ -1,7 +1,7 @@
 {
   "protocol": "printcraft.evidence/1",
   "date": "2026-10-08",
-  "version": "0.1.0-dev.3",
+  "version": "0.1.0-dev.5",
   "sourceSha256": {
     "skills/printcraft-cli/SKILL.md": "21bd8ec409733c361ac467ab4b3e9333b5980fd60f0b6ecb4beb603e22a5261f",
     "skills/printcraft-cli/agents/openai.yaml": "21d5468b5bbce6096d09d7fc5367564354531f7bcf5ad6587b2331f1c86affce",
@@ -87,16 +87,16 @@
     "tests/test_package.py": "a705a02e3554206c375e85edb41fc1086c88f701ee7f60344941d9a16f2652b5",
     "tests/test_pdf_verification.py": "d54f59543e64ae49bae50eb8e84e5ef2d705592159a6f6c9a6c22ca2e4d04ea0",
     "tests/test_runtime_diagnostics.py": "adeb2daa26f244b6912efdd7273e7aeff61844ce420e7a09beac80748f0a0eef",
-    "tests/test_runtime_names.py": "e57e3bef4d4fd998a0c119984a74060d90455c52924b25491397fab671da5a6e",
+    "tests/test_runtime_names.py": "894488e492828112e13d827c10e6bf162c4e050fa65e0a9f620fe1e1abe7da3a",
     "tests/test_schema_preflight.py": "39353b913a02f18b9af7151ed8dedac6d74f14a11e16f1d1fe86fa86d25e057c",
     "tests/test_snapshot_sync.py": "9852026916f073128adb661cf6eb5fe7cf14287b94393247ec72d14d2e113ebf",
-    "skill-suite.json": "38d77b753f256c8a35721bd33ce41768fbe1a99eca2156da256a2ebcc3f06434",
+    "skill-suite.json": "230b58a4a365ccc331903e55bbc8c8551c0ce71504f3dcee5861935a559f97b7",
     "docs/tool-coverage.json": "a231542459b176e860158f1767df70d2fd1b98ce391bc3ded1ff5f59adcae545"
   },
   "evidenceSha256": {
     ".github/workflows/verify.yml": "a7aceb24e24d396805fe304c33eb1c13da51263f080da25b83b7c0234276ab1f",
-    "README.md": "8df37c8d56482c55bcd0151540fa9c64dfbb3209be6757b2a097811589139778",
-    "README.zh-CN.md": "7f27ab5ce22a7cf74e91995815e09440226981d250c16ae6cc4798fb260c14d8",
+    "README.md": "f6385286751ef245c398424fb7496240bd9da1786bd47db01b6aedf10a03d0f0",
+    "README.zh-CN.md": "23277e8e2c64c2f4a019dd516cc4b5e19b57122ed049cd478d8170b2c43c2a77",
     "docs/verification/artifacts/combine.pdf": "8b51d262e44244bbb5e9285fc23f023074bc4b4c1893a1537ec0a9c2975ed92f",
     "docs/verification/artifacts/crop.pdf": "00ef1f2cf775d979541bab430f5745f585563fadf9b3d0c27e13810ac976ff35",
     "docs/verification/artifacts/crop.png": "c00bd21391b2b165715e51935c4bbf3ad06f945dbf1fd9679a55e52adc0441d8",
@@ -294,8 +294,9 @@
     "docs/verification/plugin-model-handoff-dev3-binding.json": "f6f4304051e7ec64a4d8eb463d9fa675af13121c2515bb0cb04005ffa47d02a7",
     "docs/verification/plugin-model-handoff-dev3-results.json": "c102332c1049db10b4ee3aa508cded81347ef703ce62f80e3906c7dbed18108e",
     "docs/verification/plugin-plugin-read-dev3.json": "9092718f06cef83b293e9f9548bb4b09d173e4b093e4d3cf7a909f836fdc697b",
-    "docs/verification/release-local-tests.log": "ffa61f0c72f3c152ae7a570ef228b2503b0b54254b8b81c83903fa8c67c01d5a",
-    "docs/verification/release-preparation.md": "63a5dcb885dfa0e183c07bfe3dd9d6d34e534e36291c9ec1387a3d3b5e5eb1de",
+    "docs/verification/release-ci-dev4-red.log": "ad403deccca9e329d3eb1973d280e2155ddd36b9419c21bc2e30d438af997bcb",
+    "docs/verification/release-local-tests.log": "bd51fc2dc2fe9acfd64293a97b5351c0bae0d3d22a3cb9bb4fcf84d8abf5ba87",
+    "docs/verification/release-preparation.md": "8d5288e33ecd4f1e03edbc21556a9669b053c06879e11a268de28ab83cecd2a8",
     "docs/verification/remaining-gates-2026-10-08.md": "566ac2461786ff4dfefdc86e39a09c9ec0faf65a34ff7cc27eda501a18d8d48a",
     "docs/verification/scan-receipt.json": "0b72aaff5ca3cbee51bed1e67b5e5712a091285f8f17181c994d8348eb6c4f3a",
     "docs/verification/scan-request.json": "12aad0b94ceea769f25e1092734976b539394017a18716ba3e9b5fb1646cad43",
@@ -311,7 +312,7 @@
     "openspec/changes/harden-printcraft-skill-execution/specs/skill-routing/spec.md": "0a9e9e96f48251a9df8ddf444d15a4fccfd78f4b8960fe9ad28d09d97d2a3e06",
     "openspec/changes/harden-printcraft-skill-execution/tasks.md": "0b0da50e9289ff64d4b3034a4f817cd05181e83002bc515a3d8e9277dd4827e1",
     "openspec/changes/harden-printcraft-skill-execution/verification.md": "d5d2ca3993755707a2c3f3f4a4a85584536ce02c57de3bf0f4aa12a629efc5f0",
-    "project-status.json": "dbdbc41392ca9e9f25d5446f7a5f2c84341e41964804d21545e660078a81156c"
+    "project-status.json": "cf52fa2fae22adeb081ab823cc884627e77fc72fa5994e38543bb4ea15f92ff9"
   },
   "layers": {
     "localTests": {
