@@ -1,0 +1,187 @@
+{
+  "id": 2,
+  "result": {
+    "plugin": {
+      "marketplaceName": "full-aigc-plugins",
+      "marketplacePath": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/.tmp/marketplaces/full-aigc-plugins/.agents/plugins/marketplace.json",
+      "summary": {
+        "id": "printcraft@full-aigc-plugins",
+        "remotePluginId": null,
+        "version": null,
+        "localVersion": "0.1.0-dev.6",
+        "name": "printcraft",
+        "shareContext": null,
+        "source": {
+          "type": "git",
+          "url": "https://github.com/full-aigc-plugins/printcraft-plugin.git",
+          "path": null,
+          "refName": "v0.1.0-dev.6",
+          "sha": null
+        },
+        "installed": true,
+        "installedAt": null,
+        "enabled": true,
+        "installPolicy": "AVAILABLE",
+        "installPolicySource": null,
+        "mustShowInstallationInterstitial": null,
+        "authPolicy": "ON_USE",
+        "availability": "AVAILABLE",
+        "disabledReason": null,
+        "eligiblePlanTypes": null,
+        "interface": {
+          "displayName": "PrintCraft",
+          "shortDescription": "PDF tasks with verified artifacts",
+          "longDescription": null,
+          "developerName": null,
+          "category": "Productivity",
+          "capabilities": [
+            "Read",
+            "Write"
+          ],
+          "websiteUrl": null,
+          "privacyPolicyUrl": null,
+          "termsOfServiceUrl": null,
+          "defaultPrompt": null,
+          "brandColor": null,
+          "composerIcon": null,
+          "composerIconUrl": null,
+          "logo": null,
+          "logoDark": null,
+          "logoUrl": null,
+          "logoUrlDark": null,
+          "screenshots": [],
+          "screenshotUrls": []
+        },
+        "keywords": []
+      },
+      "shareUrl": null,
+      "description": "PDF 检查、页面编辑、单会话计划与摘要绑定验收；受控测试预发布，专项门禁仍开放。",
+      "skills": [
+        {
+          "name": "printcraft:printcraft-cli",
+          "description": "用户明确要求 PrintCraft 原生 CLI、具体工具、参数 Schema、表单、签名、脱敏或 PDF/A 专项操作时使用；先发现固定版本能力。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "原生工具契约",
+            "shortDescription": "Discover native PDF tools and schema contracts",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-cli to handle the requested PDF task and verify its artifacts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-cli/SKILL.md",
+          "enabled": true
+        },
+        {
+          "name": "printcraft:printcraft-cli-automation",
+          "description": "用户需要多步 PDF 自动化、单会话文档 ID、任务回执、超时或中断后的只读对账时使用；UNKNOWN 禁止自动重放写入。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "单会话计划与恢复",
+            "shortDescription": "Run PDF plans and reconcile uncertain outcomes",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-cli-automation to handle the requested PDF task and verify its artifacts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-cli-automation/SKILL.md",
+          "enabled": true
+        },
+        {
+          "name": "printcraft:printcraft-cli-inspect",
+          "description": "用户要求 PDF 元数据、页数、文本、扫描件判断、预览、中文扫描 OCR 或处理前后检查时使用；空文本只标待 OCR，不误判为空白文档。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "PDF 只读检查",
+            "shortDescription": "Inspect PDF text metadata and page previews",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-cli-inspect to handle the requested PDF task and verify its artifacts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-cli-inspect/SKILL.md",
+          "enabled": true
+        },
+        {
+          "name": "printcraft:printcraft-cli-pages",
+          "description": "用户要求 PDF 提取、合并、拆分、重排、旋转、裁剪或页框调整时使用；保留原件并逐页核对来源顺序和几何。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "页面编辑",
+            "shortDescription": "Edit PDF pages with order and geometry checks",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-cli-pages to handle the requested PDF task and verify its artifacts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-cli-pages/SKILL.md",
+          "enabled": true
+        },
+        {
+          "name": "printcraft:printcraft-cli-setup",
+          "description": "PrintCraft 首次安装、缺失运行时、版本或摘要不匹配、离线归档及平台诊断时使用；诊断不写文件，安装与升级分开授权。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "安装与只读诊断",
+            "shortDescription": "Diagnose and install the pinned PDF runtime",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-cli-setup to handle the requested PDF task and verify its artifacts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-cli-setup/SKILL.md",
+          "enabled": true
+        },
+        {
+          "name": "printcraft:printcraft-harness",
+          "description": "用户在 PrintCraft 插件内需要多阶段 PDF 编排、任务状态与产物展示、UNKNOWN 对账或定向修订时使用；薄适配上游六项技能和版本化协议，不重写原生执行器。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "PrintCraft 编排",
+            "shortDescription": "Route PDF tasks and reconcile execution receipts",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-harness to route this PDF task and review its receipts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-harness/SKILL.md",
+          "enabled": true
+        },
+        {
+          "name": "printcraft:printcraft-use",
+          "description": "用户提出一般 PDF 检查、编辑、中文扫描 OCR、交付需求但未指定专业入口时使用；按目标路由，登记原件和产物，串联执行与验收。",
+          "shortDescription": null,
+          "interface": {
+            "displayName": "PDF 任务入口",
+            "shortDescription": "General PDF task routing and verified delivery",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $printcraft-use to handle the requested PDF task and verify its artifacts."
+          },
+          "path": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/public-home/plugins/cache/full-aigc-plugins/printcraft/0.1.0-dev.6/skills/printcraft-use/SKILL.md",
+          "enabled": true
+        }
+      ],
+      "hooks": [],
+      "apps": [],
+      "appTemplates": [],
+      "mcpServers": [],
+      "scheduledTasks": null
+    }
+  }
+}

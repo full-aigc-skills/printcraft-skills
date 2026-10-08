@@ -1,0 +1,39 @@
+{
+  "status": "PASS_PUBLIC_TAG_DEV5_TO_DEV6_CONTROLLED_LOCAL_MARKET_INDEX",
+  "old": {
+    "pluginId": "printcraft@printcraft-dev6-durable-update",
+    "name": "printcraft",
+    "marketplaceName": "printcraft-dev6-durable-update",
+    "version": "0.1.0-dev.5",
+    "installedPath": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/update-home/plugins/cache/printcraft-dev6-durable-update/printcraft/0.1.0-dev.5",
+    "authPolicy": "ON_USE"
+  },
+  "new": {
+    "pluginId": "printcraft@printcraft-dev6-durable-update",
+    "name": "printcraft",
+    "marketplaceName": "printcraft-dev6-durable-update",
+    "version": "0.1.0-dev.6",
+    "installedPath": "/Users/wandl/workspaces/workspace-agent-skills/evaluation-results/printcraft-dev6-host/update-home/plugins/cache/printcraft-dev6-durable-update/printcraft/0.1.0-dev.6",
+    "authPolicy": "ON_USE"
+  },
+  "admission": {
+    "status": "UPDATE_ELIGIBLE",
+    "dataMigration": "NONE",
+    "taskDataPreserved": true,
+    "oldVersion": "0.1.0-dev.5",
+    "newVersion": "0.1.0-dev.6",
+    "installation": "NOT_PERFORMED"
+  },
+  "userDataBefore": {
+    "task.json": "7b58eeabfe22a2d99a947ec8d56506c6a947d49627cbbb1cecac75d1b59f103e",
+    "source.pdf": "def72095ad4f3b45672ab7478ffc62902a94c650082c4894315fe21238e01344"
+  },
+  "userDataAfter": {
+    "task.json": "7b58eeabfe22a2d99a947ec8d56506c6a947d49627cbbb1cecac75d1b59f103e",
+    "source.pdf": "def72095ad4f3b45672ab7478ffc62902a94c650082c4894315fe21238e01344"
+  },
+  "userDataPreserved": true,
+  "oldCacheRetained": false,
+  "oldAdmissionSource": "byte-preserved copy of actual public dev.5 installed cache captured before CLI evicts it",
+  "globalConfigChanged": false
+}

@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-08",
+  "change": "harden-printcraft-skill-execution",
+  "command": "openspec validate <change> --strict",
+  "result": "PASS",
+  "scope": "format/requirement validation only; mobile and archive gates remain open"
+}

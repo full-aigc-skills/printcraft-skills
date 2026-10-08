@@ -325,11 +325,18 @@
     "docs/verification/cross-plugin-public-artifacts/second.pdf": "699e182b1371dba7b16a9dfa41d2cfa0782712aae9a8d955089692ca960ad27f",
     "docs/verification/cross-plugin-public-artifacts/verification-receipt.json": "e0282cad84507d910024ff4f386236edd538fc093ee8514f886af05e5ffc4c05",
     "docs/verification/cross-plugin-public-artifacts/verification-request.json": "68e7c3af10dbc26694f0a5da44a8e12ea0af01b33ed837e576cf5e465f00637b",
+    "docs/verification/dev6-host/collection.json": "fec6762f64d929617750992bfafed0152e83ccccca758db45e7218eb6c330f02",
+    "docs/verification/dev6-host/plugin-read.json": "23a8b3de2a7f677af061a662078126bfc4004a836a8c797787dd58a7f9b5664d",
+    "docs/verification/dev6-host/public-host-dev6.zip": "549a5be5de1f66010acd1673bd0a2c27e55959b7b8f3a346edefb796bc352847",
+    "docs/verification/dev6-host/public-verification.json": "16ae66e71e2f675341a5fb845612cd9c6b713ac9821004dd75197dfc9b9d48a4",
+    "docs/verification/dev6-host/report.json": "414e09a98c27c53c773771d0b2edec15dde48f4dc5810272997aecd47bb31a82",
+    "docs/verification/dev6-host/update-verification.json": "44616a412ad1bdf3fc56959a66dfd684aa348ba60d39cb01ebd0d375c5890d99",
     "docs/verification/external-ocr/collection.json": "ce0b1c99e65e47d891aa7bf2f23f2db5b30afbd918a6e04c92994c569b4df42d",
     "docs/verification/external-ocr/development-line-failure.zip": "7e48b1864c5a1a7363d5b0129d1888488ead9f31e407ff0f7bbca170a06a83da",
     "docs/verification/external-ocr/development-pixel-failure.zip": "f32272e23d62e35bc00cd8a58a455e7b3fe9db6058fee93a9cc7b146db653b3b",
     "docs/verification/external-ocr/final-chinese.zip": "2eb37594c89b463fe59adbdd85b628d8abeacab230be26664dbea7131c54937b",
     "docs/verification/external-ocr/forward-current.zip": "434ebbb47272a68dd930e2c2f8669f3bc831ba5b22379314064766c6b5044f10",
+    "docs/verification/external-ocr/independent-release-tests-73.log": "b927588863686bed4a2ae3e155cfc682c5ebf39ebf2c63cac31aea847b1015fd",
     "docs/verification/external-ocr/model-provenance.json": "b3bb1fd3a17b349d31110d54978642fb6043a19dbf44b6df24a55d5ba8120dc1",
     "docs/verification/external-ocr/native-regression.zip": "fe8645fbb505df20e345203c0d9cce5deae3251a091ce4923e4e9a58af3bcc94",
     "docs/verification/external-ocr/native-report.json": "42d84766a254f7258037abe7e2b283eb92d8351a15ead98e31440d40eb79ef0f",
@@ -382,6 +389,7 @@
     "docs/verification/native-platform-ocr-ci/windows-x86_64-report.json": "6e8fd98e20c9d49536d8e1bc226ff1de02a1ffd037049b4efd0d4f02111a4525",
     "docs/verification/native-platform-ocr-ci/workflow.log": "cec6713f67ed47f06fc31bebf9789f3d2f02a0b076e2e0405cab4f0e2af81f6f",
     "docs/verification/native-platforms-2026-10-08.md": "6bb232bcaa5b33fd5f17d0afe865213e7edba4386ace09f0c44902dc4dcc5807",
+    "docs/verification/openspec-dev6-strict.json": "bc72ed517566cfb78e2e16eb9a8ca8546910ba085cc72d6d33e4edb893257b73",
     "docs/verification/openspec-validation-2026-10-08.json": "b88e640a39ac0d0beb05e719f42140720f42578dd082ece31d1ecb0921ddbf39",
     "docs/verification/platform-ocr-matrix.md": "3b7905fa5119262793aaec2613b04cf275aa0ae77fc5351026f01c40a5bda7a0",
     "docs/verification/platform-probe.json": "892dfbb7c5d22f5ae462f697d1f56893e9582bbef87fcd99ea25e5b63f87e1c3",
@@ -389,6 +397,8 @@
     "docs/verification/plugin-model-handoff-dev3-binding.json": "f6f4304051e7ec64a4d8eb463d9fa675af13121c2515bb0cb04005ffa47d02a7",
     "docs/verification/plugin-model-handoff-dev3-results.json": "c102332c1049db10b4ee3aa508cded81347ef703ce62f80e3906c7dbed18108e",
     "docs/verification/plugin-plugin-read-dev3.json": "9092718f06cef83b293e9f9548bb4b09d173e4b093e4d3cf7a909f836fdc697b",
+    "docs/verification/public-host-dev6-2026-10-08.md": "f0cd29d54b9970472e7bd1676c55a39d842f7b7a2345fe188f124a832710e557",
+    "docs/verification/publication-dev6.json": "70c0354e651170b86d89a6de0424a931b568b5fc49af907c5e1637f10ac9fc17",
     "docs/verification/release-2026-10-08.md": "72a95d981bf70bb3c032502e264c13e70bbdd4a6a8cb074a4a3de732cb929fcf",
     "docs/verification/release-ci-dev4-red.log": "ad403deccca9e329d3eb1973d280e2155ddd36b9419c21bc2e30d438af997bcb",
     "docs/verification/release-current-model-dev5-results.json": "1dd713e90bcb33aeb154169f108883b0035f51fdd91d734eab035075f73e5905",
@@ -412,15 +422,15 @@
     "openspec/changes/harden-printcraft-skill-execution/specs/runtime-contract/spec.md": "e30ab9a73cde100fde07c215f1e7e2fcd05454084f6a84124ea47390b4453587",
     "openspec/changes/harden-printcraft-skill-execution/specs/skill-routing/spec.md": "0a9e9e96f48251a9df8ddf444d15a4fccfd78f4b8960fe9ad28d09d97d2a3e06",
     "openspec/changes/harden-printcraft-skill-execution/tasks.md": "83b31c9ec56966f2e18502122e1995fd119b3e77c007970a45889e55bc9d49ad",
-    "openspec/changes/harden-printcraft-skill-execution/verification.md": "d5d2ca3993755707a2c3f3f4a4a85584536ce02c57de3bf0f4aa12a629efc5f0",
-    "project-status.json": "0d25c28b9ff8cc9505a08fa5a4fbf4fe89a78c0841b5194786cca168c35c2190"
+    "openspec/changes/harden-printcraft-skill-execution/verification.md": "6fe7f57c412083cd5716e777fb5c795a7e5c9e390241cbb6c94fd23895493422",
+    "project-status.json": "38f092e3e48e308f38ef6bef214df6e5d3d439973bedd87f5d431b7b838ab54b"
   },
   "layers": {
     "localTests": {
       "status": "PASS",
       "count": 73
     },
-    "independentCheckout": "PASS_DEV_3",
+    "independentCheckout": "PASS_DEV_6_PUBLISHED_ARCHIVE_73_TESTS",
     "nativeRuntime": {
       "status": "PASS",
       "version": "printcraft-cli 0.2.1",
@@ -428,28 +438,30 @@
       "binarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995"
     },
     "host": {
-      "status": "PASS_CURRENT_PUBLIC_INSTALL",
+      "status": "PASS_SCOPED_PUBLIC_DEV_6",
       "version": "codex-cli 0.147.0",
-      "packageVersion": "0.1.0-dev.5",
-      "skillDiscoveryCount": 7
+      "packageVersion": "0.1.0-dev.6",
+      "skillDiscoveryCount": 7,
+      "report": "docs/verification/dev6-host/report.json"
     },
     "model": {
-      "status": "PASS_CURRENT_PUBLIC_INSTALLED_PACKAGE_SCOPED_TASKS",
+      "status": "PASS_SCOPED_DEV_6_WITH_SKILL_CONTEXT_WARNING",
       "model": "gpt-5.6-sol",
-      "packageVersion": "0.1.0-dev.5",
-      "cases": 2
+      "packageVersion": "0.1.0-dev.6",
+      "cases": 2,
+      "report": "docs/verification/dev6-host/report.json"
     },
     "visual": "PASS_ORIGINAL_FIXTURES_CODEX_IMAGE_INSPECTION",
-    "otherPlatforms": "BLOCKED_BEFORE_NATIVE_EXECUTION",
+    "otherPlatforms": "PASS_SCOPED_5_NATIVE_PLATFORMS_SKILL_INSTALLER_DARWIN_ARM64_ONLY",
     "chineseOCR": "UNSUPPORTED_BY_PINNED_NATIVE_ACTUAL_ZH_REQUEST_REFUSED",
     "crossPluginRealProducer": "PASS_PUBLIC_ENTRY_LOCAL_NATIVE_MOBILE_NOT_RUN",
-    "publication": "PASS_PUBLIC_PRERELEASE_TAG_ARCHIVE_MARKETPLACE_INSTALL",
+    "publication": "DEV_6_SOURCE_AND_PLUGIN_PRERELEASES_PUBLISHED",
     "ci": {
       "status": "PASS",
-      "releaseCommit": "2dd3801a59f217800a8b433ab379a1f6d8712886",
-      "runId": 37768846237,
+      "releaseCommit": "d0085f028232ba27112ad65cd967be150d705bf7",
+      "runId": 37778044048,
       "jobs": 4,
-      "scope": "package-only; native platform acceptance unchanged"
+      "scope": "release-commit package validation; final evidence commit CI checked separately"
     },
     "sameMachinePortableDelivery": "PASS_SCOPED",
     "mobileDevice": "NOT_RUN",
@@ -522,5 +534,5 @@
     "removed": []
   },
   "unchangedResourceEvidenceReuse": "dev.3 base/isolated tests, native scenarios, public cross-plugin entry, host discovery and model PDF were re-executed; unchanged bootstrap/CLI/service evidence retains original scope. Old dev.2 model artifacts are historical.",
-  "publicationDelta": "dev.6 adds an explicit optional external OCR script and Chinese contract. Prior seven native execution resources and runtime lock are unchanged. Current Chinese and native regression archives bind current script hashes; prior installed-host/model evidence only applies to dev.5."
+  "publicationDelta": "dev.6 immutable prereleases published; public market fresh install, controlled-index actual dev.5-to-dev.6 update, seven-skill host read and two installed-model Chinese OCR tasks reverified. Native Chinese unsupported; PDF reading/search limitations and mobile gates remain open."
 }

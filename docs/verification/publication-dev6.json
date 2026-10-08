@@ -1,0 +1,15 @@
+{
+  "status": "PASS_REMOTE_TAG_RELEASE_DOWNLOAD_AND_SOURCE_FILES",
+  "releaseUrl": "https://github.com/full-aigc-skills/printcraft-skills/releases/tag/v0.1.0-dev.6",
+  "releaseId": 406812197,
+  "tag": "v0.1.0-dev.6",
+  "commit": "d0085f028232ba27112ad65cd967be150d705bf7",
+  "archiveSha256": "95294b5e00d0e684713c1ac82263029bfa963f49d78a9563b95a53c8a25410b6",
+  "skillFileCount": 78,
+  "suiteSha256": "9ce6f7b7689bf709d6498a5ea847e7da5cfa7899b1d494410afe8f4f2d07740a",
+  "githubAssetDigests": {
+    "printcraft-skills-0.1.0-dev.6.zip": "sha256:95294b5e00d0e684713c1ac82263029bfa963f49d78a9563b95a53c8a25410b6",
+    "SHA256SUMS": "sha256:ad77e10a63cb43595f951eb2fcf5229056bfa79c7e7323d840a06416616e16e7"
+  },
+  "harnessPreserved": true
+}
