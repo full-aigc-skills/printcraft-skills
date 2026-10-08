@@ -18,11 +18,11 @@
     "7.5"
   ],
   "ci": "PASS_4_PACKAGE_JOBS_ON_RELEASE_COMMIT",
-  "otherPlatforms": "BLOCKED_BEFORE_NATIVE_EXECUTION",
+  "otherPlatforms": "PASS_5_PLATFORM_NATIVE_DIRECT_SKILL_INSTALLER_DARWIN_ARM64_ONLY",
   "chineseOcr": "UNSUPPORTED_BY_PINNED_NATIVE",
   "crossPlugin": "PASS_PUBLIC_ENTRY_LOCAL_NATIVE_MOBILE_NOT_RUN",
   "localTests": {
-    "passed": 56,
+    "passed": 57,
     "failed": 0
   },
   "independentCheckout": "PASS_PUBLISHED_DEV_5_RESOURCE_DIGESTS",
@@ -31,5 +31,6 @@
   "releaseCommit": "2dd3801a59f217800a8b433ab379a1f6d8712886",
   "releaseStatus": "PRERELEASE",
   "ciRunId": 37768846237,
-  "marketplaceCommit": "f41f0adcf017e5753bcbc366b18c3855b2ac1177"
+  "marketplaceCommit": "f41f0adcf017e5753bcbc366b18c3855b2ac1177",
+  "nativePlatformCiRunId": 37771440411
 }

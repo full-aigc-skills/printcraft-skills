@@ -1,0 +1,313 @@
+{
+  "contract": "printcraft.native-platform-evidence/1",
+  "platform": "linux-x86_64",
+  "sourceCommit": "8b43297a2f91ac3d286361ed9b1d92af820815bf",
+  "startedAt": "2026-10-08T11:39:03.294206+00:00",
+  "sourceFiles": {
+    "tests/platform_acceptance.py": "14bee53d0f8cbdb8e0e7d26f7d852e9fc6ae1209a5f2dcfc48a596abff6fd18b",
+    "tests/platform-artifacts.json": "8c03b465e51e8f53bb337ffef75eb67cba12d945c3c319ad70619bbe01929717",
+    "tests/fixtures/make_pdf.py": "c41f12f867c5f81e359c3197373214c65e89fc2e58ff5643198afbffd4ac7993"
+  },
+  "host": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "release": "6.17.0-1022-azure",
+    "python": "3.13.15"
+  },
+  "workflow": {
+    "runId": "37771440411",
+    "runAttempt": "1"
+  },
+  "runtime": {
+    "system": "linux",
+    "machine": "x86_64",
+    "asset": "printcraft-0.2.1-linux-x86_64.tar.gz",
+    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.2.1/printcraft-0.2.1-linux-x86_64.tar.gz",
+    "archiveSha256": "73b2977330d73716971237f68f89cba6ad52cbfb563ad0ab6d9ad18f44d45192",
+    "member": "printcraft-0.2.1-linux-x86_64/bin/printcraft-cli",
+    "binarySha256": "83fa013a814583d569fb2463bc6e1379f4aa0f9d293b034cf96308e8f77c54c4"
+  },
+  "results": {
+    "reorder_save_reopen_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "c33df25b25e67b936c5d95e1bd9e1c7acae329f904e8c68675fe7a88b4cd4c3b",
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/reorder.pdf",
+          "file_size": 918,
+          "first_page_pt": [
+            612.0,
+            792.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "texts": [
+          "PAGE-GAMMA",
+          "PAGE-ALPHA",
+          "PAGE-BETA"
+        ]
+      }
+    },
+    "rotate_save_reopen_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "6d353919ce7ad7e966dd2598825cfdb50bbf7aa875ff3346d0887168943d4fe8",
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/rotate.pdf",
+          "file_size": 928,
+          "first_page_pt": [
+            792.0,
+            612.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "texts": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ]
+      }
+    },
+    "crop_save_reopen_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "a0d4ce764343ceb99b80dec9968c2bc47777f194b9747344dd4b48f092e25c22",
+        "info": {
+          "annotations": 0,
+          "attachments": 0,
+          "author": null,
+          "bookmarks": 0,
+          "creator": null,
+          "encrypted": false,
+          "fields": 0,
+          "file": "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/crop.pdf",
+          "file_size": 935,
+          "first_page_pt": [
+            592.0,
+            772.0
+          ],
+          "javascript": false,
+          "layers": 0,
+          "links": 0,
+          "page_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pages": 3,
+          "pdf_version": "1.5",
+          "producer": null,
+          "tagged": false,
+          "title": null,
+          "warnings": [],
+          "xfa": null
+        },
+        "texts": [
+          "PAGE-ALPHA",
+          "PAGE-BETA",
+          "PAGE-GAMMA"
+        ]
+      }
+    },
+    "form_save_reopen": {
+      "status": "PASS",
+      "details": {
+        "fields": {
+          "count": 1,
+          "fields": [
+            {
+              "multiline": false,
+              "name": "sample",
+              "page": 1,
+              "read_only": false,
+              "rect": [
+                72.0,
+                120.0,
+                200.0,
+                150.0
+              ],
+              "required": false,
+              "type": "text",
+              "value": "verified form"
+            }
+          ]
+        },
+        "outputSha256": "6ff6196816c4680e4bc164575b876fdbd4a7cb556693e38e11d3a6525e0aab34"
+      }
+    },
+    "redact_text_objects_render": {
+      "status": "PASS",
+      "details": {
+        "outputSha256": "85433e32ee6dc686df59aa723ef085015564d7cc5f294cc800b18d6a81c383ac",
+        "textAndObjectBytesAbsent": true,
+        "visualReview": "NOT_RUN"
+      }
+    }
+  },
+  "scope": "DIRECT_NATIVE_ONLY_SKILL_INSTALLER_NOT_TESTED",
+  "chineseRecognition": "NOT_SUPPORTED_BY_PINNED_NATIVE",
+  "visualReview": "NOT_RUN",
+  "status": "PASS_SCOPED_NATIVE",
+  "runtimeArchiveSha256": "73b2977330d73716971237f68f89cba6ad52cbfb563ad0ab6d9ad18f44d45192",
+  "runtimeBinarySha256": "83fa013a814583d569fb2463bc6e1379f4aa0f9d293b034cf96308e8f77c54c4",
+  "versionOutput": "printcraft-cli 0.2.1\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/printcraft\nSource:  https://github.com/storytold/printcraft\n",
+  "catalogSha256": "8ddb81c0382bacbdebf8ffdf242ec795135abc0a7723eebbe3b14123de64bea1",
+  "catalogToolCount": 123,
+  "inputSha256": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+  "ocrStatus": {
+    "available": false,
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "search_dirs": [
+      "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+      "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+      "/home/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+    ]
+  },
+  "sourceUnchanged": true,
+  "artifacts": {
+    "001-call.json": "5bea3fedd7eeae64a3b72ad99bdfe8f8e3175bf270715ef247a4f00265debfc3",
+    "001-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "001-stdout.log": "260187c52b001191acc62e300b68203b492022e0c2b78b74db7f63ed6cf0eb9b",
+    "002-call.json": "e44a6d5b24dfbbf9a357a5722714b0608e6d0902ed29e7080757cd1e45e8cc3b",
+    "002-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "002-stdout.log": "8ddb81c0382bacbdebf8ffdf242ec795135abc0a7723eebbe3b14123de64bea1",
+    "003-call.json": "f22a8b916e1cf4a0cb7a4ed91003eb6ca5f7fe95081f15f28287b92a73f3117b",
+    "003-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "003-stdout.log": "3f920767520f0143c86016d9f520b66a4bdd4732b334fc690d611173b9f4e4ce",
+    "004-call.json": "d88cf207091fa7b6e12402e3cf427f426c41101109e4c5ad1b5ea45596856eca",
+    "004-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "004-stdout.log": "810915fe6ec3230e87e23d42939bdf62f176bb431faf5085aaa1422318931aae",
+    "005-call.json": "3c9453a60dfa96869fd67ae1e840352424e43e6e660914ad0c7d7b2469c6566c",
+    "005-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "005-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "006-call.json": "4182017ae48128fed543d99250b5c68c82d8f56126f933aaef2839ff2ead7228",
+    "006-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "006-stdout.log": "1a04a191ace245e98cc7421a421c6dc44d0237a6d3e2d591272e8eb36e84dd0b",
+    "007-call.json": "7c7a9629f2a16cf7becc69425b680f8cc34374884f937f1f40b2499f47c0c679",
+    "007-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "007-stdout.log": "86696a16aacf0f57f3bb129451d6fc4beeb518901609ed93dab29339eec83057",
+    "008-call.json": "803f2ba8a3251ddd1acbc07ff785c132deb9e34fff383075511fe6f8896dfa06",
+    "008-stderr.log": "663ad9fe33812d072154f0800b9639bc0b896f44bfaa41d4733c452a5b0a5014",
+    "008-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "009-call.json": "c0f642ea5ba900b29cd0c7438cc26f0b88ba31006c4e50962023cf0377a7d352",
+    "009-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "009-stdout.log": "1a064b4dee540b40f9f5515a40cf9b1550f343e632f6a4c2795317efb1cac92e",
+    "010-call.json": "d6673701c7258128e0426b8f8655f37f9aff353117fc43581fbb1fb2fe91c2ef",
+    "010-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "010-stdout.log": "9916d52274b77b58ca8627b163e8d4e48d84ffc95f635a898d7e958a2b1f1562",
+    "011-call.json": "fa905cea4d8dc34679d46e65fdcbaa9d61cbd948ddea5ac317365548b3f4c545",
+    "011-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "011-stdout.log": "1a04a191ace245e98cc7421a421c6dc44d0237a6d3e2d591272e8eb36e84dd0b",
+    "012-call.json": "6ac105b0b564af533b69e908a9c3140c01814c2892ba2d2e238796e5cf5c5300",
+    "012-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "012-stdout.log": "86696a16aacf0f57f3bb129451d6fc4beeb518901609ed93dab29339eec83057",
+    "013-call.json": "ef1b0cc8d1831b7f256a5b5de1c5aa5b4fc86255cc7c960aab8f4cc72aafd5af",
+    "013-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "013-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "014-call.json": "6d417b7c528880786d72598ede19cee6c44dc6a9da02fe02189a023c7ee780ef",
+    "014-stderr.log": "f5823b81062be25f7924346006a2ad8d8cc9edb8022b3f923c89c3f4c7424c6c",
+    "014-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "015-call.json": "328113ca7e9514866f612080bb2d56edc161b7916b408de7717b4bbc1ab79dcb",
+    "015-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "015-stdout.log": "9f354d543f662a66ae475b3e0e8c513a1415b1a2304b9658945aa7ed9f46a3d7",
+    "016-call.json": "b8ac41f68951cc4173dc13500ce26ae2a460c3b00bc735617bc54f5a86587b7e",
+    "016-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "016-stdout.log": "e316cb487510166bae8a302df6f3375925e15ece4ad62fcb95612ead2f157ca5",
+    "017-call.json": "477e9b17ab21ae105a0fad4e5271dd91b5ff0331253fec4831dc8ce168268a17",
+    "017-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "017-stdout.log": "1a04a191ace245e98cc7421a421c6dc44d0237a6d3e2d591272e8eb36e84dd0b",
+    "018-call.json": "6d7edfcf7c4a303369b7bf91f35ee55787b0de87a1e237ff304cb80b30266e8b",
+    "018-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "018-stdout.log": "86696a16aacf0f57f3bb129451d6fc4beeb518901609ed93dab29339eec83057",
+    "019-call.json": "b5e2681fe9ad181e915fb96b11dd93c498eb41776312f6147121e4d87a92557e",
+    "019-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "019-stdout.log": "05a0254bf621f2c5607ace0e81c83d283b2c27685a1169e3ee97d808b0b72886",
+    "020-call.json": "0cb1ec35f7ec9cfbbdc80e6647bcff0f794a17f75353109c34e224dd3a7f2d41",
+    "020-stderr.log": "2d011927f27fa972e4e451dbf56174bb05571235315da99618151b138d2f2ce6",
+    "020-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "021-call.json": "9d213b21ed05f04a22e594d68e77595cb25f67b44210762f42de1d7038236123",
+    "021-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "021-stdout.log": "88ae02944a0265579702d62dec4f42892189eb57eb95b1f6c7809becb664fd05",
+    "022-call.json": "35db8c12908a90c3b4f6eca3d5317e5f3040872b765a64c46b60b45a71f328ce",
+    "022-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "022-stdout.log": "ef228c26029d28df1e14fd6db9fa637eaf45858f926f269a390a029725be1ea8",
+    "023-call.json": "f01161ff4c3274080e6f608f87246170a428936ee66b6947a8853d91176212e1",
+    "023-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "023-stdout.log": "7d5ddacda7ca8a0eaa9c0518aa8b55830ece0bc70bfed8015d06491e2b06df3e",
+    "024-call.json": "6257c17c69d79b9c50d38b78191e2a194778687030559ba8425c0aa3f05bdde0",
+    "024-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "024-stdout.log": "33343d8e3983017124cdc4cddc1e91d1f4a53f393adaa8d0155ed1f27ce1186e",
+    "025-call.json": "557e95d0a23e850a2733f4d44102b07887709267a031f7ef5890edb322cfa83c",
+    "025-stderr.log": "663ad9fe33812d072154f0800b9639bc0b896f44bfaa41d4733c452a5b0a5014",
+    "025-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "026-call.json": "ca1aea0f476a00cde22d73057515c94e205a1c82fad6899bb083ecb547e331cd",
+    "026-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "026-stdout.log": "c429e56e96dbd6ee1b7bd0abaca0b489d226b3aeccf14394017524ce74241082",
+    "crop.json": "767007e3b2dc0d95c41c3c17ee05670392c0d191a1ed7a8eaceddf54f4ff0762",
+    "crop.pam": "800e5debd6af3433e00f8d0661b056aba194e6399b6f6115cbf4c76a1e3d5a33",
+    "crop.pdf": "a0d4ce764343ceb99b80dec9968c2bc47777f194b9747344dd4b48f092e25c22",
+    "form-reopen.json": "cb2e864ed2588f761a0f8c40fd7330416e0a78b3e3d1b0a0d8b2af9816893e41",
+    "form.json": "240f354e3312db6589c3c5062569fe15143c1af038c44fbd0192eaf713772308",
+    "form.pdf": "6ff6196816c4680e4bc164575b876fdbd4a7cb556693e38e11d3a6525e0aab34",
+    "ocr-status.json": "c1f6c98640836a6117fb41b8ad1492fadd5e3678fc977b2d526e059d51eda106",
+    "redact.json": "7ac59572872adbef02973e52b52b299f8531df963bc980ba66e75f2d68bb4ff9",
+    "redacted.pam": "91986fe8ceef5be0c48e7fd3613c9d3d8985018c621e5932e99d71191a20c7c9",
+    "redacted.pdf": "85433e32ee6dc686df59aa723ef085015564d7cc5f294cc800b18d6a81c383ac",
+    "reorder.json": "b685a129250f75f973326da78277130c7417b52c39e6f249809bdfc6724342a8",
+    "reorder.pam": "6db18d931d460ff50a4536ca589428ff9e7aadeb2f534bde9f96ae5521ea8f21",
+    "reorder.pdf": "c33df25b25e67b936c5d95e1bd9e1c7acae329f904e8c68675fe7a88b4cd4c3b",
+    "rotate.json": "e5777834e3f716133c7278d8812767e66eb7ebabd780b55f6fd61c0cbbac81f3",
+    "rotate.pam": "6c8181dcc97ff857c58fb82b0409fbc8841793cb9fb0b348df5919555968d91e",
+    "rotate.pdf": "6d353919ce7ad7e966dd2598825cfdb50bbf7aa875ff3346d0887168943d4fe8",
+    "source.pdf": "9d035b63e05cfeb06b0985db1582f14185f99931a51eda69718764e91fdc0a0a",
+    "tools.json": "8ddb81c0382bacbdebf8ffdf242ec795135abc0a7723eebbe3b14123de64bea1"
+  },
+  "finishedAt": "2026-10-08T11:39:04.551952+00:00"
+}

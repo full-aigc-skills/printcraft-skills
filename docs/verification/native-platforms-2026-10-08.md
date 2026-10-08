@@ -20,3 +20,17 @@
 OCR 状态为真实观察；英语模型缺失和中文未支持不记为识别通过。手机/平板、跨机器交付、视觉审阅不由此矩阵替代。7.2、7.4、7.5 与插件 5.6 保持开放，未同步或归档。
 
 CI 执行结果将在实际运行完成后追加，并保留失败原因。
+
+## 第一轮真实 CI 结果
+
+[运行 37771440411](https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37771440411)，提交 `8b43297a2f91ac3d286361ed9b1d92af820815bf`，五个平台全部成功，共 25 个场景。四项常规包 CI 另见 [37771434540](https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37771434540)，全部成功。
+
+`native-platform-ci/` 保存官方 Actions 原始 ZIP、报告、运行/任务/制品 API 记录、完整工作流日志和 collection.json。五份 ZIP 摘要均匹配 GitHub API 的 digest；各报告的 96 个证据成员摘要全部核对，输入未变，实际 CPU/OS 与目标相符。Windows 首轮检出使用 CRLF；已从该提交 Git blob 精确转换 CRLF 后核实三项作者源文件指纹，不冒充与本机 LF 字节相同。后续验收源文件通过 .gitattributes 固定 LF。
+
+原始报告中的 chineseRecognition 字段是固定发行能力边界，不是执行过中文识别；实际实时目录的 language enum 在五个平台均为 [en]，ocr_status 均 available=false。专项中文拒绝证据仍引用既有原生 zh 请求，中文识别成功没有证据。
+
+## 英语模型补充验收
+
+已从上游 v0.2.1 ATTRIBUTION.toml 核对两项模型来源/摘要/许可，见 tests/ocr-models.json。模型只保存在临时验收目录，不进入技能、插件或证据 ZIP。
+
+本机已实际完成无文本扫描 PDF → 英语识别 → 保存 → 新进程提取 PAGE-GAMMA，输入不变；第二轮平台工作流将通过显式 english_ocr=true 验证全部平台。新增像素截断/透明度拒绝测试后，本地 57/57 测试通过。第一轮 25 场景报告只绑定第一轮提交，不用于证明新增英语识别程序。

@@ -1,6 +1,11 @@
 name: Fixed native platform acceptance
 on:
   workflow_dispatch:
+    inputs:
+      english_ocr:
+        description: Download hash-pinned English models into the isolated evidence directory
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -27,7 +32,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Execute official pinned binary on actual platform
-        run: python -I -B tests/platform_acceptance.py --platform ${{ matrix.platform }} --workdir native-evidence
+        run: python -I -B tests/platform_acceptance.py --platform ${{ matrix.platform }} --workdir native-evidence ${{ inputs.english_ocr && '--with-english-models' || '' }}
       - name: Preserve native observations even on failure
         if: always()
         uses: actions/upload-artifact@v4

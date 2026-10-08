@@ -2,3 +2,8 @@
 *.png binary
 *.pam binary
 *.log -whitespace
+tests/platform_acceptance.py text eol=lf
+tests/platform-artifacts.json text eol=lf
+tests/ocr-models.json text eol=lf
+tests/fixtures/make_pdf.py text eol=lf
+tests/fixtures/scan_pdf.py text eol=lf

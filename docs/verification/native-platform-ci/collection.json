@@ -1,0 +1,176 @@
+{
+  "runId": "37771440411",
+  "url": "https://github.com/full-aigc-skills/printcraft-skills/actions/runs/37771440411",
+  "sourceCommit": "8b43297a2f91ac3d286361ed9b1d92af820815bf",
+  "status": "success",
+  "platforms": [
+    {
+      "platform": "linux-x86_64",
+      "status": "PASS_SCOPED_NATIVE",
+      "scenarioCount": 5,
+      "artifactId": 11548291258,
+      "archive": "native-linux-x86_64-37771440411.zip",
+      "archiveSha256": "a055280d24af1ee3ec52dbc2de1411f549a8b9b326f8f67560472393d56c9841",
+      "memberDigestsVerified": 96,
+      "ocrLanguageSchema": [
+        "en"
+      ],
+      "ocrStatus": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+          "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+          "/home/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+        ]
+      },
+      "runtimeBinarySha256": "83fa013a814583d569fb2463bc6e1379f4aa0f9d293b034cf96308e8f77c54c4",
+      "host": {
+        "system": "Linux",
+        "machine": "x86_64",
+        "release": "6.17.0-1022-azure",
+        "python": "3.13.15"
+      }
+    },
+    {
+      "platform": "darwin-x86_64",
+      "status": "PASS_SCOPED_NATIVE",
+      "scenarioCount": 5,
+      "artifactId": 11548286670,
+      "archive": "native-darwin-x86_64-37771440411.zip",
+      "archiveSha256": "930c0ae9c3eb0750483dbc01526bab3e6429f5f1d7935afa87623c3c93b02571",
+      "memberDigestsVerified": 96,
+      "ocrLanguageSchema": [
+        "en"
+      ],
+      "ocrStatus": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "/Users/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+          "/Users/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+          "/Users/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+        ]
+      },
+      "runtimeBinarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+      "host": {
+        "system": "Darwin",
+        "machine": "x86_64",
+        "release": "24.6.0",
+        "python": "3.13.15"
+      }
+    },
+    {
+      "platform": "darwin-arm64",
+      "status": "PASS_SCOPED_NATIVE",
+      "scenarioCount": 5,
+      "artifactId": 11547897058,
+      "archive": "native-darwin-arm64-37771440411.zip",
+      "archiveSha256": "864dfb0de8fd4b13e2dd78d85e2ac18c5d4e0070790cd8004728f4ba303f8fca",
+      "memberDigestsVerified": 96,
+      "ocrLanguageSchema": [
+        "en"
+      ],
+      "ocrStatus": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "/Users/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+          "/Users/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+          "/Users/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+        ]
+      },
+      "runtimeBinarySha256": "b7783b596870ed5a326f29456d4647382d2e1e4d7b7ffe75ded192cd15b86995",
+      "host": {
+        "system": "Darwin",
+        "machine": "arm64",
+        "release": "24.6.0",
+        "python": "3.13.15"
+      }
+    },
+    {
+      "platform": "linux-arm64",
+      "status": "PASS_SCOPED_NATIVE",
+      "scenarioCount": 5,
+      "artifactId": 11547892074,
+      "archive": "native-linux-arm64-37771440411.zip",
+      "archiveSha256": "ae0a63e37fa284352c9e84f4fa0845395ad439882df931d1610b17b0598790a9",
+      "memberDigestsVerified": 96,
+      "ocrLanguageSchema": [
+        "en"
+      ],
+      "ocrStatus": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/models",
+          "/home/runner/work/printcraft-skills/printcraft-skills/native-evidence/../Resources/models",
+          "/home/runner/work/printcraft/printcraft/crates/ocr/../../assets/models"
+        ]
+      },
+      "runtimeBinarySha256": "8123365733dbfd70e982eaad2bec6e12b87a203ee9ffa9acf7bc8ceba6a0ad36",
+      "host": {
+        "system": "Linux",
+        "machine": "aarch64",
+        "release": "6.17.0-1022-azure",
+        "python": "3.13.15"
+      }
+    },
+    {
+      "platform": "windows-x86_64",
+      "status": "PASS_SCOPED_NATIVE",
+      "scenarioCount": 5,
+      "artifactId": 11547852232,
+      "archive": "native-windows-x86_64-37771440411.zip",
+      "archiveSha256": "1b58070552cff80b9c6a883e6cb58d72964ddb1fa63d8ba0af9bc65d6627f1c7",
+      "memberDigestsVerified": 96,
+      "ocrLanguageSchema": [
+        "en"
+      ],
+      "ocrStatus": {
+        "available": false,
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ],
+        "search_dirs": [
+          "D:\\a\\printcraft-skills\\printcraft-skills\\native-evidence\\models",
+          "D:\\a\\printcraft-skills\\printcraft-skills\\native-evidence\\../Resources/models",
+          "D:\\a\\printcraft\\printcraft\\crates\\ocr\\../../assets/models"
+        ]
+      },
+      "runtimeBinarySha256": "ddd8c330c4c9cb5c57f7671ffbd44beeb5d992122177d9f15542a775e02a519e",
+      "host": {
+        "system": "Windows",
+        "machine": "AMD64",
+        "release": "2025Server",
+        "python": "3.13.15"
+      }
+    }
+  ],
+  "scope": "DIRECT_NATIVE_ONLY_SKILL_INSTALLER_NOT_TESTED",
+  "visualReview": "NOT_RUN",
+  "chineseRecognition": "NOT_RUN_SCHEMA_EN_ONLY_MODEL_MISSING"
+}

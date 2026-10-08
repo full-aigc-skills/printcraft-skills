@@ -67,6 +67,13 @@ class PlatformAcceptanceTests(unittest.TestCase):
                 platform_acceptance.assert_pages({'pages': 3}, text, ['PAGE-GAMMA', 'PAGE-ALPHA', 'PAGE-BETA'])
         platform_acceptance.assert_pages({'pages': 3}, ['PAGE-GAMMA', 'PAGE-ALPHA', 'PAGE-BETA'], ['PAGE-GAMMA', 'PAGE-ALPHA', 'PAGE-BETA'])
 
+    def test_scan_pixels_rejects_truncation_and_transparency(self):
+        header = b'P7\nWIDTH 1\nHEIGHT 1\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\nENDHDR\n'
+        self.assertEqual(platform_acceptance.scan_pixels(header + b'\x01\x02\x03\xff'), (1, 1, b'\x01\x02\x03'))
+        for invalid in [b'\x01\x02\x03', b'\x01\x02\x03\x00']:
+            with self.assertRaises(AssertionError):
+                platform_acceptance.scan_pixels(header + invalid)
+
 
 if __name__ == '__main__':
     unittest.main()

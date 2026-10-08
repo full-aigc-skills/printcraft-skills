@@ -7,6 +7,8 @@ import json
 import os
 from pathlib import Path
 import platform
+import re
+import shutil
 import stat
 import subprocess
 import tarfile
@@ -59,11 +61,27 @@ def sequence(text):
     return values
 
 
+def scan_pixels(data):
+    """读取原生 PAM 的不透明 RGB/RGBA 像素，拒绝截断和未处理透明度。"""
+    header, pixels = data.split(b'ENDHDR\n', 1)
+    assert header.startswith(b'P7\n'), 'not_pam'
+    fields = dict(line.split(maxsplit=1) for line in header.splitlines()[1:] if line and not line.startswith(b'#'))
+    width, height, depth = (int(fields[key]) for key in [b'WIDTH', b'HEIGHT', b'DEPTH'])
+    assert width > 0 and height > 0 and depth in {3, 4} and fields[b'MAXVAL'] == b'255', fields
+    assert len(pixels) == width * height * depth, 'pixel_length'
+    if depth == 4:
+        assert all(alpha == 255 for alpha in pixels[3::4]), 'transparent_pixels'
+        pixels = b''.join(pixels[index:index + 3] for index in range(0, len(pixels), 4))
+    return width, height, pixels
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--platform', required=True)
     parser.add_argument('--workdir', required=True, type=Path)
     parser.add_argument('--archive', type=Path)
+    parser.add_argument('--with-english-models', action='store_true')
+    parser.add_argument('--models-dir', type=Path)
     args = parser.parse_args()
     lock_path = ROOT / 'tests/platform-artifacts.json'
     lock = json.loads(lock_path.read_text())
@@ -77,7 +95,9 @@ def main():
               'host': {'system': platform.system(), 'machine': platform.machine(), 'release': platform.release(), 'python': platform.python_version()},
               'workflow': {'runId': os.environ.get('GITHUB_RUN_ID'), 'runAttempt': os.environ.get('GITHUB_RUN_ATTEMPT')},
               'runtime': entry, 'results': {}, 'scope': 'DIRECT_NATIVE_ONLY_SKILL_INSTALLER_NOT_TESTED',
-              'chineseRecognition': 'NOT_SUPPORTED_BY_PINNED_NATIVE', 'visualReview': 'NOT_RUN', 'status': 'FAILED'}
+              'chineseRecognition': 'NOT_RUN_THIS_HARNESS', 'visualReview': 'NOT_RUN', 'status': 'FAILED'}
+    for relative in ['tests/ocr-models.json', 'tests/fixtures/scan_pdf.py']:
+        report['sourceFiles'][relative] = sha256(ROOT / relative)
     counter = 0
     try:
         aliases = {'amd64': 'x86_64', 'aarch64': 'arm64'}
@@ -112,6 +132,7 @@ def main():
         report['catalogSha256'] = sha256(work / 'tools.json')
         report['catalogToolCount'] = len(catalog)
         assert len(catalog) == 123, len(catalog)
+        report['ocrLanguageSchema'] = next(item for item in catalog if item.get('name') == 'ocr_recognize')['input_schema']['properties']['language']['enum']
         spec = importlib.util.spec_from_file_location('fixture', ROOT / 'tests/fixtures/make_pdf.py')
         fixture = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(fixture)
@@ -167,6 +188,40 @@ def main():
             return {'outputSha256': sha256(output), 'textAndObjectBytesAbsent': True, 'visualReview': 'NOT_RUN'}
         record('redact_text_objects_render', redact)
         report['ocrStatus'] = run('ocr-status', [{'tool': 'ocr_status', 'args': {}}])[-1]
+        if args.with_english_models:
+            model_lock = json.loads((ROOT / 'tests/ocr-models.json').read_text())
+            model_dir = work / 'models'
+            model_dir.mkdir()
+            report['ocrModels'] = model_lock
+            for model in model_lock['models']:
+                model_path = model_dir / model['file']
+                if args.models_dir:
+                    shutil.copyfile(args.models_dir / model['file'], model_path)
+                else:
+                    urllib.request.urlretrieve(model['url'], model_path)
+                assert sha256(model_path) == model['sha256'], 'ocr_model_digest_mismatch'
+            report['ocrStatusWithModels'] = run('ocr-model-status', [{'tool': 'ocr_status', 'args': {}}])[-1]
+            assert report['ocrStatusWithModels']['available'] is True, report['ocrStatusWithModels']
+
+            def english_ocr():
+                # 使用已渲染原创夹具生成仅图像 PDF，避免已有文本被跳过造成假通过。
+                scan_spec = importlib.util.spec_from_file_location('scan_fixture', ROOT / 'tests/fixtures/scan_pdf.py')
+                scan_fixture = importlib.util.module_from_spec(scan_spec)
+                scan_spec.loader.exec_module(scan_fixture)
+                scan = work / 'scan-english.pdf'
+                width, height, pixels = scan_pixels((work / 'reorder.pam').read_bytes())
+                scan_fixture.make_scan(scan, width, height, pixels)
+                scan_before = sha256(scan)
+                assert not call('text', scan).strip(), 'scan_has_existing_text'
+                output = work / 'ocr-english.pdf'
+                observed = run('ocr-english', [tool('ocr_recognize', pages=[1], language='en', dpi=150, skip_text_pages=False), tool('doc_save', path=str(output))], scan)
+                text = call('text', output)
+                assert 'PAGEGAMMA' in re.sub(r'[^A-Z0-9]', '', text.upper()), text
+                assert json.loads(call('info', output))['pages'] == 1
+                assert sha256(scan) == scan_before, 'scan_original_changed'
+                call('render', output, '--page', 1, '--out', work / 'ocr-english.pam')
+                return {'inputSha256': scan_before, 'outputSha256': sha256(output), 'nativeResults': observed, 'reopenedText': text, 'sourceUnchanged': True}
+            record('english_ocr_scan_save_reopen', english_ocr)
         report['sourceUnchanged'] = sha256(source) == before
         assert report['sourceUnchanged'], 'original_input_changed'
         assert all(result['status'] == 'PASS' for result in report['results'].values())
@@ -174,7 +229,7 @@ def main():
     except Exception as error:
         report['error'] = str(error)
     finally:
-        report['artifacts'] = {str(p.relative_to(work)): sha256(p) for p in sorted(work.rglob('*')) if p.is_file() and p.name not in {'native-platform-report.json', 'printcraft-cli', 'printcraft-cli.exe'} and p.suffix not in {'.zip', '.gz'}}
+        report['artifacts'] = {str(p.relative_to(work)): sha256(p) for p in sorted(work.rglob('*')) if p.is_file() and p.name not in {'native-platform-report.json', 'printcraft-cli', 'printcraft-cli.exe'} and p.suffix not in {'.zip', '.gz', '.rten'}}
         report['finishedAt'] = datetime.now(timezone.utc).isoformat()
         (work / 'native-platform-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         print(json.dumps(report, ensure_ascii=False, indent=2))
