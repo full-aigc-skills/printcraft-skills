@@ -1,6 +1,6 @@
 {
   "domain": "printcraft",
-  "version": "0.1.0-dev.3",
+  "version": "0.1.0-dev.4",
   "nativeVersion": "0.2.1",
   "skills": [
     "printcraft-cli",
@@ -12,5 +12,5 @@
   ],
   "sourceStatus": "published-release",
   "repository": "https://github.com/full-aigc-skills/printcraft-skills",
-  "releaseTag": "v0.1.0-dev.3"
+  "releaseTag": "v0.1.0-dev.4"
 }
